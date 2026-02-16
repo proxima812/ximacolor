@@ -1,0 +1,46 @@
+---
+import { t } from "@/i18n";
+import { Icon } from "astro-icon/components";
+
+const { locale, ...card } = Astro.props;
+
+const copyDefaultLabel = t(locale, "copyDefault");
+const copyCopiedLabel = t(locale, "copyCopied");
+---
+
+<article
+	class="flex gap-6 items-center *:flex-1"
+	data-color-item
+	data-color-name={card.lowerName}
+	data-color-tags={card.tags.join(",")}
+>
+	<div>
+		<div class="text-zinc-500 flex justify-between items-center mb-2">
+			<span class="text-sm">{card.name}</span>
+			<span class="text-xs">{t(locale, "idLabel")}: {card.id + 1}</span>
+		</div>
+		<div
+			class={`${card.className} rounded-3xl h-36 grid place-items-center ring-1 ring-black/5`}
+		>
+		</div>
+	</div>
+	<div
+		class="text-xs md:text-sm flex justify-between gap-2 flex-col h-full py-8 items-end text-zinc-500 leading-relaxed desc-text"
+	>
+		<span>{card.description}</span>
+		<button
+			type="button"
+			class="copy-btn cursor-pointer ring-1 ring-inset ring-zinc-500/60 inline-flex gap-1.5 items-center px-3 py-2 rounded-md text-xs text-white bg-black"
+			data-copy-btn
+			data-copy-class={card.className}
+		>
+			<span class="copy-btn-icon copy-btn-icon-copy"><Icon name="mdi:content-copy" /></span>
+			<span class="copy-btn-icon copy-btn-icon-check"><Icon name="mdi:check-bold" /></span>
+			<span
+				class="copy-btn-label"
+				data-copy-default={copyDefaultLabel}
+				data-copy-copied={copyCopiedLabel}>{copyDefaultLabel}</span
+			>
+		</button>
+	</div>
+</article>

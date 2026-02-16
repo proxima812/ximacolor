@@ -1,0 +1,149 @@
+---
+import type { Locale } from "../../i18n";
+import { t } from "../../i18n";
+import { getLocalePath, localeOptions } from "./constants";
+import type { TagId } from "./tags";
+
+interface Props {
+	locale: Locale;
+	tagOptions: TagId[];
+	tagCounts: Partial<Record<TagId, number>>;
+	totalCount: number;
+}
+
+const { locale, tagOptions, tagCounts, totalCount } = Astro.props;
+
+function getTagLabel(tag: TagId) {
+	const map: Record<TagId, string> = {
+		glow: t(locale, "tagGlow"),
+		mesh: t(locale, "tagMesh"),
+		linear: t(locale, "tagLinear"),
+		radial: t(locale, "tagRadial"),
+		conic: t(locale, "tagConic"),
+		repeating: t(locale, "tagRepeating"),
+		"multi-stop": t(locale, "tagMultiStop"),
+		transparent: t(locale, "tagTransparent"),
+		border: t(locale, "tagBorder"),
+		noise: t(locale, "tagNoise"),
+		femme: t(locale, "tagFemme"),
+		masc: t(locale, "tagMasc"),
+		flag: t(locale, "tagFlag"),
+		other: t(locale, "tagOther"),
+	};
+	return map[tag];
+}
+---
+
+<div class="mb-12 flex-wrap flex items-center justify-between gap-3">
+	<div class="*:shrink-0 flex-wrap flex gap-2 items-center *:px-2.5 *:py-1 *:md:px-3 *:md:py-1.5">
+		{
+			localeOptions.map(({ code, label }) => (
+				<a
+					href={getLocalePath(code)}
+					class="cursor-pointer lang-toggle-btn rounded-full border border-zinc-300 text-xs text-zinc-700"
+					data-lang-link
+					data-lang-btn={code}
+					aria-pressed={locale === code ? "true" : "false"}
+				>
+					{label}
+				</a>
+			))
+		}
+	</div>
+	<div class="relative w-full">
+		<svg
+			class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-400 z-10"
+			fill="none"
+			stroke="currentColor"
+			viewBox="0 0 24 24"
+		>
+			<path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.3-4.3m1.8-5.2a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+		</svg>
+
+		<input
+			type="search"
+			placeholder={t(locale, "searchPlaceholder")}
+			data-search-input
+			class="w-full pl-11 pr-4 py-2.5 bg-white/70 backdrop-blur-md border border-zinc-200 rounded-full text-zinc-700 placeholder:text-zinc-400 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200"
+		/>
+	</div>
+</div>
+
+<div class="mb-8 flex flex-wrap gap-2 items-center">
+	<button type="button" class="tag-filter-btn cursor-pointer rounded-full border border-zinc-300 text-xs text-zinc-700 px-3 py-1.5 inline-flex items-center gap-1.5" data-tag-filter="all" aria-pressed="true">
+		{t(locale, "tagAll")}
+		<span class="tag-filter-count">{totalCount}</span>
+	</button>
+	{
+		tagOptions.map((tag) => (
+			<button
+				type="button"
+				class="tag-filter-btn cursor-pointer rounded-full border border-zinc-300 text-xs text-zinc-700 px-3 py-1.5 inline-flex items-center gap-1.5"
+				data-tag-filter={tag}
+				aria-pressed="false"
+			>
+				{getTagLabel(tag)}
+				<span class="tag-filter-count">{tagCounts[tag] ?? 0}</span>
+			</button>
+		))
+	}
+</div>
+
+<script is:inline>
+	const root = document.getElementById("colors-gallery-root");
+	const searchInput = root?.querySelector("[data-search-input]");
+	const tagButtons = root?.querySelectorAll("[data-tag-filter]");
+	const langLinks = root?.querySelectorAll("[data-lang-link]");
+	let activeTag = "all";
+
+	if (langLinks?.length) {
+		langLinks.forEach((link) => {
+			link.addEventListener("click", () => {
+				const lang = link.getAttribute("data-lang-btn");
+				if (!lang) return;
+				document.cookie = `preferred_locale=${lang}; Path=/; Max-Age=31536000; SameSite=Lax`;
+			});
+		});
+	}
+
+	function updateTagButtons() {
+		tagButtons?.forEach((button) => {
+			const tag = button.getAttribute("data-tag-filter");
+			button.setAttribute("aria-pressed", tag === activeTag ? "true" : "false");
+		});
+	}
+
+	function applyFilters() {
+		const colorItems = root?.querySelectorAll("[data-color-item]");
+		if (!colorItems?.length) return;
+		const term = searchInput?.value.trim().toLowerCase() ?? "";
+		colorItems.forEach((item) => {
+			const name = item.getAttribute("data-color-name") ?? "";
+			const tags = (item.getAttribute("data-color-tags") ?? "").split(",").filter(Boolean);
+			const searchPass = term === "" || name.includes(term);
+			const tagPass = activeTag === "all" || tags.includes(activeTag);
+			item.style.display = searchPass && tagPass ? "" : "none";
+		});
+	}
+
+	if (searchInput) {
+		searchInput.addEventListener("input", () => {
+			applyFilters();
+		});
+	}
+
+	if (tagButtons?.length) {
+		tagButtons.forEach((button) => {
+			button.addEventListener("click", () => {
+				const tag = button.getAttribute("data-tag-filter");
+				if (!tag) return;
+				activeTag = tag;
+				updateTagButtons();
+				applyFilters();
+			});
+		});
+	}
+
+	updateTagButtons();
+	applyFilters();
+</script>

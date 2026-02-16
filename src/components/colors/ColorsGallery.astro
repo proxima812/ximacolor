@@ -1,0 +1,52 @@
+---
+import { LAST_UPDATED_ISO } from "../../config/site";
+import type { Locale } from "../../i18n";
+import { buildCssSnippetMap } from "./css-snippets";
+import ColorsControls from "./ColorsControls.astro";
+import ColorsGrid from "./ColorsGrid.astro";
+import ColorsHeader from "./ColorsHeader.astro";
+import { colors } from "./constants";
+import { getDescription, getLastUpdatedLabel } from "./descriptions";
+import { getCardTags, tagOrder } from "./tags";
+
+interface Props {
+	locale: Locale;
+	lastUpdated?: string;
+}
+
+const { locale = "en", lastUpdated: lastUpdatedInput = LAST_UPDATED_ISO } = Astro.props;
+
+const cssSnippetMap = buildCssSnippetMap(colors);
+const lastUpdatedLabel = getLastUpdatedLabel(locale, lastUpdatedInput);
+
+const colorCards = colors.map((name, id) => ({
+	id,
+	name,
+	lowerName: name.toLowerCase(),
+	className: `radial-${name}`,
+	tags: getCardTags(name),
+	description: getDescription(locale, name, id),
+}));
+
+const usedTags = new Set(colorCards.flatMap((card) => card.tags));
+const tagOptions = tagOrder.filter((tag) => usedTags.has(tag) && tag !== "other").concat(
+	usedTags.has("other") ? ["other"] : [],
+);
+const tagCounts = colorCards.reduce(
+	(acc, card) => {
+		card.tags.forEach((tag) => {
+			acc[tag] = (acc[tag] ?? 0) + 1;
+		});
+		return acc;
+	},
+	{} as Partial<Record<(typeof tagOrder)[number], number>>,
+);
+---
+
+<div id="colors-gallery-root">
+	<ColorsHeader locale={locale} count={colors.length} lastUpdatedLabel={lastUpdatedLabel} />
+	<section>
+		<ColorsControls locale={locale} tagOptions={tagOptions} tagCounts={tagCounts} totalCount={colorCards.length} />
+		<ColorsGrid locale={locale} items={colorCards} cssSnippetMap={cssSnippetMap} />
+	</section>
+</div>

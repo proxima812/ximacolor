@@ -1,0 +1,24 @@
+---
+import ColorsGallery from "../../components/colors/ColorsGallery.astro";
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from "../../config/site";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { isLocale, t, type Locale } from "../../i18n";
+
+export const prerender = true;
+
+export function getStaticPaths() {
+  return SUPPORTED_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const localeParam = Astro.params.locale ?? DEFAULT_LOCALE;
+const locale: Locale = isLocale(localeParam) ? localeParam : DEFAULT_LOCALE;
+---
+
+<BaseLayout
+  title={t(locale, "pageTitle")}
+  description={t(locale, "pageDescription")}
+  locale={locale}
+  canonicalPath={`/${locale}/`}
+>
+  <ColorsGallery locale={locale} />
+</BaseLayout>

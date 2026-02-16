@@ -1,0 +1,75 @@
+---
+import type { Locale } from "../../i18n";
+import ColorCard from "./ColorCard.astro";
+
+interface CardItem {
+	id: number;
+	name: string;
+	lowerName: string;
+	className: string;
+	tags: TagId[];
+	description: string;
+}
+
+interface Props {
+	locale: Locale;
+	items: CardItem[];
+	cssSnippetMap: Record<string, string>;
+}
+
+const { locale, items, cssSnippetMap } = Astro.props;
+---
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-12">
+	{items.map((card) => <ColorCard locale={locale} {...card} />)}
+</div>
+
+<script is:inline define:vars={{ cssSnippetMap }}>
+	const root = document.getElementById("colors-gallery-root");
+	const copyButtons = root?.querySelectorAll("[data-copy-btn]");
+
+	async function copyTextToClipboard(value) {
+		try {
+			await navigator.clipboard.writeText(value);
+			return true;
+		} catch {
+			const textarea = document.createElement("textarea");
+			textarea.value = value;
+			textarea.style.position = "fixed";
+			textarea.style.left = "-9999px";
+			document.body.appendChild(textarea);
+			textarea.select();
+			const ok = document.execCommand("copy");
+			document.body.removeChild(textarea);
+			return ok;
+		}
+	}
+
+	if (copyButtons?.length) {
+		copyButtons.forEach((button) => {
+			button.addEventListener("click", async () => {
+				const className = button.getAttribute("data-copy-class");
+				if (!className) return;
+
+				const value = cssSnippetMap[className] ?? className;
+				const copied = await copyTextToClipboard(value);
+				if (!copied) return;
+
+				button.classList.add("is-copied");
+				const labelEl = button.querySelector(".copy-btn-label");
+				if (labelEl) {
+					const copiedText = labelEl.getAttribute("data-copy-copied") || "Copied";
+					labelEl.textContent = copiedText;
+				}
+
+				window.setTimeout(() => {
+					button.classList.remove("is-copied");
+					if (labelEl) {
+						const defaultText = labelEl.getAttribute("data-copy-default") || "Copy";
+						labelEl.textContent = defaultText;
+					}
+				}, 1500);
+			});
+		});
+	}
+</script>

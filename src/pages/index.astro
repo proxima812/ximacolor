@@ -1,17 +1,36 @@
 ---
-
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from "../config/site";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content={`0;url=/${DEFAULT_LOCALE}/`} />
+    <title>Redirecting...</title>
+    <script is:inline define:vars={{ DEFAULT_LOCALE, SUPPORTED_LOCALES }}>
+      (function () {
+        const key = "preferred_locale";
+        const supported = new Set(SUPPORTED_LOCALES);
+        const fromCookie = document.cookie
+          .split(";")
+          .map((v) => v.trim())
+          .find((v) => v.startsWith(key + "="))
+          ?.split("=")[1];
+
+        const fromNavigator =
+          (navigator.languages || [])
+            .map((lang) => lang.toLowerCase().split("-")[0])
+            .find((lang) => supported.has(lang)) || DEFAULT_LOCALE;
+
+        const locale = supported.has(fromCookie || "") ? fromCookie : fromNavigator;
+        if (!locale) return;
+        document.cookie = `${key}=${locale}; Path=/; Max-Age=31536000; SameSite=Lax`;
+        window.location.replace(`/${locale}/`);
+      })();
+    </script>
+  </head>
+  <body>
+    <a href={`/${DEFAULT_LOCALE}/`}>Go to XimaColor</a>
+  </body>
 </html>

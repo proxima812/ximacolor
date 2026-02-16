@@ -1,0 +1,112 @@
+<svg width="548" height="100" viewBox="0 0 548 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1_base" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ECFEFF"/>
+      <stop offset="0.55" stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+
+    <linearGradient id="g2_base" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7FEE7"/>
+      <stop offset="0.52" stop-color="#ECFCCB"/>
+      <stop offset="1" stop-color="#DCFCE7"/>
+    </linearGradient>
+
+    <linearGradient id="g3_base" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.48" stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="g4_base" x1="50" y1="0" x2="50" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FEF2F2"/>
+      <stop offset="0.54" stop-color="#FDA4AF"/>
+      <stop offset="1" stop-color="#E11D48"/>
+    </linearGradient>
+
+    <linearGradient id="g5_base" x1="50" y1="0" x2="50" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FEF2F2"/>
+      <stop offset="0.54" stop-color="#FDA4AF"/>
+      <stop offset="1" stop-color="#E11D48"/>
+    </linearGradient>
+
+    <radialGradient id="g1_a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18 18) rotate(20) scale(45 60)">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g1_b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(82 16) rotate(15) scale(48 62)">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.54"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g1_c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(52 84) rotate(10) scale(70 95)">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="g2_a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(14 16) rotate(18) scale(46 62)">
+      <stop offset="0" stop-color="#A3E635" stop-opacity="0.66"/>
+      <stop offset="1" stop-color="#A3E635" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2_b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(84 14) rotate(12) scale(50 66)">
+      <stop offset="0" stop-color="#4ADE80" stop-opacity="0.54"/>
+      <stop offset="1" stop-color="#4ADE80" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2_c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 88) rotate(8) scale(74 96)">
+      <stop offset="0" stop-color="#BEF264" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#BEF264" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="g3_a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 14) rotate(18) scale(64 86)">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3_b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(88 10) rotate(8) scale(58 82)">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3_c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 90) rotate(5) scale(72 98)">
+      <stop offset="0" stop-color="#D946EF" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#D946EF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="g5_a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18 18) rotate(20) scale(45 60)">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g5_b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(82 16) rotate(15) scale(48 62)">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.54"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(0,0)">
+    <rect x="0.5" y="0.5" width="99" height="99" rx="18" fill="url(#g1_base)" stroke="rgba(14,165,233,0.24)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g1_a)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g1_b)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g1_c)"/>
+  </g>
+
+  <g transform="translate(112,0)">
+    <rect x="0.5" y="0.5" width="99" height="99" rx="18" fill="url(#g2_base)" stroke="rgba(132,204,22,0.25)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g2_a)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g2_b)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g2_c)"/>
+  </g>
+
+  <g transform="translate(224,0)">
+    <rect x="0.5" y="0.5" width="99" height="99" rx="18" fill="url(#g3_base)" stroke="rgba(147,197,253,0.2)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g3_a)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g3_b)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g3_c)"/>
+  </g>
+
+  <g transform="translate(336,0)">
+    <rect x="0.5" y="0.5" width="99" height="99" rx="18" fill="url(#g4_base)" stroke="rgba(190,18,60,0.22)"/>
+  </g>
+
+  <g transform="translate(448,0)">
+    <rect x="0.5" y="0.5" width="99" height="99" rx="18" fill="url(#g5_base)" stroke="rgba(190,18,60,0.22)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g5_a)"/>
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="url(#g5_b)"/>
+  </g>
+</svg>

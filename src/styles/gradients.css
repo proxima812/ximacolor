@@ -1,0 +1,2840 @@
+@layer utilities {
+  .radial-white-gradient {
+    background-image: radial-gradient(76.33% 76.59% at 50.15% 6.06%,
+        #fff 0,
+        rgba(234, 234, 234, 0.38) 100%);
+    border: solid 0.5px gray;
+  }
+
+  .radial-blue-gradient {
+    background-image: radial-gradient(76.33% 76.59% at 50.15% 6.06%,
+        #fff 0%,
+        rgba(212, 209, 249, 0.38) 100%);
+    border: solid 0.5px #8ecae6;
+
+  }
+
+  .radial-green-gradient {
+    background-image: radial-gradient(76.33% 76.59% at 50.15% 6.06%,
+        #fff 0%,
+        rgba(209, 249, 209, 0.38) 100%);
+    border: solid 0.5px #d946ef;
+
+  }
+
+  .radial-purple-gradient {
+    background-image: radial-gradient(76.33% 76.59% at 50.15% 6.06%,
+        #fff 0%,
+        rgba(230, 173, 211, 0.38) 100%);
+    border: solid 0.5px #d946ef;
+
+  }
+
+
+  .radial-forest-gradient {
+    background-image: radial-gradient(140% 140% at 50% 50%,
+        #f0fdf4 0%,
+        #86efac 40%,
+        #22c55e 70%,
+        #065f46 100%);
+    border: solid 0.5px #d946ef;
+
+  }
+
+  .radial-icefire-gradient {
+    background-image: radial-gradient(130% 130% at 70% 30%,
+        #ffffff 0%,
+        #8ecae6 40%,
+        #219ebc 60%,
+        #ff4500 100%);
+    border: solid 0.5px #d946ef;
+
+  }
+
+  .radial-sunset-gradient {
+    background-image: radial-gradient(110% 110% at 20% 30%,
+        #fff0b3 0%,
+        #ffcc80 50%,
+        #ff5733 80%,
+        #c70039 100%);
+    border: solid 0.5px #d946ef;
+
+  }
+
+  .radial-lagoon-gradient {
+    background-image: radial-gradient(120% 120% at 30% 70%,
+        #e0fcff 0%,
+        #90f7ec 50%,
+        #34d399 100%);
+    border: solid 0.5px #d946ef;
+
+
+  }
+
+  .radial-galaxy-gradient {
+    background-image: radial-gradient(150% 150% at 50% 50%,
+        #2d2e4a 0%,
+        #44337a 40%,
+        #6b21a8 70%,
+        #d946ef 100%);
+    border: solid 0.5px #d946ef;
+  }
+
+  .radial-lavender-gradient {
+    background-image: radial-gradient(120% 120% at 80% 20%,
+        #fceff9 0%,
+        #d8b4f8 60%,
+        #a78bfa 90%,
+        #7c3aed 100%);
+    border: solid 0.5px #7c3aed;
+  }
+
+
+
+  /*===========================
+  */
+
+   .radial-neutral-soft {
+    background-image: radial-gradient(
+      120% 120% at 50% 20%,
+      rgba(255,255,255,0.9) 0%,
+      rgba(243,244,246,0.8) 45%,
+      rgba(229,231,235,0.9) 100%
+    );
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+
+  .radial-cool-milk {
+    background-image: radial-gradient(
+      130% 130% at 60% 10%,
+      rgba(248,250,252,0.95) 0%,
+      rgba(226,232,240,0.7) 55%,
+      rgba(203,213,225,0.85) 100%
+    );
+    border: 1px solid rgba(15,23,42,0.08);
+  }
+
+  .radial-blue-haze {
+    background-image: radial-gradient(
+      140% 140% at 40% 0%,
+      rgba(239,246,255,0.9) 0%,
+      rgba(219,234,254,0.6) 50%,
+      rgba(191,219,254,0.75) 100%
+    );
+    border: 1px solid rgba(37,99,235,0.12);
+  }
+
+  .radial-violet-mist {
+    background-image: radial-gradient(
+      140% 140% at 70% 10%,
+      rgba(250,245,255,0.9) 0%,
+      rgba(237,233,254,0.6) 55%,
+      rgba(221,214,254,0.75) 100%
+    );
+    border: 1px solid rgba(124,58,237,0.14);
+  }
+
+  .radial-green-fog {
+    background-image: radial-gradient(
+      140% 140% at 50% 15%,
+      rgba(240,253,244,0.9) 0%,
+      rgba(220,252,231,0.6) 55%,
+      rgba(187,247,208,0.75) 100%
+    );
+    border: 1px solid rgba(22,163,74,0.14);
+  }
+
+  .radial-dark-glass {
+    background-image: radial-gradient(
+      140% 140% at 50% 0%,
+      rgba(30,41,59,0.9) 0%,
+      rgba(15,23,42,0.85) 60%,
+      rgba(2,6,23,0.95) 100%
+    );
+    border: 1px solid rgba(148,163,184,0.12);
+  }
+
+    /* LIGHT GLASS / CARD / SAAS */
+
+  .radial-glass-soft {
+    background-image: radial-gradient(
+      140% 140% at 50% 15%,
+      rgba(255,255,255,0.75) 0%,
+      rgba(243,244,246,0.6) 55%,
+      rgba(229,231,235,0.7) 100%
+    );
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  /* DARK GLASS / DASHBOARD */
+  .radial-glass-dark {
+    background-image: radial-gradient(
+      140% 140% at 50% 10%,
+      rgba(30,41,59,0.85) 0%,
+      rgba(15,23,42,0.75) 60%,
+      rgba(2,6,23,0.9) 100%
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  /* HERO / WOW EFFECT (НЕ БЛИКУЕТ) */
+  .radial-hero-elegant {
+    background-image:
+      radial-gradient(
+        120% 120% at 70% 0%,
+        rgba(99,102,241,0.18) 0%,
+        rgba(168,85,247,0.12) 35%,
+        rgba(255,255,255,0) 70%
+      ),
+      radial-gradient(
+        140% 140% at 30% 20%,
+        rgba(236,254,255,0.9) 0%,
+        rgba(224,242,254,0.7) 55%,
+        rgba(186,230,253,0.85) 100%
+      );
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+
+  /* 1. Dawn-mint whisper */
+.radial-dawn-mint {
+  background-image:
+    radial-gradient(130% 130% at 90% 10%,
+      rgba(94, 234, 212, 0.22) 0%,
+      rgba(45, 212, 191, 0.15) 40%,
+      rgba(255, 255, 255, 0) 75%),
+    radial-gradient(150% 150% at 15% 25%,
+      rgba(209, 250, 229, 0.9) 0%,
+      rgba(167, 243, 208, 0.75) 55%,
+      rgba(110, 231, 183, 0.85) 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* 2. Rose-gold lagoon */
+.radial-rose-gold {
+  background-image:
+    radial-gradient(125% 125% at 80% 5%,
+      rgba(251, 146, 60, 0.18) 0%,
+      rgba(244, 114, 182, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(145% 145% at 20% 30%,
+      rgba(255, 228, 230, 0.92) 0%,
+      rgba(253, 230, 232, 0.78) 55%,
+      rgba(248, 187, 208, 0.85) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* 3. Aurora-lavender */
+.radial-aurora-lav {
+  background-image:
+    radial-gradient(135% 135% at 65% 0%,
+      rgba(124, 58, 237, 0.18) 0%,
+      rgba(168, 85, 247, 0.10) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(155% 155% at 35% 15%,
+      rgba(237, 233, 254, 0.9) 0%,
+      rgba(221, 214, 254, 0.7) 55%,
+      rgba(196, 181, 253, 0.85) 100%);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+/* 4. Citrus-calm */
+.radial-citrus-calm {
+  background-image:
+    radial-gradient(120% 120% at 75% 10%,
+      rgba(251, 191, 36, 0.18) 0%,
+      rgba(253, 121, 168, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(140% 140% at 25% 20%,
+      rgba(254, 249, 195, 0.9) 0%,
+      rgba(253, 224, 71, 0.7) 55%,
+      rgba(252, 211, 77, 0.85) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* 5. Night-sky silk */
+.radial-night-silk {
+  background-image:
+    radial-gradient(130% 130% at 60% 0%,
+      rgba(99, 102, 241, 0.18) 0%,
+      rgba(59, 130, 246, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(150% 150% at 30% 25%,
+      rgba(224, 231, 255, 0.92) 0%,
+      rgba(199, 210, 254, 0.75) 55%,
+      rgba(165, 180, 252, 0.85) 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* 1. Nebula-blush */
+.radial-nebula-blush {
+  background-image:
+    radial-gradient(125% 125% at 85% 10%,
+      rgba(236, 72, 153, 0.18) 0%,
+      rgba(168, 85, 247, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(145% 145% at 20% 25%,
+      rgba(252, 231, 243, 0.92) 0%,
+      rgba(248, 187, 208, 0.75) 55%,
+      rgba(237, 100, 166, 0.85) 100%);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+/* 2. Cosmic-teal */
+.radial-cosmic-teal {
+  background-image:
+    radial-gradient(130% 130% at 70% 0%,
+      rgba(56, 189, 248, 0.18) 0%,
+      rgba(20, 184, 166, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(150% 150% at 30% 20%,
+      rgba(207, 250, 254, 0.9) 0%,
+      rgba(164, 233, 230, 0.7) 55%,
+      rgba(94, 234, 212, 0.85) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* 3. Supernova-amber */
+.radial-supernova-amber {
+  background-image:
+    radial-gradient(120% 120% at 75% 5%,
+      rgba(251, 146, 60, 0.18) 0%,
+      rgba(245, 158, 11, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(140% 140% at 25% 30%,
+      rgba(254, 243, 199, 0.92) 0%,
+      rgba(253, 230, 138, 0.75) 55%,
+      rgba(252, 211, 77, 0.85) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* 4. Void-indigo */
+.radial-void-indigo {
+  background-image:
+    radial-gradient(135% 135% at 60% 0%,
+      rgba(79, 70, 229, 0.18) 0%,
+      rgba(99, 102, 241, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(155% 155% at 35% 25%,
+      rgba(224, 231, 255, 0.9) 0%,
+      rgba(199, 210, 254, 0.7) 55%,
+      rgba(165, 180, 252, 0.85) 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* 5. Orion-green */
+.radial-orion-green {
+  background-image:
+    radial-gradient(125% 125% at 80% 10%,
+      rgba(34, 197, 94, 0.18) 0%,
+      rgba(16, 185, 129, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(145% 145% at 15% 20%,
+      rgba(220, 252, 231, 0.92) 0%,
+      rgba(167, 243, 208, 0.75) 55%,
+      rgba(110, 231, 183, 0.85) 100%);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+/* 6. Quasar-fuchsia */
+.radial-quasar-fuchsia {
+  background-image:
+    radial-gradient(130% 130% at 65% 0%,
+      rgba(217, 70, 239, 0.18) 0%,
+      rgba(192, 38, 211, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(150% 150% at 30% 15%,
+      rgba(245, 208, 254, 0.9) 0%,
+      rgba(232, 174, 250, 0.7) 55%,
+      rgba(217, 70, 239, 0.85) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* 7. Meteor-rose */
+.radial-meteor-rose {
+  background-image:
+    radial-gradient(120% 120% at 85% 10%,
+      rgba(244, 63, 94, 0.18) 0%,
+      rgba(225, 29, 72, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(140% 140% at 20% 25%,
+      rgba(255, 228, 230, 0.92) 0%,
+      rgba(253, 230, 232, 0.75) 55%,
+      rgba(248, 187, 208, 0.85) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* 8. Eclipse-cyan */
+.radial-eclipse-cyan {
+  background-image:
+    radial-gradient(135% 135% at 55% 0%,
+      rgba(6, 182, 212, 0.18) 0%,
+      rgba(14, 165, 233, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(155% 155% at 40% 20%,
+      rgba(207, 250, 254, 0.9) 0%,
+      rgba(164, 233, 230, 0.7) 55%,
+      rgba(94, 234, 212, 0.85) 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* 9. Galaxy-mauve */
+.radial-galaxy-mauve {
+  background-image:
+    radial-gradient(125% 125% at 70% 5%,
+      rgba(147, 51, 234, 0.18) 0%,
+      rgba(124, 58, 237, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(145% 145% at 25% 30%,
+      rgba(237, 233, 254, 0.92) 0%,
+      rgba(221, 214, 254, 0.75) 55%,
+      rgba(196, 181, 253, 0.85) 100%);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+/* 10. Pulsar-lime */
+.radial-pulsar-lime {
+  background-image:
+    radial-gradient(130% 130% at 75% 10%,
+      rgba(163, 230, 53, 0.18) 0%,
+      rgba(132, 204, 22, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(150% 150% at 20% 20%,
+      rgba(236, 252, 243, 0.92) 0%,
+      rgba(209, 250, 229, 0.75) 55%,
+      rgba(167, 243, 208, 0.85) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* 11. Celestial-slate */
+.radial-celestial-slate {
+  background-image:
+    radial-gradient(120% 120% at 60% 0%,
+      rgba(100, 116, 139, 0.18) 0%,
+      rgba(71, 85, 105, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(140% 140% at 35% 25%,
+      rgba(241, 245, 249, 0.92) 0%,
+      rgba(226, 232, 240, 0.75) 55%,
+      rgba(203, 213, 225, 0.85) 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* 12. Starlight-gold */
+.radial-starlight-gold {
+  background-image:
+    radial-gradient(135% 135% at 80% 5%,
+      rgba(245, 158, 11, 0.18) 0%,
+      rgba(217, 119, 6, 0.12) 35%,
+      rgba(255, 255, 255, 0) 70%),
+    radial-gradient(155% 155% at 20% 30%,
+      rgba(254, 243, 199, 0.92) 0%,
+      rgba(253, 230, 138, 0.75) 55%,
+      rgba(252, 211, 77, 0.85) 100%);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+/* 13. Mesh arctic bloom */
+.radial-mesh-arctic-bloom {
+  background-image:
+    radial-gradient(55% 70% at 8% 12%, rgba(125, 211, 252, 0.45) 0%, rgba(125, 211, 252, 0) 100%),
+    radial-gradient(55% 70% at 88% 16%, rgba(196, 181, 253, 0.48) 0%, rgba(196, 181, 253, 0) 100%),
+    radial-gradient(70% 90% at 50% 88%, rgba(167, 243, 208, 0.58) 0%, rgba(167, 243, 208, 0) 100%),
+    linear-gradient(140deg, #f0f9ff 0%, #eef2ff 45%, #ecfeff 100%);
+  border: 1px solid rgba(14, 116, 144, 0.16);
+}
+
+/* 14. Mesh peach wave */
+.radial-mesh-peach-wave {
+  background-image:
+    radial-gradient(58% 78% at 14% 8%, rgba(253, 186, 116, 0.5) 0%, rgba(253, 186, 116, 0) 100%),
+    radial-gradient(52% 72% at 84% 20%, rgba(244, 114, 182, 0.38) 0%, rgba(244, 114, 182, 0) 100%),
+    radial-gradient(70% 95% at 44% 86%, rgba(254, 240, 138, 0.56) 0%, rgba(254, 240, 138, 0) 100%),
+    linear-gradient(155deg, #fff7ed 0%, #fdf2f8 52%, #fef9c3 100%);
+  border: 1px solid rgba(234, 88, 12, 0.15);
+}
+
+/* 15. Mesh cobalt flare */
+.radial-mesh-cobalt-flare {
+  background-image:
+    radial-gradient(62% 82% at 12% 18%, rgba(56, 189, 248, 0.45) 0%, rgba(56, 189, 248, 0) 100%),
+    radial-gradient(56% 80% at 88% 12%, rgba(59, 130, 246, 0.45) 0%, rgba(59, 130, 246, 0) 100%),
+    radial-gradient(78% 98% at 52% 92%, rgba(96, 165, 250, 0.5) 0%, rgba(96, 165, 250, 0) 100%),
+    linear-gradient(145deg, #eff6ff 0%, #dbeafe 52%, #e0f2fe 100%);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+}
+
+/* 16. Mesh mint velvet */
+.radial-mesh-mint-velvet {
+  background-image:
+    radial-gradient(60% 80% at 10% 10%, rgba(74, 222, 128, 0.36) 0%, rgba(74, 222, 128, 0) 100%),
+    radial-gradient(54% 78% at 86% 20%, rgba(45, 212, 191, 0.42) 0%, rgba(45, 212, 191, 0) 100%),
+    radial-gradient(72% 96% at 50% 88%, rgba(110, 231, 183, 0.56) 0%, rgba(110, 231, 183, 0) 100%),
+    linear-gradient(150deg, #ecfdf5 0%, #d1fae5 56%, #ccfbf1 100%);
+  border: 1px solid rgba(5, 150, 105, 0.17);
+}
+
+/* 17. Mesh amethyst cloud */
+.radial-mesh-amethyst-cloud {
+  background-image:
+    radial-gradient(58% 76% at 12% 10%, rgba(192, 132, 252, 0.42) 0%, rgba(192, 132, 252, 0) 100%),
+    radial-gradient(52% 74% at 86% 18%, rgba(147, 51, 234, 0.35) 0%, rgba(147, 51, 234, 0) 100%),
+    radial-gradient(74% 100% at 48% 88%, rgba(216, 180, 254, 0.52) 0%, rgba(216, 180, 254, 0) 100%),
+    linear-gradient(145deg, #faf5ff 0%, #ede9fe 52%, #f5f3ff 100%);
+  border: 1px solid rgba(126, 34, 206, 0.17);
+}
+
+/* 18. Mesh solar pop */
+.radial-mesh-solar-pop {
+  background-image:
+    radial-gradient(58% 78% at 10% 8%, rgba(251, 191, 36, 0.5) 0%, rgba(251, 191, 36, 0) 100%),
+    radial-gradient(52% 74% at 86% 14%, rgba(249, 115, 22, 0.4) 0%, rgba(249, 115, 22, 0) 100%),
+    radial-gradient(76% 98% at 50% 90%, rgba(253, 224, 71, 0.62) 0%, rgba(253, 224, 71, 0) 100%),
+    linear-gradient(150deg, #fffbeb 0%, #fef3c7 50%, #ffedd5 100%);
+  border: 1px solid rgba(217, 119, 6, 0.16);
+}
+
+/* 19. Mesh ruby dusk */
+.radial-mesh-ruby-dusk {
+  background-image:
+    radial-gradient(58% 76% at 14% 12%, rgba(251, 113, 133, 0.44) 0%, rgba(251, 113, 133, 0) 100%),
+    radial-gradient(54% 78% at 88% 14%, rgba(236, 72, 153, 0.4) 0%, rgba(236, 72, 153, 0) 100%),
+    radial-gradient(72% 96% at 50% 90%, rgba(253, 164, 175, 0.5) 0%, rgba(253, 164, 175, 0) 100%),
+    linear-gradient(145deg, #fff1f2 0%, #ffe4e6 46%, #fdf2f8 100%);
+  border: 1px solid rgba(190, 24, 93, 0.16);
+}
+
+/* 20. Mesh ocean aurora */
+.radial-mesh-ocean-aurora {
+  background-image:
+    radial-gradient(62% 84% at 8% 14%, rgba(34, 211, 238, 0.4) 0%, rgba(34, 211, 238, 0) 100%),
+    radial-gradient(58% 80% at 88% 16%, rgba(59, 130, 246, 0.34) 0%, rgba(59, 130, 246, 0) 100%),
+    radial-gradient(74% 98% at 46% 88%, rgba(45, 212, 191, 0.52) 0%, rgba(45, 212, 191, 0) 100%),
+    linear-gradient(150deg, #ecfeff 0%, #e0f2fe 48%, #dbeafe 100%);
+  border: 1px solid rgba(14, 116, 144, 0.17);
+}
+
+/* 21. Mesh neon limeade */
+.radial-mesh-neon-limeade {
+  background-image:
+    radial-gradient(56% 76% at 12% 10%, rgba(163, 230, 53, 0.5) 0%, rgba(163, 230, 53, 0) 100%),
+    radial-gradient(50% 74% at 84% 16%, rgba(34, 197, 94, 0.36) 0%, rgba(34, 197, 94, 0) 100%),
+    radial-gradient(72% 100% at 52% 90%, rgba(190, 242, 100, 0.58) 0%, rgba(190, 242, 100, 0) 100%),
+    linear-gradient(148deg, #f7fee7 0%, #ecfccb 50%, #dcfce7 100%);
+  border: 1px solid rgba(77, 124, 15, 0.17);
+}
+
+/* 22. Mesh midnight plasma */
+.radial-mesh-midnight-plasma {
+  background-image:
+    radial-gradient(64% 86% at 12% 14%, rgba(56, 189, 248, 0.26) 0%, rgba(56, 189, 248, 0) 100%),
+    radial-gradient(58% 82% at 88% 10%, rgba(168, 85, 247, 0.34) 0%, rgba(168, 85, 247, 0) 100%),
+    radial-gradient(72% 98% at 50% 90%, rgba(217, 70, 239, 0.26) 0%, rgba(217, 70, 239, 0) 100%),
+    linear-gradient(155deg, #0f172a 0%, #1e1b4b 48%, #111827 100%);
+  border: 1px solid rgba(147, 197, 253, 0.2);
+}
+
+
+/* 23. Glow aurora cyan */
+.radial-glow-aurora-cyan {
+  background-image:
+    radial-gradient(45% 60% at 18% 18%, rgba(34, 211, 238, 0.62) 0%, rgba(34, 211, 238, 0) 100%),
+    radial-gradient(48% 62% at 82% 16%, rgba(59, 130, 246, 0.54) 0%, rgba(59, 130, 246, 0) 100%),
+    radial-gradient(70% 95% at 52% 84%, rgba(56, 189, 248, 0.46) 0%, rgba(56, 189, 248, 0) 100%),
+    linear-gradient(145deg, #ecfeff 0%, #e0f2fe 55%, #dbeafe 100%);
+  border: 1px solid rgba(14, 165, 233, 0.24);
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.12), 0 14px 34px -18px rgba(14, 165, 233, 0.55), 0 0 40px rgba(56, 189, 248, 0.28);
+}
+
+/* 24. Glow violet pulse */
+.radial-glow-violet-pulse {
+  background-image:
+    radial-gradient(46% 64% at 16% 18%, rgba(167, 139, 250, 0.64) 0%, rgba(167, 139, 250, 0) 100%),
+    radial-gradient(52% 68% at 84% 14%, rgba(192, 132, 252, 0.56) 0%, rgba(192, 132, 252, 0) 100%),
+    radial-gradient(72% 96% at 50% 86%, rgba(216, 180, 254, 0.44) 0%, rgba(216, 180, 254, 0) 100%),
+    linear-gradient(150deg, #faf5ff 0%, #f3e8ff 55%, #ede9fe 100%);
+  border: 1px solid rgba(139, 92, 246, 0.24);
+  box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.14), 0 14px 34px -18px rgba(139, 92, 246, 0.58), 0 0 42px rgba(168, 85, 247, 0.28);
+}
+
+/* 25. Glow ember rose */
+.radial-glow-ember-rose {
+  background-image:
+    radial-gradient(44% 60% at 14% 14%, rgba(251, 113, 133, 0.62) 0%, rgba(251, 113, 133, 0) 100%),
+    radial-gradient(50% 66% at 84% 18%, rgba(244, 114, 182, 0.54) 0%, rgba(244, 114, 182, 0) 100%),
+    radial-gradient(74% 98% at 50% 86%, rgba(253, 164, 175, 0.46) 0%, rgba(253, 164, 175, 0) 100%),
+    linear-gradient(150deg, #fff1f2 0%, #ffe4e6 52%, #fdf2f8 100%);
+  border: 1px solid rgba(244, 63, 94, 0.24);
+  box-shadow: 0 0 0 1px rgba(251, 113, 133, 0.13), 0 14px 34px -18px rgba(225, 29, 72, 0.56), 0 0 40px rgba(244, 114, 182, 0.26);
+}
+
+/* 26. Glow lime spark */
+.radial-glow-lime-spark {
+  background-image:
+    radial-gradient(46% 62% at 14% 16%, rgba(163, 230, 53, 0.66) 0%, rgba(163, 230, 53, 0) 100%),
+    radial-gradient(50% 66% at 84% 14%, rgba(74, 222, 128, 0.54) 0%, rgba(74, 222, 128, 0) 100%),
+    radial-gradient(74% 96% at 50% 88%, rgba(190, 242, 100, 0.46) 0%, rgba(190, 242, 100, 0) 100%),
+    linear-gradient(150deg, #f7fee7 0%, #ecfccb 52%, #dcfce7 100%);
+  border: 1px solid rgba(132, 204, 22, 0.25);
+  box-shadow: 0 0 0 1px rgba(163, 230, 53, 0.14), 0 14px 34px -18px rgba(101, 163, 13, 0.56), 0 0 40px rgba(132, 204, 22, 0.24);
+}
+
+/* 27. Glow cobalt beam */
+.radial-glow-cobalt-beam {
+  background-image:
+    radial-gradient(45% 62% at 16% 18%, rgba(96, 165, 250, 0.66) 0%, rgba(96, 165, 250, 0) 100%),
+    radial-gradient(50% 68% at 82% 14%, rgba(59, 130, 246, 0.58) 0%, rgba(59, 130, 246, 0) 100%),
+    radial-gradient(72% 96% at 52% 86%, rgba(125, 211, 252, 0.44) 0%, rgba(125, 211, 252, 0) 100%),
+    linear-gradient(148deg, #eff6ff 0%, #dbeafe 50%, #e0f2fe 100%);
+  border: 1px solid rgba(59, 130, 246, 0.26);
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.14), 0 14px 34px -18px rgba(37, 99, 235, 0.58), 0 0 42px rgba(56, 189, 248, 0.24);
+}
+
+/* 28. Glow sunset lava */
+.radial-glow-sunset-lava {
+  background-image:
+    radial-gradient(46% 64% at 14% 14%, rgba(251, 191, 36, 0.66) 0%, rgba(251, 191, 36, 0) 100%),
+    radial-gradient(52% 66% at 84% 16%, rgba(249, 115, 22, 0.58) 0%, rgba(249, 115, 22, 0) 100%),
+    radial-gradient(74% 96% at 50% 86%, rgba(253, 186, 116, 0.44) 0%, rgba(253, 186, 116, 0) 100%),
+    linear-gradient(150deg, #fffbeb 0%, #fef3c7 50%, #ffedd5 100%);
+  border: 1px solid rgba(245, 158, 11, 0.26);
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.15), 0 14px 34px -18px rgba(217, 119, 6, 0.58), 0 0 42px rgba(249, 115, 22, 0.24);
+}
+
+/* 29. Glow mint plasma */
+.radial-glow-mint-plasma {
+  background-image:
+    radial-gradient(44% 60% at 16% 12%, rgba(45, 212, 191, 0.64) 0%, rgba(45, 212, 191, 0) 100%),
+    radial-gradient(50% 66% at 84% 14%, rgba(20, 184, 166, 0.56) 0%, rgba(20, 184, 166, 0) 100%),
+    radial-gradient(72% 94% at 50% 86%, rgba(94, 234, 212, 0.44) 0%, rgba(94, 234, 212, 0) 100%),
+    linear-gradient(150deg, #ecfeff 0%, #ccfbf1 52%, #d1fae5 100%);
+  border: 1px solid rgba(13, 148, 136, 0.25);
+  box-shadow: 0 0 0 1px rgba(45, 212, 191, 0.14), 0 14px 34px -18px rgba(13, 148, 136, 0.56), 0 0 40px rgba(45, 212, 191, 0.24);
+}
+
+/* 30. Glow orchid flash */
+.radial-glow-orchid-flash {
+  background-image:
+    radial-gradient(46% 62% at 16% 14%, rgba(232, 121, 249, 0.64) 0%, rgba(232, 121, 249, 0) 100%),
+    radial-gradient(50% 66% at 82% 14%, rgba(217, 70, 239, 0.56) 0%, rgba(217, 70, 239, 0) 100%),
+    radial-gradient(72% 96% at 50% 88%, rgba(240, 171, 252, 0.44) 0%, rgba(240, 171, 252, 0) 100%),
+    linear-gradient(148deg, #fdf4ff 0%, #fae8ff 52%, #f5d0fe 100%);
+  border: 1px solid rgba(192, 38, 211, 0.25);
+  box-shadow: 0 0 0 1px rgba(232, 121, 249, 0.14), 0 14px 34px -18px rgba(192, 38, 211, 0.56), 0 0 42px rgba(217, 70, 239, 0.24);
+}
+
+/* 31. Glow glacier neon */
+.radial-glow-glacier-neon {
+  background-image:
+    radial-gradient(46% 62% at 14% 12%, rgba(103, 232, 249, 0.64) 0%, rgba(103, 232, 249, 0) 100%),
+    radial-gradient(50% 66% at 84% 14%, rgba(34, 211, 238, 0.56) 0%, rgba(34, 211, 238, 0) 100%),
+    radial-gradient(72% 96% at 50% 88%, rgba(125, 211, 252, 0.44) 0%, rgba(125, 211, 252, 0) 100%),
+    linear-gradient(150deg, #ecfeff 0%, #cffafe 52%, #e0f2fe 100%);
+  border: 1px solid rgba(8, 145, 178, 0.25);
+  box-shadow: 0 0 0 1px rgba(103, 232, 249, 0.14), 0 14px 34px -18px rgba(8, 145, 178, 0.56), 0 0 40px rgba(34, 211, 238, 0.24);
+}
+
+/* 32. Glow fuchsia nova */
+.radial-glow-fuchsia-nova {
+  background-image:
+    radial-gradient(44% 60% at 14% 12%, rgba(244, 114, 182, 0.66) 0%, rgba(244, 114, 182, 0) 100%),
+    radial-gradient(50% 66% at 84% 16%, rgba(236, 72, 153, 0.56) 0%, rgba(236, 72, 153, 0) 100%),
+    radial-gradient(74% 96% at 50% 88%, rgba(249, 168, 212, 0.44) 0%, rgba(249, 168, 212, 0) 100%),
+    linear-gradient(150deg, #fdf2f8 0%, #fce7f3 52%, #fbcfe8 100%);
+  border: 1px solid rgba(219, 39, 119, 0.26);
+  box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.14), 0 14px 34px -18px rgba(190, 24, 93, 0.56), 0 0 42px rgba(236, 72, 153, 0.24);
+}
+
+/* 32b. Glow pluto dusk */
+.radial-glow-pluto-dusk {
+  background-image:
+    radial-gradient(44% 60% at 14% 10%, rgba(167, 139, 250, 0.62) 0%, rgba(167, 139, 250, 0) 100%),
+    radial-gradient(52% 68% at 86% 16%, rgba(96, 165, 250, 0.46) 0%, rgba(96, 165, 250, 0) 100%),
+    radial-gradient(76% 98% at 50% 88%, rgba(216, 180, 254, 0.42) 0%, rgba(216, 180, 254, 0) 100%),
+    linear-gradient(150deg, #f5f3ff 0%, #e9d5ff 50%, #dbeafe 100%);
+  border: 1px solid rgba(124, 58, 237, 0.24);
+  box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.14), 0 14px 34px -18px rgba(91, 33, 182, 0.56), 0 0 42px rgba(129, 140, 248, 0.24);
+}
+
+/* 32c. Glow pluto ice */
+.radial-glow-pluto-ice {
+  background-image:
+    radial-gradient(46% 62% at 15% 12%, rgba(125, 211, 252, 0.62) 0%, rgba(125, 211, 252, 0) 100%),
+    radial-gradient(48% 64% at 84% 14%, rgba(196, 181, 253, 0.5) 0%, rgba(196, 181, 253, 0) 100%),
+    radial-gradient(74% 96% at 52% 88%, rgba(103, 232, 249, 0.42) 0%, rgba(103, 232, 249, 0) 100%),
+    linear-gradient(148deg, #ecfeff 0%, #e0f2fe 52%, #eef2ff 100%);
+  border: 1px solid rgba(14, 165, 233, 0.23);
+  box-shadow: 0 0 0 1px rgba(125, 211, 252, 0.14), 0 14px 34px -18px rgba(14, 116, 144, 0.52), 0 0 42px rgba(147, 197, 253, 0.24);
+}
+
+/* 32d. Glow nebula orchid */
+.radial-glow-nebula-orchid {
+  background-image:
+    radial-gradient(44% 62% at 16% 10%, rgba(232, 121, 249, 0.66) 0%, rgba(232, 121, 249, 0) 100%),
+    radial-gradient(50% 66% at 84% 12%, rgba(168, 85, 247, 0.56) 0%, rgba(168, 85, 247, 0) 100%),
+    radial-gradient(72% 96% at 50% 90%, rgba(244, 114, 182, 0.4) 0%, rgba(244, 114, 182, 0) 100%),
+    linear-gradient(150deg, #fdf4ff 0%, #fae8ff 52%, #fce7f3 100%);
+  border: 1px solid rgba(192, 38, 211, 0.25);
+  box-shadow: 0 0 0 1px rgba(232, 121, 249, 0.14), 0 14px 34px -18px rgba(147, 51, 234, 0.56), 0 0 40px rgba(236, 72, 153, 0.24);
+}
+
+/* 32e. Glow nebula citrine */
+.radial-glow-nebula-citrine {
+  background-image:
+    radial-gradient(46% 62% at 14% 10%, rgba(250, 204, 21, 0.68) 0%, rgba(250, 204, 21, 0) 100%),
+    radial-gradient(50% 66% at 84% 14%, rgba(251, 146, 60, 0.56) 0%, rgba(251, 146, 60, 0) 100%),
+    radial-gradient(74% 98% at 52% 90%, rgba(253, 224, 71, 0.42) 0%, rgba(253, 224, 71, 0) 100%),
+    linear-gradient(150deg, #fefce8 0%, #fef3c7 50%, #ffedd5 100%);
+  border: 1px solid rgba(217, 119, 6, 0.24);
+  box-shadow: 0 0 0 1px rgba(250, 204, 21, 0.14), 0 14px 34px -18px rgba(180, 83, 9, 0.54), 0 0 40px rgba(251, 146, 60, 0.24);
+}
+
+/* 32f. Glow orbit azure */
+.radial-glow-orbit-azure {
+  background-image:
+    radial-gradient(44% 60% at 14% 12%, rgba(56, 189, 248, 0.68) 0%, rgba(56, 189, 248, 0) 100%),
+    radial-gradient(50% 68% at 86% 16%, rgba(59, 130, 246, 0.58) 0%, rgba(59, 130, 246, 0) 100%),
+    radial-gradient(74% 96% at 50% 88%, rgba(14, 165, 233, 0.42) 0%, rgba(14, 165, 233, 0) 100%),
+    linear-gradient(150deg, #ecfeff 0%, #dbeafe 52%, #bfdbfe 100%);
+  border: 1px solid rgba(2, 132, 199, 0.25);
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.14), 0 14px 34px -18px rgba(37, 99, 235, 0.58), 0 0 42px rgba(14, 165, 233, 0.24);
+}
+
+/* 32g. Glow orbit rose */
+.radial-glow-orbit-rose {
+  background-image:
+    radial-gradient(44% 60% at 14% 12%, rgba(251, 113, 133, 0.66) 0%, rgba(251, 113, 133, 0) 100%),
+    radial-gradient(52% 66% at 84% 14%, rgba(244, 114, 182, 0.56) 0%, rgba(244, 114, 182, 0) 100%),
+    radial-gradient(74% 98% at 50% 88%, rgba(254, 205, 211, 0.42) 0%, rgba(254, 205, 211, 0) 100%),
+    linear-gradient(150deg, #fff1f2 0%, #fce7f3 52%, #fbcfe8 100%);
+  border: 1px solid rgba(225, 29, 72, 0.24);
+  box-shadow: 0 0 0 1px rgba(251, 113, 133, 0.14), 0 14px 34px -18px rgba(190, 24, 93, 0.56), 0 0 40px rgba(244, 114, 182, 0.24);
+}
+
+/* 32h. Glow cosmos velvet */
+.radial-glow-cosmos-velvet {
+  background-image:
+    radial-gradient(48% 66% at 12% 10%, rgba(129, 140, 248, 0.58) 0%, rgba(129, 140, 248, 0) 100%),
+    radial-gradient(52% 68% at 86% 12%, rgba(192, 132, 252, 0.5) 0%, rgba(192, 132, 252, 0) 100%),
+    radial-gradient(78% 100% at 50% 90%, rgba(14, 165, 233, 0.3) 0%, rgba(14, 165, 233, 0) 100%),
+    linear-gradient(150deg, #1e1b4b 0%, #312e81 54%, #1f2937 100%);
+  border: 1px solid rgba(129, 140, 248, 0.32);
+  box-shadow: 0 0 0 1px rgba(165, 180, 252, 0.16), 0 14px 34px -18px rgba(67, 56, 202, 0.58), 0 0 44px rgba(167, 139, 250, 0.24);
+}
+
+/* 32i. Glow asteroid amber */
+.radial-glow-asteroid-amber {
+  background-image:
+    radial-gradient(46% 62% at 16% 12%, rgba(251, 191, 36, 0.68) 0%, rgba(251, 191, 36, 0) 100%),
+    radial-gradient(50% 66% at 84% 16%, rgba(249, 115, 22, 0.6) 0%, rgba(249, 115, 22, 0) 100%),
+    radial-gradient(72% 96% at 50% 88%, rgba(253, 186, 116, 0.42) 0%, rgba(253, 186, 116, 0) 100%),
+    linear-gradient(148deg, #fffbeb 0%, #fef3c7 52%, #fed7aa 100%);
+  border: 1px solid rgba(217, 119, 6, 0.26);
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.14), 0 14px 34px -18px rgba(180, 83, 9, 0.58), 0 0 42px rgba(251, 146, 60, 0.24);
+}
+
+/* 32j. Glow lunar mint */
+.radial-glow-lunar-mint {
+  background-image:
+    radial-gradient(46% 62% at 14% 12%, rgba(94, 234, 212, 0.62) 0%, rgba(94, 234, 212, 0) 100%),
+    radial-gradient(50% 66% at 84% 14%, rgba(45, 212, 191, 0.56) 0%, rgba(45, 212, 191, 0) 100%),
+    radial-gradient(74% 96% at 50% 88%, rgba(209, 250, 229, 0.42) 0%, rgba(209, 250, 229, 0) 100%),
+    linear-gradient(150deg, #ecfeff 0%, #ccfbf1 52%, #dcfce7 100%);
+  border: 1px solid rgba(13, 148, 136, 0.24);
+  box-shadow: 0 0 0 1px rgba(94, 234, 212, 0.14), 0 14px 34px -18px rgba(15, 118, 110, 0.56), 0 0 40px rgba(45, 212, 191, 0.24);
+}
+
+/* 32k. Glow solar lilac */
+.radial-glow-solar-lilac {
+  background-image:
+    radial-gradient(46% 62% at 14% 10%, rgba(250, 204, 21, 0.62) 0%, rgba(250, 204, 21, 0) 100%),
+    radial-gradient(52% 66% at 86% 16%, rgba(216, 180, 254, 0.56) 0%, rgba(216, 180, 254, 0) 100%),
+    radial-gradient(76% 98% at 50% 88%, rgba(192, 132, 252, 0.4) 0%, rgba(192, 132, 252, 0) 100%),
+    linear-gradient(150deg, #fefce8 0%, #f5f3ff 54%, #fae8ff 100%);
+  border: 1px solid rgba(168, 85, 247, 0.24);
+  box-shadow: 0 0 0 1px rgba(250, 204, 21, 0.12), 0 14px 34px -18px rgba(126, 34, 206, 0.54), 0 0 40px rgba(216, 180, 254, 0.24);
+}
+
+/* 32l. Glow galactic berry */
+.radial-glow-galactic-berry {
+  background-image:
+    radial-gradient(44% 60% at 14% 12%, rgba(244, 114, 182, 0.66) 0%, rgba(244, 114, 182, 0) 100%),
+    radial-gradient(52% 66% at 84% 14%, rgba(168, 85, 247, 0.58) 0%, rgba(168, 85, 247, 0) 100%),
+    radial-gradient(74% 96% at 50% 88%, rgba(236, 72, 153, 0.42) 0%, rgba(236, 72, 153, 0) 100%),
+    linear-gradient(148deg, #fdf2f8 0%, #fae8ff 52%, #f5d0fe 100%);
+  border: 1px solid rgba(192, 38, 211, 0.26);
+  box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.14), 0 14px 34px -18px rgba(147, 51, 234, 0.56), 0 0 42px rgba(236, 72, 153, 0.24);
+}
+
+/* 32m. Glow deep space teal */
+.radial-glow-deep-space-teal {
+  background-image:
+    radial-gradient(46% 64% at 14% 12%, rgba(34, 211, 238, 0.52) 0%, rgba(34, 211, 238, 0) 100%),
+    radial-gradient(52% 68% at 86% 14%, rgba(45, 212, 191, 0.46) 0%, rgba(45, 212, 191, 0) 100%),
+    radial-gradient(76% 100% at 50% 90%, rgba(56, 189, 248, 0.28) 0%, rgba(56, 189, 248, 0) 100%),
+    linear-gradient(150deg, #082f49 0%, #0f766e 52%, #0f172a 100%);
+  border: 1px solid rgba(45, 212, 191, 0.32);
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.16), 0 14px 34px -18px rgba(15, 118, 110, 0.58), 0 0 44px rgba(14, 165, 233, 0.24);
+}
+
+/* 32n. Glow comet cyan */
+.radial-glow-comet-cyan {
+  background-image:
+    radial-gradient(44% 60% at 12% 10%, rgba(103, 232, 249, 0.66) 0%, rgba(103, 232, 249, 0) 100%),
+    radial-gradient(50% 66% at 84% 12%, rgba(34, 211, 238, 0.56) 0%, rgba(34, 211, 238, 0) 100%),
+    radial-gradient(72% 94% at 50% 88%, rgba(56, 189, 248, 0.42) 0%, rgba(56, 189, 248, 0) 100%),
+    linear-gradient(150deg, #ecfeff 0%, #cffafe 50%, #bae6fd 100%);
+  border: 1px solid rgba(8, 145, 178, 0.24);
+  box-shadow: 0 0 0 1px rgba(103, 232, 249, 0.14), 0 14px 34px -18px rgba(14, 116, 144, 0.56), 0 0 40px rgba(34, 211, 238, 0.24);
+}
+
+/* 32o. Glow equinox violet */
+.radial-glow-equinox-violet {
+  background-image:
+    radial-gradient(46% 62% at 14% 12%, rgba(196, 181, 253, 0.66) 0%, rgba(196, 181, 253, 0) 100%),
+    radial-gradient(52% 68% at 86% 14%, rgba(167, 139, 250, 0.56) 0%, rgba(167, 139, 250, 0) 100%),
+    radial-gradient(74% 96% at 50% 88%, rgba(129, 140, 248, 0.42) 0%, rgba(129, 140, 248, 0) 100%),
+    linear-gradient(148deg, #eef2ff 0%, #e9d5ff 52%, #ddd6fe 100%);
+  border: 1px solid rgba(109, 40, 217, 0.24);
+  box-shadow: 0 0 0 1px rgba(196, 181, 253, 0.14), 0 14px 34px -18px rgba(91, 33, 182, 0.56), 0 0 42px rgba(129, 140, 248, 0.24);
+}
+
+/* 32p. Glow zenith gold */
+.radial-glow-zenith-gold {
+  background-image:
+    radial-gradient(46% 62% at 14% 10%, rgba(253, 224, 71, 0.68) 0%, rgba(253, 224, 71, 0) 100%),
+    radial-gradient(50% 66% at 84% 14%, rgba(251, 146, 60, 0.56) 0%, rgba(251, 146, 60, 0) 100%),
+    radial-gradient(74% 98% at 50% 88%, rgba(254, 240, 138, 0.4) 0%, rgba(254, 240, 138, 0) 100%),
+    linear-gradient(150deg, #fffbeb 0%, #fef3c7 50%, #fef9c3 100%);
+  border: 1px solid rgba(202, 138, 4, 0.24);
+  box-shadow: 0 0 0 1px rgba(253, 224, 71, 0.14), 0 14px 34px -18px rgba(161, 98, 7, 0.56), 0 0 40px rgba(250, 204, 21, 0.24);
+}
+
+/* 32q. Glow stellar indigo */
+.radial-glow-stellar-indigo {
+  background-image:
+    radial-gradient(46% 62% at 14% 12%, rgba(129, 140, 248, 0.66) 0%, rgba(129, 140, 248, 0) 100%),
+    radial-gradient(50% 66% at 84% 14%, rgba(99, 102, 241, 0.58) 0%, rgba(99, 102, 241, 0) 100%),
+    radial-gradient(74% 96% at 50% 88%, rgba(165, 180, 252, 0.4) 0%, rgba(165, 180, 252, 0) 100%),
+    linear-gradient(150deg, #eef2ff 0%, #e0e7ff 50%, #c7d2fe 100%);
+  border: 1px solid rgba(79, 70, 229, 0.25);
+  box-shadow: 0 0 0 1px rgba(129, 140, 248, 0.14), 0 14px 34px -18px rgba(67, 56, 202, 0.58), 0 0 42px rgba(99, 102, 241, 0.24);
+}
+
+/* 32r. Glow moonlit coral */
+.radial-glow-moonlit-coral {
+  background-image:
+    radial-gradient(44% 60% at 12% 10%, rgba(253, 186, 116, 0.66) 0%, rgba(253, 186, 116, 0) 100%),
+    radial-gradient(52% 68% at 86% 16%, rgba(251, 113, 133, 0.54) 0%, rgba(251, 113, 133, 0) 100%),
+    radial-gradient(74% 96% at 50% 88%, rgba(254, 205, 211, 0.42) 0%, rgba(254, 205, 211, 0) 100%),
+    linear-gradient(148deg, #fff7ed 0%, #ffe4e6 52%, #fef3c7 100%);
+  border: 1px solid rgba(234, 88, 12, 0.24);
+  box-shadow: 0 0 0 1px rgba(253, 186, 116, 0.14), 0 14px 34px -18px rgba(225, 29, 72, 0.54), 0 0 40px rgba(251, 113, 133, 0.24);
+}
+
+/* 32s. Glow quartz nebula */
+.radial-glow-quartz-nebula {
+  background-image:
+    radial-gradient(46% 62% at 14% 10%, rgba(244, 114, 182, 0.56) 0%, rgba(244, 114, 182, 0) 100%),
+    radial-gradient(50% 66% at 86% 14%, rgba(125, 211, 252, 0.46) 0%, rgba(125, 211, 252, 0) 100%),
+    radial-gradient(76% 98% at 50% 88%, rgba(196, 181, 253, 0.4) 0%, rgba(196, 181, 253, 0) 100%),
+    linear-gradient(150deg, #fdf2f8 0%, #eef2ff 52%, #e0f2fe 100%);
+  border: 1px solid rgba(168, 85, 247, 0.23);
+  box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.12), 0 14px 34px -18px rgba(91, 33, 182, 0.5), 0 0 40px rgba(125, 211, 252, 0.22);
+}
+
+/* 32t. Glow plasma orbit */
+.radial-glow-plasma-orbit {
+  background-image:
+    radial-gradient(48% 66% at 12% 10%, rgba(217, 70, 239, 0.56) 0%, rgba(217, 70, 239, 0) 100%),
+    radial-gradient(52% 68% at 86% 12%, rgba(56, 189, 248, 0.44) 0%, rgba(56, 189, 248, 0) 100%),
+    radial-gradient(78% 102% at 50% 90%, rgba(168, 85, 247, 0.32) 0%, rgba(168, 85, 247, 0) 100%),
+    linear-gradient(150deg, #1e1b4b 0%, #312e81 48%, #0f172a 100%);
+  border: 1px solid rgba(168, 85, 247, 0.32);
+  box-shadow: 0 0 0 1px rgba(217, 70, 239, 0.16), 0 14px 34px -18px rgba(79, 70, 229, 0.56), 0 0 44px rgba(56, 189, 248, 0.24);
+}
+
+/* 32u. Glow aurora pluto */
+.radial-glow-aurora-pluto {
+  background-image:
+    radial-gradient(46% 62% at 12% 10%, rgba(94, 234, 212, 0.56) 0%, rgba(94, 234, 212, 0) 100%),
+    radial-gradient(52% 68% at 84% 14%, rgba(192, 132, 252, 0.5) 0%, rgba(192, 132, 252, 0) 100%),
+    radial-gradient(76% 100% at 52% 90%, rgba(14, 165, 233, 0.3) 0%, rgba(14, 165, 233, 0) 100%),
+    linear-gradient(150deg, #ecfeff 0%, #ede9fe 52%, #dbeafe 100%);
+  border: 1px solid rgba(109, 40, 217, 0.24);
+  box-shadow: 0 0 0 1px rgba(94, 234, 212, 0.12), 0 14px 34px -18px rgba(79, 70, 229, 0.52), 0 0 40px rgba(34, 211, 238, 0.22);
+}
+
+/* 32v. Glow nova sky */
+.radial-glow-nova-sky {
+  background-image:
+    radial-gradient(46% 62% at 14% 10%, rgba(103, 232, 249, 0.66) 0%, rgba(103, 232, 249, 0) 100%),
+    radial-gradient(50% 66% at 84% 14%, rgba(167, 139, 250, 0.5) 0%, rgba(167, 139, 250, 0) 100%),
+    radial-gradient(74% 96% at 50% 88%, rgba(191, 219, 254, 0.42) 0%, rgba(191, 219, 254, 0) 100%),
+    linear-gradient(148deg, #f0f9ff 0%, #dbeafe 52%, #e9d5ff 100%);
+  border: 1px solid rgba(37, 99, 235, 0.23);
+  box-shadow: 0 0 0 1px rgba(103, 232, 249, 0.14), 0 14px 34px -18px rgba(67, 56, 202, 0.52), 0 0 40px rgba(147, 197, 253, 0.24);
+}
+
+/* 32w. Glow eclipse plum */
+.radial-glow-eclipse-plum {
+  background-image:
+    radial-gradient(48% 66% at 12% 10%, rgba(216, 180, 254, 0.56) 0%, rgba(216, 180, 254, 0) 100%),
+    radial-gradient(52% 68% at 86% 14%, rgba(99, 102, 241, 0.44) 0%, rgba(99, 102, 241, 0) 100%),
+    radial-gradient(78% 100% at 50% 90%, rgba(129, 140, 248, 0.3) 0%, rgba(129, 140, 248, 0) 100%),
+    linear-gradient(150deg, #312e81 0%, #4c1d95 52%, #1f2937 100%);
+  border: 1px solid rgba(167, 139, 250, 0.32);
+  box-shadow: 0 0 0 1px rgba(216, 180, 254, 0.16), 0 14px 34px -18px rgba(79, 70, 229, 0.56), 0 0 44px rgba(129, 140, 248, 0.24);
+}
+
+/* 32x. Glow saturn rings */
+.radial-glow-saturn-rings {
+  background-image:
+    radial-gradient(46% 62% at 14% 12%, rgba(253, 186, 116, 0.64) 0%, rgba(253, 186, 116, 0) 100%),
+    radial-gradient(52% 68% at 84% 14%, rgba(196, 181, 253, 0.44) 0%, rgba(196, 181, 253, 0) 100%),
+    radial-gradient(76% 98% at 50% 88%, rgba(253, 224, 71, 0.36) 0%, rgba(253, 224, 71, 0) 100%),
+    linear-gradient(148deg, #fff7ed 0%, #fef3c7 50%, #ede9fe 100%);
+  border: 1px solid rgba(180, 83, 9, 0.24);
+  box-shadow: 0 0 0 1px rgba(253, 186, 116, 0.14), 0 14px 34px -18px rgba(126, 34, 206, 0.48), 0 0 40px rgba(245, 158, 11, 0.22);
+}
+
+/* 32y. Glow neptune frost */
+.radial-glow-neptune-frost {
+  background-image:
+    radial-gradient(46% 62% at 12% 10%, rgba(147, 197, 253, 0.64) 0%, rgba(147, 197, 253, 0) 100%),
+    radial-gradient(52% 68% at 86% 14%, rgba(34, 211, 238, 0.5) 0%, rgba(34, 211, 238, 0) 100%),
+    radial-gradient(76% 100% at 50% 90%, rgba(224, 242, 254, 0.36) 0%, rgba(224, 242, 254, 0) 100%),
+    linear-gradient(150deg, #eff6ff 0%, #dbeafe 50%, #cffafe 100%);
+  border: 1px solid rgba(14, 116, 144, 0.24);
+  box-shadow: 0 0 0 1px rgba(147, 197, 253, 0.14), 0 14px 34px -18px rgba(14, 116, 144, 0.52), 0 0 40px rgba(34, 211, 238, 0.22);
+}
+
+/* 33. Border mist silver */
+.radial-border-mist-silver {
+  background-image:
+    radial-gradient(110% 120% at 50% 20%, rgba(255, 255, 255, 0.76) 0%, rgba(243, 244, 246, 0.72) 100%);
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 8px 24px -20px rgba(15, 23, 42, 0.32);
+}
+
+/* 34. Border frost blue */
+.radial-border-frost-blue {
+  background-image:
+    radial-gradient(115% 125% at 45% 15%, rgba(239, 246, 255, 0.78) 0%, rgba(219, 234, 254, 0.68) 100%);
+  border: 1px solid rgba(59, 130, 246, 0.48);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.82), 0 10px 24px -20px rgba(59, 130, 246, 0.35);
+}
+
+/* 35. Border velvet lilac */
+.radial-border-velvet-lilac {
+  background-image:
+    radial-gradient(115% 125% at 55% 12%, rgba(250, 245, 255, 0.78) 0%, rgba(237, 233, 254, 0.7) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.82), 0 10px 24px -20px rgba(124, 58, 237, 0.34);
+}
+
+/* 36. Border mint glass */
+.radial-border-mint-glass {
+  background-image:
+    radial-gradient(115% 125% at 50% 14%, rgba(236, 253, 245, 0.76) 0%, rgba(209, 250, 229, 0.7) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.84), 0 10px 24px -20px rgba(5, 150, 105, 0.34);
+}
+
+/* 37. Border peach cream */
+.radial-border-peach-cream {
+  background-image:
+    radial-gradient(115% 125% at 52% 14%, rgba(255, 247, 237, 0.8) 0%, rgba(254, 215, 170, 0.62) 100%);
+  border: 1px solid rgba(249, 115, 22, 0.48);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.84), 0 10px 24px -20px rgba(234, 88, 12, 0.34);
+}
+
+/* 38. Border rose quartz */
+.radial-border-rose-quartz {
+  background-image:
+    radial-gradient(115% 125% at 52% 12%, rgba(255, 241, 242, 0.8) 0%, rgba(254, 205, 211, 0.64) 100%);
+  border: 1px solid rgba(244, 63, 94, 0.48);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.84), 0 10px 24px -20px rgba(225, 29, 72, 0.33);
+}
+
+/* 39. Border amber haze */
+.radial-border-amber-haze {
+  background-image:
+    radial-gradient(115% 125% at 52% 12%, rgba(255, 251, 235, 0.8) 0%, rgba(254, 240, 138, 0.62) 100%);
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.84), 0 10px 24px -20px rgba(217, 119, 6, 0.34);
+}
+
+/* 40. Border sky pearl */
+.radial-border-sky-pearl {
+  background-image:
+    radial-gradient(115% 125% at 50% 12%, rgba(240, 249, 255, 0.8) 0%, rgba(186, 230, 253, 0.64) 100%);
+  border: 1px solid rgba(14, 165, 233, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.84), 0 10px 24px -20px rgba(2, 132, 199, 0.34);
+}
+
+/* 41. Border slate smoke */
+.radial-border-slate-smoke {
+  background-image:
+    radial-gradient(115% 125% at 50% 12%, rgba(248, 250, 252, 0.78) 0%, rgba(226, 232, 240, 0.66) 100%);
+  border: 1px solid rgba(100, 116, 139, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.84), 0 10px 24px -20px rgba(51, 65, 85, 0.34);
+}
+
+/* 42. Border plum ice */
+.radial-border-plum-ice {
+  background-image:
+    radial-gradient(115% 125% at 52% 12%, rgba(250, 245, 255, 0.8) 0%, rgba(221, 214, 254, 0.66) 100%);
+  border: 1px solid rgba(124, 58, 237, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.84), 0 10px 24px -20px rgba(109, 40, 217, 0.34);
+}
+
+
+/* === AUTO: 100 additional gradients START === */
+
+/* linear 1 */
+.radial-linear-aurora-path {
+  background-image: linear-gradient(120deg, #ecfeff 0%, #67e8f9 54%, #0ea5e9 100%);
+  border: 1px solid rgba(14, 116, 144, 0.22);
+}
+
+/* linear 2 */
+.radial-linear-coral-breeze {
+  background-image: linear-gradient(127deg, #fff7ed 0%, #fdba74 54%, #f97316 100%);
+  border: 1px solid rgba(194, 65, 12, 0.22);
+}
+
+/* linear 3 */
+.radial-linear-mint-slide {
+  background-image: linear-gradient(134deg, #f5f3ff 0%, #c4b5fd 54%, #7c3aed 100%);
+  border: 1px solid rgba(109, 40, 217, 0.22);
+}
+
+/* linear 4 */
+.radial-linear-indigo-rise {
+  background-image: linear-gradient(141deg, #ecfdf5 0%, #6ee7b7 54%, #10b981 100%);
+  border: 1px solid rgba(5, 150, 105, 0.22);
+}
+
+/* linear 5 */
+.radial-linear-sunset-tilt {
+  background-image: linear-gradient(148deg, #eff6ff 0%, #93c5fd 54%, #2563eb 100%);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+}
+
+/* linear 6 */
+.radial-linear-lime-drift {
+  background-image: linear-gradient(155deg, #fdf2f8 0%, #f9a8d4 54%, #db2777 100%);
+  border: 1px solid rgba(190, 24, 93, 0.22);
+}
+
+/* linear 7 */
+.radial-linear-cobalt-wash {
+  background-image: linear-gradient(162deg, #fffbeb 0%, #fcd34d 54%, #f59e0b 100%);
+  border: 1px solid rgba(180, 83, 9, 0.22);
+}
+
+/* linear 8 */
+.radial-linear-rose-beam {
+  background-image: linear-gradient(169deg, #f0fdfa 0%, #5eead4 54%, #0d9488 100%);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+}
+
+/* linear 9 */
+.radial-linear-arctic-glow {
+  background-image: linear-gradient(176deg, #eef2ff 0%, #818cf8 54%, #4f46e5 100%);
+  border: 1px solid rgba(67, 56, 202, 0.22);
+}
+
+/* linear 10 */
+.radial-linear-amber-rush {
+  background-image: linear-gradient(183deg, #fef2f2 0%, #fda4af 54%, #e11d48 100%);
+  border: 1px solid rgba(190, 18, 60, 0.22);
+}
+
+/* radial 1 */
+.radial-radial-cyan-orb {
+  background-image: radial-gradient(130% 130% at 10% 8%, #ecfeff 0%, #67e8f9 55%, #0ea5e9 100%);
+  border: 1px solid rgba(14, 116, 144, 0.22);
+}
+
+/* radial 2 */
+.radial-radial-peach-core {
+  background-image: radial-gradient(130% 130% at 18% 13%, #fff7ed 0%, #fdba74 55%, #f97316 100%);
+  border: 1px solid rgba(194, 65, 12, 0.22);
+}
+
+/* radial 3 */
+.radial-radial-violet-halo {
+  background-image: radial-gradient(130% 130% at 26% 18%, #f5f3ff 0%, #c4b5fd 55%, #7c3aed 100%);
+  border: 1px solid rgba(109, 40, 217, 0.22);
+}
+
+/* radial 4 */
+.radial-radial-mint-pulse {
+  background-image: radial-gradient(130% 130% at 34% 23%, #ecfdf5 0%, #6ee7b7 55%, #10b981 100%);
+  border: 1px solid rgba(5, 150, 105, 0.22);
+}
+
+/* radial 5 */
+.radial-radial-sky-burst {
+  background-image: radial-gradient(130% 130% at 42% 28%, #eff6ff 0%, #93c5fd 55%, #2563eb 100%);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+}
+
+/* radial 6 */
+.radial-radial-berry-aura {
+  background-image: radial-gradient(130% 130% at 50% 33%, #fdf2f8 0%, #f9a8d4 55%, #db2777 100%);
+  border: 1px solid rgba(190, 24, 93, 0.22);
+}
+
+/* radial 7 */
+.radial-radial-gold-fade {
+  background-image: radial-gradient(130% 130% at 58% 8%, #fffbeb 0%, #fcd34d 55%, #f59e0b 100%);
+  border: 1px solid rgba(180, 83, 9, 0.22);
+}
+
+/* radial 8 */
+.radial-radial-teal-sphere {
+  background-image: radial-gradient(130% 130% at 66% 13%, #f0fdfa 0%, #5eead4 55%, #0d9488 100%);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+}
+
+/* radial 9 */
+.radial-radial-indigo-bloom {
+  background-image: radial-gradient(130% 130% at 74% 18%, #eef2ff 0%, #818cf8 55%, #4f46e5 100%);
+  border: 1px solid rgba(67, 56, 202, 0.22);
+}
+
+/* radial 10 */
+.radial-radial-rose-orbit {
+  background-image: radial-gradient(130% 130% at 82% 23%, #fef2f2 0%, #fda4af 55%, #e11d48 100%);
+  border: 1px solid rgba(190, 18, 60, 0.22);
+}
+
+/* conic 1 */
+.radial-conic-prism-spin {
+  background-image: conic-gradient(from 0deg at 50% 50%, #ecfeff 0deg, #67e8f9 150deg, #0ea5e9 300deg, #ecfeff 360deg);
+  border: 1px solid rgba(14, 116, 144, 0.22);
+}
+
+/* conic 2 */
+.radial-conic-lagoon-turn {
+  background-image: conic-gradient(from 18deg at 50% 50%, #fff7ed 0deg, #fdba74 150deg, #f97316 300deg, #fff7ed 360deg);
+  border: 1px solid rgba(194, 65, 12, 0.22);
+}
+
+/* conic 3 */
+.radial-conic-lava-ring {
+  background-image: conic-gradient(from 36deg at 50% 50%, #f5f3ff 0deg, #c4b5fd 150deg, #7c3aed 300deg, #f5f3ff 360deg);
+  border: 1px solid rgba(109, 40, 217, 0.22);
+}
+
+/* conic 4 */
+.radial-conic-aurora-wheel {
+  background-image: conic-gradient(from 54deg at 50% 50%, #ecfdf5 0deg, #6ee7b7 150deg, #10b981 300deg, #ecfdf5 360deg);
+  border: 1px solid rgba(5, 150, 105, 0.22);
+}
+
+/* conic 5 */
+.radial-conic-citrus-sweep {
+  background-image: conic-gradient(from 72deg at 50% 50%, #eff6ff 0deg, #93c5fd 150deg, #2563eb 300deg, #eff6ff 360deg);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+}
+
+/* conic 6 */
+.radial-conic-berry-vortex {
+  background-image: conic-gradient(from 90deg at 50% 50%, #fdf2f8 0deg, #f9a8d4 150deg, #db2777 300deg, #fdf2f8 360deg);
+  border: 1px solid rgba(190, 24, 93, 0.22);
+}
+
+/* conic 7 */
+.radial-conic-neon-disc {
+  background-image: conic-gradient(from 108deg at 50% 50%, #fffbeb 0deg, #fcd34d 150deg, #f59e0b 300deg, #fffbeb 360deg);
+  border: 1px solid rgba(180, 83, 9, 0.22);
+}
+
+/* conic 8 */
+.radial-conic-slate-swirl {
+  background-image: conic-gradient(from 126deg at 50% 50%, #f0fdfa 0deg, #5eead4 150deg, #0d9488 300deg, #f0fdfa 360deg);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+}
+
+/* conic 9 */
+.radial-conic-tropic-loop {
+  background-image: conic-gradient(from 144deg at 50% 50%, #eef2ff 0deg, #818cf8 150deg, #4f46e5 300deg, #eef2ff 360deg);
+  border: 1px solid rgba(67, 56, 202, 0.22);
+}
+
+/* conic 10 */
+.radial-conic-solar-fan {
+  background-image: conic-gradient(from 162deg at 50% 50%, #fef2f2 0deg, #fda4af 150deg, #e11d48 300deg, #fef2f2 360deg);
+  border: 1px solid rgba(190, 18, 60, 0.22);
+}
+
+/* repLinear 1 */
+.radial-repeating-linear-candy-stripe {
+  background-image:
+    repeating-linear-gradient(120deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(136deg, #ecfeff 0%, #67e8f9 52%, #0ea5e9 100%);
+  border: 1px solid rgba(14, 116, 144, 0.22);
+}
+
+/* repLinear 2 */
+.radial-repeating-linear-mint-lines {
+  background-image:
+    repeating-linear-gradient(127deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(143deg, #fff7ed 0%, #fdba74 52%, #f97316 100%);
+  border: 1px solid rgba(194, 65, 12, 0.22);
+}
+
+/* repLinear 3 */
+.radial-repeating-linear-cobalt-lattice {
+  background-image:
+    repeating-linear-gradient(134deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(150deg, #f5f3ff 0%, #c4b5fd 52%, #7c3aed 100%);
+  border: 1px solid rgba(109, 40, 217, 0.22);
+}
+
+/* repLinear 4 */
+.radial-repeating-linear-sunset-bars {
+  background-image:
+    repeating-linear-gradient(141deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(157deg, #ecfdf5 0%, #6ee7b7 52%, #10b981 100%);
+  border: 1px solid rgba(5, 150, 105, 0.22);
+}
+
+/* repLinear 5 */
+.radial-repeating-linear-violet-stitch {
+  background-image:
+    repeating-linear-gradient(148deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(164deg, #eff6ff 0%, #93c5fd 52%, #2563eb 100%);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+}
+
+/* repLinear 6 */
+.radial-repeating-linear-arctic-track {
+  background-image:
+    repeating-linear-gradient(155deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(171deg, #fdf2f8 0%, #f9a8d4 52%, #db2777 100%);
+  border: 1px solid rgba(190, 24, 93, 0.22);
+}
+
+/* repLinear 7 */
+.radial-repeating-linear-amber-mark {
+  background-image:
+    repeating-linear-gradient(162deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(178deg, #fffbeb 0%, #fcd34d 52%, #f59e0b 100%);
+  border: 1px solid rgba(180, 83, 9, 0.22);
+}
+
+/* repLinear 8 */
+.radial-repeating-linear-rose-ribbon {
+  background-image:
+    repeating-linear-gradient(169deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(185deg, #f0fdfa 0%, #5eead4 52%, #0d9488 100%);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+}
+
+/* repLinear 9 */
+.radial-repeating-linear-teal-code {
+  background-image:
+    repeating-linear-gradient(176deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(192deg, #eef2ff 0%, #818cf8 52%, #4f46e5 100%);
+  border: 1px solid rgba(67, 56, 202, 0.22);
+}
+
+/* repLinear 10 */
+.radial-repeating-linear-lime-grid {
+  background-image:
+    repeating-linear-gradient(183deg, rgba(255,255,255,0.3) 0 8px, rgba(255,255,255,0) 8px 16px),
+    linear-gradient(199deg, #fef2f2 0%, #fda4af 52%, #e11d48 100%);
+  border: 1px solid rgba(190, 18, 60, 0.22);
+}
+
+/* repRadial 1 */
+.radial-repeating-radial-cosmo-rings {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #ecfeff 0%, #67e8f9 58%, #0ea5e9 100%);
+  border: 1px solid rgba(14, 116, 144, 0.22);
+}
+
+/* repRadial 2 */
+.radial-repeating-radial-peach-target {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #fff7ed 0%, #fdba74 58%, #f97316 100%);
+  border: 1px solid rgba(194, 65, 12, 0.22);
+}
+
+/* repRadial 3 */
+.radial-repeating-radial-cyan-ripple {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #f5f3ff 0%, #c4b5fd 58%, #7c3aed 100%);
+  border: 1px solid rgba(109, 40, 217, 0.22);
+}
+
+/* repRadial 4 */
+.radial-repeating-radial-violet-echo {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #ecfdf5 0%, #6ee7b7 58%, #10b981 100%);
+  border: 1px solid rgba(5, 150, 105, 0.22);
+}
+
+/* repRadial 5 */
+.radial-repeating-radial-gold-wave {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #eff6ff 0%, #93c5fd 58%, #2563eb 100%);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+}
+
+/* repRadial 6 */
+.radial-repeating-radial-lime-orbit {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #fdf2f8 0%, #f9a8d4 58%, #db2777 100%);
+  border: 1px solid rgba(190, 24, 93, 0.22);
+}
+
+/* repRadial 7 */
+.radial-repeating-radial-ember-radar {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #fffbeb 0%, #fcd34d 58%, #f59e0b 100%);
+  border: 1px solid rgba(180, 83, 9, 0.22);
+}
+
+/* repRadial 8 */
+.radial-repeating-radial-sky-sonar {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #f0fdfa 0%, #5eead4 58%, #0d9488 100%);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+}
+
+/* repRadial 9 */
+.radial-repeating-radial-teal-pulse {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #eef2ff 0%, #818cf8 58%, #4f46e5 100%);
+  border: 1px solid rgba(67, 56, 202, 0.22);
+}
+
+/* repRadial 10 */
+.radial-repeating-radial-rose-radar {
+  background-image:
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.34) 0 8px, rgba(255,255,255,0) 8px 16px),
+    radial-gradient(135% 135% at 40% 20%, #fef2f2 0%, #fda4af 58%, #e11d48 100%);
+  border: 1px solid rgba(190, 18, 60, 0.22);
+}
+
+/* repConic 1 */
+.radial-repeating-conic-prism-tick {
+  background-image:
+    repeating-conic-gradient(from 0deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 0deg at 50% 50%, #ecfeff 0deg, #67e8f9 160deg, #0ea5e9 320deg, #ecfeff 360deg);
+  border: 1px solid rgba(14, 116, 144, 0.22);
+}
+
+/* repConic 2 */
+.radial-repeating-conic-lagoon-dial {
+  background-image:
+    repeating-conic-gradient(from 10deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 16deg at 50% 50%, #fff7ed 0deg, #fdba74 160deg, #f97316 320deg, #fff7ed 360deg);
+  border: 1px solid rgba(194, 65, 12, 0.22);
+}
+
+/* repConic 3 */
+.radial-repeating-conic-lava-saw {
+  background-image:
+    repeating-conic-gradient(from 20deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 32deg at 50% 50%, #f5f3ff 0deg, #c4b5fd 160deg, #7c3aed 320deg, #f5f3ff 360deg);
+  border: 1px solid rgba(109, 40, 217, 0.22);
+}
+
+/* repConic 4 */
+.radial-repeating-conic-mint-clock {
+  background-image:
+    repeating-conic-gradient(from 30deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 48deg at 50% 50%, #ecfdf5 0deg, #6ee7b7 160deg, #10b981 320deg, #ecfdf5 360deg);
+  border: 1px solid rgba(5, 150, 105, 0.22);
+}
+
+/* repConic 5 */
+.radial-repeating-conic-violet-pin {
+  background-image:
+    repeating-conic-gradient(from 40deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 64deg at 50% 50%, #eff6ff 0deg, #93c5fd 160deg, #2563eb 320deg, #eff6ff 360deg);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+}
+
+/* repConic 6 */
+.radial-repeating-conic-coral-sprocket {
+  background-image:
+    repeating-conic-gradient(from 50deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 80deg at 50% 50%, #fdf2f8 0deg, #f9a8d4 160deg, #db2777 320deg, #fdf2f8 360deg);
+  border: 1px solid rgba(190, 24, 93, 0.22);
+}
+
+/* repConic 7 */
+.radial-repeating-conic-cyan-gear {
+  background-image:
+    repeating-conic-gradient(from 60deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 96deg at 50% 50%, #fffbeb 0deg, #fcd34d 160deg, #f59e0b 320deg, #fffbeb 360deg);
+  border: 1px solid rgba(180, 83, 9, 0.22);
+}
+
+/* repConic 8 */
+.radial-repeating-conic-amber-shard {
+  background-image:
+    repeating-conic-gradient(from 70deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 112deg at 50% 50%, #f0fdfa 0deg, #5eead4 160deg, #0d9488 320deg, #f0fdfa 360deg);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+}
+
+/* repConic 9 */
+.radial-repeating-conic-indigo-arc {
+  background-image:
+    repeating-conic-gradient(from 80deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 128deg at 50% 50%, #eef2ff 0deg, #818cf8 160deg, #4f46e5 320deg, #eef2ff 360deg);
+  border: 1px solid rgba(67, 56, 202, 0.22);
+}
+
+/* repConic 10 */
+.radial-repeating-conic-rose-flare {
+  background-image:
+    repeating-conic-gradient(from 90deg at 50% 50%, rgba(255,255,255,0.32) 0deg 12deg, rgba(255,255,255,0) 12deg 24deg),
+    conic-gradient(from 144deg at 50% 50%, #fef2f2 0deg, #fda4af 160deg, #e11d48 320deg, #fef2f2 360deg);
+  border: 1px solid rgba(190, 18, 60, 0.22);
+}
+
+/* multi 1 */
+.radial-multi-stop-rainbow-soft {
+  background-image: linear-gradient(120deg, #ecfeff 0%, #ecfdf5 22%, #67e8f9 45%, #6ee7b7 68%, #0ea5e9 100%);
+  border: 1px solid rgba(14, 116, 144, 0.22);
+}
+
+/* multi 2 */
+.radial-multi-stop-ocean-pop {
+  background-image: linear-gradient(127deg, #fff7ed 0%, #eff6ff 22%, #fdba74 45%, #93c5fd 68%, #f97316 100%);
+  border: 1px solid rgba(194, 65, 12, 0.22);
+}
+
+/* multi 3 */
+.radial-multi-stop-berry-nebula {
+  background-image: linear-gradient(134deg, #f5f3ff 0%, #fdf2f8 22%, #c4b5fd 45%, #f9a8d4 68%, #7c3aed 100%);
+  border: 1px solid rgba(109, 40, 217, 0.22);
+}
+
+/* multi 4 */
+.radial-multi-stop-sunrise-layer {
+  background-image: linear-gradient(141deg, #ecfdf5 0%, #fffbeb 22%, #6ee7b7 45%, #fcd34d 68%, #10b981 100%);
+  border: 1px solid rgba(5, 150, 105, 0.22);
+}
+
+/* multi 5 */
+.radial-multi-stop-forest-stream {
+  background-image: linear-gradient(148deg, #eff6ff 0%, #f0fdfa 22%, #93c5fd 45%, #5eead4 68%, #2563eb 100%);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+}
+
+/* multi 6 */
+.radial-multi-stop-neon-garden {
+  background-image: linear-gradient(155deg, #fdf2f8 0%, #eef2ff 22%, #f9a8d4 45%, #818cf8 68%, #db2777 100%);
+  border: 1px solid rgba(190, 24, 93, 0.22);
+}
+
+/* multi 7 */
+.radial-multi-stop-candy-cloud {
+  background-image: linear-gradient(162deg, #fffbeb 0%, #fef2f2 22%, #fcd34d 45%, #fda4af 68%, #f59e0b 100%);
+  border: 1px solid rgba(180, 83, 9, 0.22);
+}
+
+/* multi 8 */
+.radial-multi-stop-aurora-stack {
+  background-image: linear-gradient(169deg, #f0fdfa 0%, #ecfeff 22%, #5eead4 45%, #67e8f9 68%, #0d9488 100%);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+}
+
+/* multi 9 */
+.radial-multi-stop-desert-haze {
+  background-image: linear-gradient(176deg, #eef2ff 0%, #fff7ed 22%, #818cf8 45%, #fdba74 68%, #4f46e5 100%);
+  border: 1px solid rgba(67, 56, 202, 0.22);
+}
+
+/* multi 10 */
+.radial-multi-stop-cosmic-ribbon {
+  background-image: linear-gradient(183deg, #fef2f2 0%, #f5f3ff 22%, #fda4af 45%, #c4b5fd 68%, #e11d48 100%);
+  border: 1px solid rgba(190, 18, 60, 0.22);
+}
+
+/* transparent 1 */
+.radial-transparent-sky-wash {
+  background-image:
+    linear-gradient(120deg, #ecfeffCC 0%, #67e8f999 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #ecfdf566 0%, #6ee7b744 60%, #ffffff00 100%);
+  border: 1px solid rgba(14, 116, 144, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* transparent 2 */
+.radial-transparent-rose-mist {
+  background-image:
+    linear-gradient(127deg, #fff7edCC 0%, #fdba7499 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #eff6ff66 0%, #93c5fd44 60%, #ffffff00 100%);
+  border: 1px solid rgba(194, 65, 12, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* transparent 3 */
+.radial-transparent-mint-veil {
+  background-image:
+    linear-gradient(134deg, #f5f3ffCC 0%, #c4b5fd99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #fdf2f866 0%, #f9a8d444 60%, #ffffff00 100%);
+  border: 1px solid rgba(109, 40, 217, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* transparent 4 */
+.radial-transparent-cobalt-fade {
+  background-image:
+    linear-gradient(141deg, #ecfdf5CC 0%, #6ee7b799 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #fffbeb66 0%, #fcd34d44 60%, #ffffff00 100%);
+  border: 1px solid rgba(5, 150, 105, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* transparent 5 */
+.radial-transparent-gold-breeze {
+  background-image:
+    linear-gradient(148deg, #eff6ffCC 0%, #93c5fd99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #f0fdfa66 0%, #5eead444 60%, #ffffff00 100%);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* transparent 6 */
+.radial-transparent-violet-glass {
+  background-image:
+    linear-gradient(155deg, #fdf2f8CC 0%, #f9a8d499 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #eef2ff66 0%, #818cf844 60%, #ffffff00 100%);
+  border: 1px solid rgba(190, 24, 93, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* transparent 7 */
+.radial-transparent-coral-hush {
+  background-image:
+    linear-gradient(162deg, #fffbebCC 0%, #fcd34d99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #fef2f266 0%, #fda4af44 60%, #ffffff00 100%);
+  border: 1px solid rgba(180, 83, 9, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* transparent 8 */
+.radial-transparent-lime-sheen {
+  background-image:
+    linear-gradient(169deg, #f0fdfaCC 0%, #5eead499 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #ecfeff66 0%, #67e8f944 60%, #ffffff00 100%);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* transparent 9 */
+.radial-transparent-teal-air {
+  background-image:
+    linear-gradient(176deg, #eef2ffCC 0%, #818cf899 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #fff7ed66 0%, #fdba7444 60%, #ffffff00 100%);
+  border: 1px solid rgba(67, 56, 202, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* transparent 10 */
+.radial-transparent-berry-film {
+  background-image:
+    linear-gradient(183deg, #fef2f2CC 0%, #fda4af99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 20% 10%, #f5f3ff66 0%, #c4b5fd44 60%, #ffffff00 100%);
+  border: 1px solid rgba(190, 18, 60, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* mesh 1 */
+.radial-mesh-neo-cyanfield {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #67e8f999 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #6ee7b788 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #0ea5e977 0%, #ffffff00 100%),
+    linear-gradient(120deg, #ecfeff 0%, #ecfdf5 52%, #10b981 100%);
+  border: 1px solid rgba(14, 116, 144, 0.22);
+}
+
+/* mesh 2 */
+.radial-mesh-neo-peachlight {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #fdba7499 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #93c5fd88 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #f9731677 0%, #ffffff00 100%),
+    linear-gradient(127deg, #fff7ed 0%, #eff6ff 52%, #2563eb 100%);
+  border: 1px solid rgba(194, 65, 12, 0.22);
+}
+
+/* mesh 3 */
+.radial-mesh-neo-violetbay {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #c4b5fd99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #f9a8d488 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #7c3aed77 0%, #ffffff00 100%),
+    linear-gradient(134deg, #f5f3ff 0%, #fdf2f8 52%, #db2777 100%);
+  border: 1px solid rgba(109, 40, 217, 0.22);
+}
+
+/* mesh 4 */
+.radial-mesh-neo-mintbloom {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #6ee7b799 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #fcd34d88 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #10b98177 0%, #ffffff00 100%),
+    linear-gradient(141deg, #ecfdf5 0%, #fffbeb 52%, #f59e0b 100%);
+  border: 1px solid rgba(5, 150, 105, 0.22);
+}
+
+/* mesh 5 */
+.radial-mesh-neo-cobaltmist {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #93c5fd99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #5eead488 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #2563eb77 0%, #ffffff00 100%),
+    linear-gradient(148deg, #eff6ff 0%, #f0fdfa 52%, #0d9488 100%);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+}
+
+/* mesh 6 */
+.radial-mesh-neo-amberwave {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #f9a8d499 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #818cf888 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #db277777 0%, #ffffff00 100%),
+    linear-gradient(155deg, #fdf2f8 0%, #eef2ff 52%, #4f46e5 100%);
+  border: 1px solid rgba(190, 24, 93, 0.22);
+}
+
+/* mesh 7 */
+.radial-mesh-neo-rosegarden {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #fcd34d99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #fda4af88 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #f59e0b77 0%, #ffffff00 100%),
+    linear-gradient(162deg, #fffbeb 0%, #fef2f2 52%, #e11d48 100%);
+  border: 1px solid rgba(180, 83, 9, 0.22);
+}
+
+/* mesh 8 */
+.radial-mesh-neo-limeplasma {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #5eead499 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #67e8f988 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #0d948877 0%, #ffffff00 100%),
+    linear-gradient(169deg, #f0fdfa 0%, #ecfeff 52%, #0ea5e9 100%);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+}
+
+/* mesh 9 */
+.radial-mesh-neo-tealstorm {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #818cf899 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #fdba7488 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #4f46e577 0%, #ffffff00 100%),
+    linear-gradient(176deg, #eef2ff 0%, #fff7ed 52%, #f97316 100%);
+  border: 1px solid rgba(67, 56, 202, 0.22);
+}
+
+/* mesh 10 */
+.radial-mesh-neo-solarflux {
+  background-image:
+    radial-gradient(58% 76% at 10% 14%, #fda4af99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #c4b5fd88 0%, #ffffff00 100%),
+    radial-gradient(72% 96% at 50% 90%, #e11d4877 0%, #ffffff00 100%),
+    linear-gradient(183deg, #fef2f2 0%, #f5f3ff 52%, #7c3aed 100%);
+  border: 1px solid rgba(190, 18, 60, 0.22);
+}
+
+/* noise 1 */
+.radial-noise-overlay-frost {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(120deg, #ecfeff 0%, #67e8f9 54%, #0ea5e9 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(14, 116, 144, 0.22);
+}
+
+/* noise 2 */
+.radial-noise-overlay-lagoon {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(127deg, #fff7ed 0%, #fdba74 54%, #f97316 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(194, 65, 12, 0.22);
+}
+
+/* noise 3 */
+.radial-noise-overlay-sunset {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(134deg, #f5f3ff 0%, #c4b5fd 54%, #7c3aed 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(109, 40, 217, 0.22);
+}
+
+/* noise 4 */
+.radial-noise-overlay-orchid {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(141deg, #ecfdf5 0%, #6ee7b7 54%, #10b981 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(5, 150, 105, 0.22);
+}
+
+/* noise 5 */
+.radial-noise-overlay-lime {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(148deg, #eff6ff 0%, #93c5fd 54%, #2563eb 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(37, 99, 235, 0.22);
+}
+
+/* noise 6 */
+.radial-noise-overlay-cobalt {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(155deg, #fdf2f8 0%, #f9a8d4 54%, #db2777 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(190, 24, 93, 0.22);
+}
+
+/* noise 7 */
+.radial-noise-overlay-amber {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(162deg, #fffbeb 0%, #fcd34d 54%, #f59e0b 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(180, 83, 9, 0.22);
+}
+
+/* noise 8 */
+.radial-noise-overlay-rose {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(169deg, #f0fdfa 0%, #5eead4 54%, #0d9488 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(13, 148, 136, 0.22);
+}
+
+/* noise 9 */
+.radial-noise-overlay-mint {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(176deg, #eef2ff 0%, #818cf8 54%, #4f46e5 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(67, 56, 202, 0.22);
+}
+
+/* noise 10 */
+.radial-noise-overlay-cosmic {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    linear-gradient(183deg, #fef2f2 0%, #fda4af 54%, #e11d48 100%);
+  background-size: 140px 140px, auto;
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgba(190, 18, 60, 0.22);
+}
+
+/* === AUTO: 100 additional gradients END === */
+
+/* === AUTO: 100 gender gradients START === */
+
+/* femme 1 */
+.radial-femme-rose-velvet {
+  background-image: linear-gradient(110deg, #fff1f2 0%, #fda4af 56%, #e11d48 100%);
+  border: 1px solid rgba(225, 29, 72, 0.26);
+}
+
+/* femme 2 */
+.radial-femme-cherry-blush {
+  background-image: radial-gradient(135% 135% at 19% 13%, #fdf2f8 0%, #f9a8d4 58%, #db2777 100%);
+  border: 1px solid rgba(219, 39, 119, 0.26);
+}
+
+/* femme 3 */
+.radial-femme-peony-dream {
+  background-image: conic-gradient(from 34deg at 50% 50%, #faf5ff 0deg, #d8b4fe 150deg, #9333ea 300deg, #faf5ff 360deg);
+  border: 1px solid rgba(147, 51, 234, 0.26);
+}
+
+/* femme 4 */
+.radial-femme-lilac-muse {
+  background-image:
+    repeating-linear-gradient(143deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(157deg, #fff7ed 0%, #fdba74 52%, #f97316 100%);
+  border: 1px solid rgba(249, 115, 22, 0.26);
+}
+
+/* femme 5 */
+.radial-femme-orchid-silk {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #fecdd399 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #f9a8d488 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #fb718577 0%, #ffffff00 100%),
+    linear-gradient(154deg, #fef2f2 0%, #fce7f3 50%, #ec4899 100%);
+  border: 1px solid rgba(251, 113, 133, 0.26);
+}
+
+/* femme 6 */
+.radial-femme-lavender-glow {
+  background-image:
+    linear-gradient(165deg, #f3e8ffCC 0%, #c4b5fd99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #fdf4ff66 0%, #f0abfc44 62%, #ffffff00 100%);
+  border: 1px solid rgba(139, 92, 246, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* femme 7 */
+.radial-femme-berry-kiss {
+  background-image: linear-gradient(176deg, #ffe4e6 0%, #fda4af 56%, #f43f5e 100%);
+  border: 1px solid rgba(244, 63, 94, 0.26);
+}
+
+/* femme 8 */
+.radial-femme-coral-ribbon {
+  background-image: radial-gradient(135% 135% at 61% 13%, #fce7f3 0%, #f9a8d4 58%, #ec4899 100%);
+  border: 1px solid rgba(236, 72, 153, 0.26);
+}
+
+/* femme 9 */
+.radial-femme-aurora-petal {
+  background-image: conic-gradient(from 136deg at 50% 50%, #fdf4ff 0deg, #f0abfc 150deg, #d946ef 300deg, #fdf4ff 360deg);
+  border: 1px solid rgba(217, 70, 239, 0.26);
+}
+
+/* femme 10 */
+.radial-femme-rosewater-mist {
+  background-image:
+    repeating-linear-gradient(209deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(223deg, #fff0f6 0%, #fda4d5 52%, #e11d8d 100%);
+  border: 1px solid rgba(225, 29, 141, 0.26);
+}
+
+/* femme 11 */
+.radial-femme-mauve-satin {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #fda4af99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #fdba7488 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #e11d4877 0%, #ffffff00 100%),
+    linear-gradient(220deg, #fff1f2 0%, #fff7ed 50%, #f97316 100%);
+  border: 1px solid rgba(225, 29, 72, 0.26);
+}
+
+/* femme 12 */
+.radial-femme-fuchsia-flair {
+  background-image:
+    linear-gradient(231deg, #fdf2f8CC 0%, #f9a8d499 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #fef2f266 0%, #fecdd344 62%, #ffffff00 100%);
+  border: 1px solid rgba(219, 39, 119, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* femme 13 */
+.radial-femme-plum-whisper {
+  background-image: linear-gradient(242deg, #faf5ff 0%, #d8b4fe 56%, #9333ea 100%);
+  border: 1px solid rgba(147, 51, 234, 0.26);
+}
+
+/* femme 14 */
+.radial-femme-powder-bloom {
+  background-image: radial-gradient(135% 135% at 33% 13%, #fff7ed 0%, #fdba74 58%, #f97316 100%);
+  border: 1px solid rgba(249, 115, 22, 0.26);
+}
+
+/* femme 15 */
+.radial-femme-pink-champagne {
+  background-image: conic-gradient(from 238deg at 50% 50%, #fef2f2 0deg, #fecdd3 150deg, #fb7185 300deg, #fef2f2 360deg);
+  border: 1px solid rgba(251, 113, 133, 0.26);
+}
+
+/* femme 16 */
+.radial-femme-sunset-macaroon {
+  background-image:
+    repeating-linear-gradient(275deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(289deg, #f3e8ff 0%, #c4b5fd 52%, #8b5cf6 100%);
+  border: 1px solid rgba(139, 92, 246, 0.26);
+}
+
+/* femme 17 */
+.radial-femme-cranberry-milk {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #fda4af99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #fda4d588 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #f43f5e77 0%, #ffffff00 100%),
+    linear-gradient(286deg, #ffe4e6 0%, #fff0f6 50%, #e11d8d 100%);
+  border: 1px solid rgba(244, 63, 94, 0.26);
+}
+
+/* femme 18 */
+.radial-femme-ruby-lace {
+  background-image:
+    linear-gradient(297deg, #fce7f3CC 0%, #f9a8d499 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #fff1f266 0%, #fda4af44 62%, #ffffff00 100%);
+  border: 1px solid rgba(236, 72, 153, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* femme 19 */
+.radial-femme-blush-cashmere {
+  background-image: linear-gradient(308deg, #fdf4ff 0%, #f0abfc 56%, #d946ef 100%);
+  border: 1px solid rgba(217, 70, 239, 0.26);
+}
+
+/* femme 20 */
+.radial-femme-violet-bonbon {
+  background-image: radial-gradient(135% 135% at 75% 13%, #fff0f6 0%, #fda4d5 58%, #e11d8d 100%);
+  border: 1px solid rgba(225, 29, 141, 0.26);
+}
+
+/* femme 21 */
+.radial-femme-raspberry-cloud {
+  background-image: conic-gradient(from 340deg at 50% 50%, #fff1f2 0deg, #fda4af 150deg, #e11d48 300deg, #fff1f2 360deg);
+  border: 1px solid rgba(225, 29, 72, 0.26);
+}
+
+/* femme 22 */
+.radial-femme-ballet-peach {
+  background-image:
+    repeating-linear-gradient(121deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(135deg, #fdf2f8 0%, #f9a8d4 52%, #db2777 100%);
+  border: 1px solid rgba(219, 39, 119, 0.26);
+}
+
+/* femme 23 */
+.radial-femme-strawberry-cream {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #d8b4fe99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #c4b5fd88 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #9333ea77 0%, #ffffff00 100%),
+    linear-gradient(132deg, #faf5ff 0%, #f3e8ff 50%, #8b5cf6 100%);
+  border: 1px solid rgba(147, 51, 234, 0.26);
+}
+
+/* femme 24 */
+.radial-femme-magenta-breeze {
+  background-image:
+    linear-gradient(143deg, #fff7edCC 0%, #fdba7499 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #ffe4e666 0%, #fda4af44 62%, #ffffff00 100%);
+  border: 1px solid rgba(249, 115, 22, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* femme 25 */
+.radial-femme-berry-sorbet {
+  background-image: linear-gradient(154deg, #fef2f2 0%, #fecdd3 56%, #fb7185 100%);
+  border: 1px solid rgba(251, 113, 133, 0.26);
+}
+
+/* femme 26 */
+.radial-femme-candy-floss {
+  background-image: radial-gradient(135% 135% at 47% 13%, #f3e8ff 0%, #c4b5fd 58%, #8b5cf6 100%);
+  border: 1px solid rgba(139, 92, 246, 0.26);
+}
+
+/* femme 27 */
+.radial-femme-sakura-haze {
+  background-image: conic-gradient(from 82deg at 50% 50%, #ffe4e6 0deg, #fda4af 150deg, #f43f5e 300deg, #ffe4e6 360deg);
+  border: 1px solid rgba(244, 63, 94, 0.26);
+}
+
+/* femme 28 */
+.radial-femme-rose-quartz-pop {
+  background-image:
+    repeating-linear-gradient(187deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(201deg, #fce7f3 0%, #f9a8d4 52%, #ec4899 100%);
+  border: 1px solid rgba(236, 72, 153, 0.26);
+}
+
+/* femme 29 */
+.radial-femme-cupid-sky {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #f0abfc99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #f9a8d488 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #d946ef77 0%, #ffffff00 100%),
+    linear-gradient(198deg, #fdf4ff 0%, #fdf2f8 50%, #db2777 100%);
+  border: 1px solid rgba(217, 70, 239, 0.26);
+}
+
+/* femme 30 */
+.radial-femme-petal-prism {
+  background-image:
+    linear-gradient(209deg, #fff0f6CC 0%, #fda4d599 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #faf5ff66 0%, #d8b4fe44 62%, #ffffff00 100%);
+  border: 1px solid rgba(225, 29, 141, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* femme 31 */
+.radial-femme-sugar-plum {
+  background-image: linear-gradient(220deg, #fff1f2 0%, #fda4af 56%, #e11d48 100%);
+  border: 1px solid rgba(225, 29, 72, 0.26);
+}
+
+/* femme 32 */
+.radial-femme-amethyst-petal {
+  background-image: radial-gradient(135% 135% at 19% 13%, #fdf2f8 0%, #f9a8d4 58%, #db2777 100%);
+  border: 1px solid rgba(219, 39, 119, 0.26);
+}
+
+/* femme 33 */
+.radial-femme-watermelon-glam {
+  background-image: conic-gradient(from 184deg at 50% 50%, #faf5ff 0deg, #d8b4fe 150deg, #9333ea 300deg, #faf5ff 360deg);
+  border: 1px solid rgba(147, 51, 234, 0.26);
+}
+
+/* femme 34 */
+.radial-femme-bubblegum-sheen {
+  background-image:
+    repeating-linear-gradient(253deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(267deg, #fff7ed 0%, #fdba74 52%, #f97316 100%);
+  border: 1px solid rgba(249, 115, 22, 0.26);
+}
+
+/* femme 35 */
+.radial-femme-rose-lipgloss {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #fecdd399 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #f9a8d488 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #fb718577 0%, #ffffff00 100%),
+    linear-gradient(264deg, #fef2f2 0%, #fce7f3 50%, #ec4899 100%);
+  border: 1px solid rgba(251, 113, 133, 0.26);
+}
+
+/* femme 36 */
+.radial-femme-dahlia-dust {
+  background-image:
+    linear-gradient(275deg, #f3e8ffCC 0%, #c4b5fd99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #fdf4ff66 0%, #f0abfc44 62%, #ffffff00 100%);
+  border: 1px solid rgba(139, 92, 246, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* femme 37 */
+.radial-femme-camellia-frost {
+  background-image: linear-gradient(286deg, #ffe4e6 0%, #fda4af 56%, #f43f5e 100%);
+  border: 1px solid rgba(244, 63, 94, 0.26);
+}
+
+/* femme 38 */
+.radial-femme-poppy-radiance {
+  background-image: radial-gradient(135% 135% at 61% 13%, #fce7f3 0%, #f9a8d4 58%, #ec4899 100%);
+  border: 1px solid rgba(236, 72, 153, 0.26);
+}
+
+/* femme 39 */
+.radial-femme-lotus-luster {
+  background-image: conic-gradient(from 286deg at 50% 50%, #fdf4ff 0deg, #f0abfc 150deg, #d946ef 300deg, #fdf4ff 360deg);
+  border: 1px solid rgba(217, 70, 239, 0.26);
+}
+
+/* femme 40 */
+.radial-femme-ladyberry-wave {
+  background-image:
+    repeating-linear-gradient(319deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(333deg, #fff0f6 0%, #fda4d5 52%, #e11d8d 100%);
+  border: 1px solid rgba(225, 29, 141, 0.26);
+}
+
+/* femme 41 */
+.radial-femme-moonberry-spark {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #fda4af99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #fdba7488 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #e11d4877 0%, #ffffff00 100%),
+    linear-gradient(110deg, #fff1f2 0%, #fff7ed 50%, #f97316 100%);
+  border: 1px solid rgba(225, 29, 72, 0.26);
+}
+
+/* femme 42 */
+.radial-femme-coraline-splash {
+  background-image:
+    linear-gradient(121deg, #fdf2f8CC 0%, #f9a8d499 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #fef2f266 0%, #fecdd344 62%, #ffffff00 100%);
+  border: 1px solid rgba(219, 39, 119, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* femme 43 */
+.radial-femme-rosewood-aura {
+  background-image: linear-gradient(132deg, #faf5ff 0%, #d8b4fe 56%, #9333ea 100%);
+  border: 1px solid rgba(147, 51, 234, 0.26);
+}
+
+/* femme 44 */
+.radial-femme-vintage-blush {
+  background-image: radial-gradient(135% 135% at 33% 13%, #fff7ed 0%, #fdba74 58%, #f97316 100%);
+  border: 1px solid rgba(249, 115, 22, 0.26);
+}
+
+/* femme 45 */
+.radial-femme-pink-nebula {
+  background-image: conic-gradient(from 28deg at 50% 50%, #fef2f2 0deg, #fecdd3 150deg, #fb7185 300deg, #fef2f2 360deg);
+  border: 1px solid rgba(251, 113, 133, 0.26);
+}
+
+/* femme 46 */
+.radial-femme-fairy-berry {
+  background-image:
+    repeating-linear-gradient(165deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(179deg, #f3e8ff 0%, #c4b5fd 52%, #8b5cf6 100%);
+  border: 1px solid rgba(139, 92, 246, 0.26);
+}
+
+/* femme 47 */
+.radial-femme-velvet-dawn {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #fda4af99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #fda4d588 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #f43f5e77 0%, #ffffff00 100%),
+    linear-gradient(176deg, #ffe4e6 0%, #fff0f6 50%, #e11d8d 100%);
+  border: 1px solid rgba(244, 63, 94, 0.26);
+}
+
+/* femme 48 */
+.radial-femme-iris-couture {
+  background-image:
+    linear-gradient(187deg, #fce7f3CC 0%, #f9a8d499 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #fff1f266 0%, #fda4af44 62%, #ffffff00 100%);
+  border: 1px solid rgba(236, 72, 153, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* femme 49 */
+.radial-femme-jammy-rose {
+  background-image: linear-gradient(198deg, #fdf4ff 0%, #f0abfc 56%, #d946ef 100%);
+  border: 1px solid rgba(217, 70, 239, 0.26);
+}
+
+/* femme 50 */
+.radial-femme-soft-garnet {
+  background-image: radial-gradient(135% 135% at 75% 13%, #fff0f6 0%, #fda4d5 58%, #e11d8d 100%);
+  border: 1px solid rgba(225, 29, 141, 0.26);
+}
+
+/* masc 1 */
+.radial-masc-carbon-steel {
+  background-image: linear-gradient(220deg, #f1f5f9 0%, #94a3b8 56%, #334155 100%);
+  border: 1px solid rgba(51, 65, 85, 0.26);
+}
+
+/* masc 2 */
+.radial-masc-midnight-drive {
+  background-image: radial-gradient(135% 135% at 19% 23%, #eff6ff 0%, #60a5fa 58%, #1d4ed8 100%);
+  border: 1px solid rgba(29, 78, 216, 0.26);
+}
+
+/* masc 3 */
+.radial-masc-graphite-rush {
+  background-image: conic-gradient(from 164deg at 50% 50%, #ecfeff 0deg, #22d3ee 150deg, #0f766e 300deg, #ecfeff 360deg);
+  border: 1px solid rgba(15, 118, 110, 0.26);
+}
+
+/* masc 4 */
+.radial-masc-ocean-force {
+  background-image:
+    repeating-linear-gradient(253deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(267deg, #f7fee7 0%, #a3e635 52%, #4d7c0f 100%);
+  border: 1px solid rgba(77, 124, 15, 0.26);
+}
+
+/* masc 5 */
+.radial-masc-slate-pulse {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #facc1599 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #84cc1688 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #a1620777 0%, #ffffff00 100%),
+    linear-gradient(264deg, #fefce8 0%, #ecfccb 50%, #365314 100%);
+  border: 1px solid rgba(161, 98, 7, 0.26);
+}
+
+/* masc 6 */
+.radial-masc-forest-core {
+  background-image:
+    linear-gradient(275deg, #f5f5f4CC 0%, #a8a29e99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #ede9fe66 0%, #818cf844 62%, #ffffff00 100%);
+  border: 1px solid rgba(68, 64, 60, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* masc 7 */
+.radial-masc-iron-moss {
+  background-image: linear-gradient(286deg, #e2e8f0 0%, #64748b 56%, #1e293b 100%);
+  border: 1px solid rgba(30, 41, 59, 0.26);
+}
+
+/* masc 8 */
+.radial-masc-denim-current {
+  background-image: radial-gradient(135% 135% at 61% 23%, #ecfccb 0%, #84cc16 58%, #365314 100%);
+  border: 1px solid rgba(54, 83, 20, 0.26);
+}
+
+/* masc 9 */
+.radial-masc-cobalt-engine {
+  background-image: conic-gradient(from 266deg at 50% 50%, #ede9fe 0deg, #818cf8 150deg, #3730a3 300deg, #ede9fe 360deg);
+  border: 1px solid rgba(55, 48, 163, 0.26);
+}
+
+/* masc 10 */
+.radial-masc-ember-smoke {
+  background-image:
+    repeating-linear-gradient(319deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(333deg, #e0f2fe 0%, #38bdf8 52%, #0369a1 100%);
+  border: 1px solid rgba(3, 105, 161, 0.26);
+}
+
+/* masc 11 */
+.radial-masc-deep-olive {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #94a3b899 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #a3e63588 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #33415577 0%, #ffffff00 100%),
+    linear-gradient(110deg, #f1f5f9 0%, #f7fee7 50%, #4d7c0f 100%);
+  border: 1px solid rgba(51, 65, 85, 0.26);
+}
+
+/* masc 12 */
+.radial-masc-thunder-ink {
+  background-image:
+    linear-gradient(121deg, #eff6ffCC 0%, #60a5fa99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #fefce866 0%, #facc1544 62%, #ffffff00 100%);
+  border: 1px solid rgba(29, 78, 216, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* masc 13 */
+.radial-masc-arctic-forge {
+  background-image: linear-gradient(132deg, #ecfeff 0%, #22d3ee 56%, #0f766e 100%);
+  border: 1px solid rgba(15, 118, 110, 0.26);
+}
+
+/* masc 14 */
+.radial-masc-teal-circuit {
+  background-image: radial-gradient(135% 135% at 33% 23%, #f7fee7 0%, #a3e635 58%, #4d7c0f 100%);
+  border: 1px solid rgba(77, 124, 15, 0.26);
+}
+
+/* masc 15 */
+.radial-masc-brooklyn-night {
+  background-image: conic-gradient(from 8deg at 50% 50%, #fefce8 0deg, #facc15 150deg, #a16207 300deg, #fefce8 360deg);
+  border: 1px solid rgba(161, 98, 7, 0.26);
+}
+
+/* masc 16 */
+.radial-masc-bourbon-wood {
+  background-image:
+    repeating-linear-gradient(165deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(179deg, #f5f5f4 0%, #a8a29e 52%, #44403c 100%);
+  border: 1px solid rgba(68, 64, 60, 0.26);
+}
+
+/* masc 17 */
+.radial-masc-titanium-blue {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #64748b99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #38bdf888 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #1e293b77 0%, #ffffff00 100%),
+    linear-gradient(176deg, #e2e8f0 0%, #e0f2fe 50%, #0369a1 100%);
+  border: 1px solid rgba(30, 41, 59, 0.26);
+}
+
+/* masc 18 */
+.radial-masc-asphalt-glow {
+  background-image:
+    linear-gradient(187deg, #ecfccbCC 0%, #84cc1699 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #f1f5f966 0%, #94a3b844 62%, #ffffff00 100%);
+  border: 1px solid rgba(54, 83, 20, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* masc 19 */
+.radial-masc-navy-signal {
+  background-image: linear-gradient(198deg, #ede9fe 0%, #818cf8 56%, #3730a3 100%);
+  border: 1px solid rgba(55, 48, 163, 0.26);
+}
+
+/* masc 20 */
+.radial-masc-cyber-khaki {
+  background-image: radial-gradient(135% 135% at 75% 23%, #e0f2fe 0%, #38bdf8 58%, #0369a1 100%);
+  border: 1px solid rgba(3, 105, 161, 0.26);
+}
+
+/* masc 21 */
+.radial-masc-shadow-lime {
+  background-image: conic-gradient(from 110deg at 50% 50%, #f1f5f9 0deg, #94a3b8 150deg, #334155 300deg, #f1f5f9 360deg);
+  border: 1px solid rgba(51, 65, 85, 0.26);
+}
+
+/* masc 22 */
+.radial-masc-bronze-volt {
+  background-image:
+    repeating-linear-gradient(231deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(245deg, #eff6ff 0%, #60a5fa 52%, #1d4ed8 100%);
+  border: 1px solid rgba(29, 78, 216, 0.26);
+}
+
+/* masc 23 */
+.radial-masc-storm-jet {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #22d3ee99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #a8a29e88 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #0f766e77 0%, #ffffff00 100%),
+    linear-gradient(242deg, #ecfeff 0%, #f5f5f4 50%, #44403c 100%);
+  border: 1px solid rgba(15, 118, 110, 0.26);
+}
+
+/* masc 24 */
+.radial-masc-petrol-wave {
+  background-image:
+    linear-gradient(253deg, #f7fee7CC 0%, #a3e63599 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #e2e8f066 0%, #64748b44 62%, #ffffff00 100%);
+  border: 1px solid rgba(77, 124, 15, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* masc 25 */
+.radial-masc-obsidian-sky {
+  background-image: linear-gradient(264deg, #fefce8 0%, #facc15 56%, #a16207 100%);
+  border: 1px solid rgba(161, 98, 7, 0.26);
+}
+
+/* masc 26 */
+.radial-masc-granite-echo {
+  background-image: radial-gradient(135% 135% at 47% 23%, #f5f5f4 0%, #a8a29e 58%, #44403c 100%);
+  border: 1px solid rgba(68, 64, 60, 0.26);
+}
+
+/* masc 27 */
+.radial-masc-gunmetal-rain {
+  background-image: conic-gradient(from 212deg at 50% 50%, #e2e8f0 0deg, #64748b 150deg, #1e293b 300deg, #e2e8f0 360deg);
+  border: 1px solid rgba(30, 41, 59, 0.26);
+}
+
+/* masc 28 */
+.radial-masc-baltic-wind {
+  background-image:
+    repeating-linear-gradient(297deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(311deg, #ecfccb 0%, #84cc16 52%, #365314 100%);
+  border: 1px solid rgba(54, 83, 20, 0.26);
+}
+
+/* masc 29 */
+.radial-masc-pine-oxide {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #818cf899 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #60a5fa88 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #3730a377 0%, #ffffff00 100%),
+    linear-gradient(308deg, #ede9fe 0%, #eff6ff 50%, #1d4ed8 100%);
+  border: 1px solid rgba(55, 48, 163, 0.26);
+}
+
+/* masc 30 */
+.radial-masc-copper-night {
+  background-image:
+    linear-gradient(319deg, #e0f2feCC 0%, #38bdf899 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #ecfeff66 0%, #22d3ee44 62%, #ffffff00 100%);
+  border: 1px solid rgba(3, 105, 161, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* masc 31 */
+.radial-masc-ranger-green {
+  background-image: linear-gradient(110deg, #f1f5f9 0%, #94a3b8 56%, #334155 100%);
+  border: 1px solid rgba(51, 65, 85, 0.26);
+}
+
+/* masc 32 */
+.radial-masc-ice-steel {
+  background-image: radial-gradient(135% 135% at 19% 23%, #eff6ff 0%, #60a5fa 58%, #1d4ed8 100%);
+  border: 1px solid rgba(29, 78, 216, 0.26);
+}
+
+/* masc 33 */
+.radial-masc-aero-indigo {
+  background-image: conic-gradient(from 314deg at 50% 50%, #ecfeff 0deg, #22d3ee 150deg, #0f766e 300deg, #ecfeff 360deg);
+  border: 1px solid rgba(15, 118, 110, 0.26);
+}
+
+/* masc 34 */
+.radial-masc-marine-current {
+  background-image:
+    repeating-linear-gradient(143deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(157deg, #f7fee7 0%, #a3e635 52%, #4d7c0f 100%);
+  border: 1px solid rgba(77, 124, 15, 0.26);
+}
+
+/* masc 35 */
+.radial-masc-urban-smoke {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #facc1599 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #84cc1688 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #a1620777 0%, #ffffff00 100%),
+    linear-gradient(154deg, #fefce8 0%, #ecfccb 50%, #365314 100%);
+  border: 1px solid rgba(161, 98, 7, 0.26);
+}
+
+/* masc 36 */
+.radial-masc-dark-cyan-shift {
+  background-image:
+    linear-gradient(165deg, #f5f5f4CC 0%, #a8a29e99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #ede9fe66 0%, #818cf844 62%, #ffffff00 100%);
+  border: 1px solid rgba(68, 64, 60, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* masc 37 */
+.radial-masc-night-amber {
+  background-image: linear-gradient(176deg, #e2e8f0 0%, #64748b 56%, #1e293b 100%);
+  border: 1px solid rgba(30, 41, 59, 0.26);
+}
+
+/* masc 38 */
+.radial-masc-neon-asphalt {
+  background-image: radial-gradient(135% 135% at 61% 23%, #ecfccb 0%, #84cc16 58%, #365314 100%);
+  border: 1px solid rgba(54, 83, 20, 0.26);
+}
+
+/* masc 39 */
+.radial-masc-fjord-shadow {
+  background-image: conic-gradient(from 56deg at 50% 50%, #ede9fe 0deg, #818cf8 150deg, #3730a3 300deg, #ede9fe 360deg);
+  border: 1px solid rgba(55, 48, 163, 0.26);
+}
+
+/* masc 40 */
+.radial-masc-oxford-cobalt {
+  background-image:
+    repeating-linear-gradient(209deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(223deg, #e0f2fe 0%, #38bdf8 52%, #0369a1 100%);
+  border: 1px solid rgba(3, 105, 161, 0.26);
+}
+
+/* masc 41 */
+.radial-masc-ironwood-flare {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #94a3b899 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #a3e63588 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #33415577 0%, #ffffff00 100%),
+    linear-gradient(220deg, #f1f5f9 0%, #f7fee7 50%, #4d7c0f 100%);
+  border: 1px solid rgba(51, 65, 85, 0.26);
+}
+
+/* masc 42 */
+.radial-masc-voltage-denim {
+  background-image:
+    linear-gradient(231deg, #eff6ffCC 0%, #60a5fa99 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #fefce866 0%, #facc1544 62%, #ffffff00 100%);
+  border: 1px solid rgba(29, 78, 216, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* masc 43 */
+.radial-masc-hunter-slate {
+  background-image: linear-gradient(242deg, #ecfeff 0%, #22d3ee 56%, #0f766e 100%);
+  border: 1px solid rgba(15, 118, 110, 0.26);
+}
+
+/* masc 44 */
+.radial-masc-atlas-teal {
+  background-image: radial-gradient(135% 135% at 33% 23%, #f7fee7 0%, #a3e635 58%, #4d7c0f 100%);
+  border: 1px solid rgba(77, 124, 15, 0.26);
+}
+
+/* masc 45 */
+.radial-masc-charcoal-drift {
+  background-image: conic-gradient(from 158deg at 50% 50%, #fefce8 0deg, #facc15 150deg, #a16207 300deg, #fefce8 360deg);
+  border: 1px solid rgba(161, 98, 7, 0.26);
+}
+
+/* masc 46 */
+.radial-masc-glacier-graphite {
+  background-image:
+    repeating-linear-gradient(275deg, rgba(255,255,255,0.26) 0 9px, rgba(255,255,255,0) 9px 18px),
+    linear-gradient(289deg, #f5f5f4 0%, #a8a29e 52%, #44403c 100%);
+  border: 1px solid rgba(68, 64, 60, 0.26);
+}
+
+/* masc 47 */
+.radial-masc-evergreen-spark {
+  background-image:
+    radial-gradient(58% 78% at 12% 16%, #64748b99 0%, #ffffff00 100%),
+    radial-gradient(54% 78% at 86% 14%, #38bdf888 0%, #ffffff00 100%),
+    radial-gradient(72% 94% at 50% 90%, #1e293b77 0%, #ffffff00 100%),
+    linear-gradient(286deg, #e2e8f0 0%, #e0f2fe 50%, #0369a1 100%);
+  border: 1px solid rgba(30, 41, 59, 0.26);
+}
+
+/* masc 48 */
+.radial-masc-subzero-navy {
+  background-image:
+    linear-gradient(297deg, #ecfccbCC 0%, #84cc1699 45%, #ffffff00 100%),
+    radial-gradient(120% 120% at 22% 10%, #f1f5f966 0%, #94a3b844 62%, #ffffff00 100%);
+  border: 1px solid rgba(54, 83, 20, 0.26);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* masc 49 */
+.radial-masc-radar-blue {
+  background-image: linear-gradient(308deg, #ede9fe 0%, #818cf8 56%, #3730a3 100%);
+  border: 1px solid rgba(55, 48, 163, 0.26);
+}
+
+/* masc 50 */
+.radial-masc-shadow-bronze {
+  background-image: radial-gradient(135% 135% at 75% 23%, #e0f2fe 0%, #38bdf8 58%, #0369a1 100%);
+  border: 1px solid rgba(3, 105, 161, 0.26);
+}
+
+/* === AUTO: 100 gender gradients END === */
+
+/* === AUTO: flags gradients START === */
+
+/* flag 1: Armenia */
+.radial-flag-armenia {
+  background-image: linear-gradient(180deg, #D90012 33.750%, #0033A0 33.750% 67.500%, #F2A800 67.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 2: Austria */
+.radial-flag-austria {
+  background-image: linear-gradient(180deg, #C8102E 33.750%, #FFFFFF 33.750% 68.750%, #C8102E 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 3: Belgium */
+.radial-flag-belgium {
+  background-image: linear-gradient(90deg, #000000 35.000%, #FDDA25 35.000% 66.667%, #EF3340 66.667%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 4: Benin */
+.radial-flag-benin {
+  background-image: linear-gradient(180deg, #FCD116 52.500%, #E8122D 52.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 5: Bolivia */
+.radial-flag-bolivia {
+  background-image: linear-gradient(180deg, #D32011 33.750%, #F1E53D 33.750% 67.500%, #00702D 67.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 6: Botswana */
+.radial-flag-botswana {
+  background-image: linear-gradient(180deg, #6DA9D2 42.500%, #000000 42.500% 63.750%, #6DA9D2 63.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 7: Bulgaria */
+.radial-flag-bulgaria {
+  background-image: linear-gradient(180deg, #FFFFFF 35.000%, #00966E 35.000% 68.750%, #D62612 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 8: Burkina Faso */
+.radial-flag-burkina-faso {
+  background-image: linear-gradient(180deg, #EF2B2D 52.500%, #009E49 52.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 9: Cameroon */
+.radial-flag-cameroon {
+  background-image: linear-gradient(180deg, #007A5E 45.000%, #FCD116 45.000% 56.250%, #007A5E 56.250%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 10: Chad */
+.radial-flag-chad {
+  background-image: linear-gradient(90deg, #002664 35.000%, #FECB00 35.000% 66.667%, #C60C30 66.667%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 11: Colombia */
+.radial-flag-colombia {
+  background-image: linear-gradient(180deg, #FFCD00 51.250%, #003087 51.250% 77.500%, #C8102E 77.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 12: Croatia */
+.radial-flag-croatia {
+  background-image: linear-gradient(180deg, #FF0000 33.750%, #FFFFFF 33.750% 67.500%, #171796 67.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 13: Estonia */
+.radial-flag-estonia {
+  background-image: linear-gradient(180deg, #0072CE 33.750%, #000000 33.750% 67.500%, #FFFFFF 67.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 14: France */
+.radial-flag-france {
+  background-image: linear-gradient(90deg, #002654 34.167%, #FFFFFF 34.167% 68.333%, #CE1126 68.333%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 15: Gabon */
+.radial-flag-gabon {
+  background-image: linear-gradient(180deg, #009E60 35.000%, #FCD116 35.000% 68.750%, #3A75C4 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 16: Georgia */
+.radial-flag-georgia {
+  background-image: linear-gradient(180deg, #FFFFFF 41.250%, #FF0000 41.250% 60.000%, #FFFFFF 60.000%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 17: Germany */
+.radial-flag-germany {
+  background-image: linear-gradient(180deg, #000000 35.000%, #DD0000 35.000% 68.750%, #FFCE00 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 18: Guinea */
+.radial-flag-guinea {
+  background-image: linear-gradient(90deg, #CE1126 35.000%, #FCD116 35.000% 66.667%, #009460 66.667%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 19: Guinea-Bissau */
+.radial-flag-guinea-bissau {
+  background-image: linear-gradient(180deg, #FCD116 50.000%, #009E49 50.000%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 20: Hungary */
+.radial-flag-hungary {
+  background-image: linear-gradient(180deg, #CE2939 33.750%, #FFFFFF 33.750% 67.500%, #477050 67.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 21: Indonesia */
+.radial-flag-indonesia {
+  background-image: linear-gradient(180deg, #FF0000 51.250%, #FFFFFF 51.250%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 22: Ireland */
+.radial-flag-ireland {
+  background-image: linear-gradient(90deg, #169B62 34.167%, #FFFFFF 34.167% 68.333%, #FF883E 68.333%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 23: Italy */
+.radial-flag-italy {
+  background-image: linear-gradient(90deg, #009246 34.167%, #FFFFFF 34.167% 68.333%, #CE2B37 68.333%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 24: Latvia */
+.radial-flag-latvia {
+  background-image: linear-gradient(180deg, #9D2235 40.000%, #FFFFFF 40.000% 60.000%, #9D2235 60.000%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 25: Lithuania */
+.radial-flag-lithuania {
+  background-image: linear-gradient(180deg, #FDB913 33.750%, #006A44 33.750% 68.750%, #C1272D 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 26: Luxembourg */
+.radial-flag-luxembourg {
+  background-image: linear-gradient(180deg, #ED2939 33.750%, #FFFFFF 33.750% 68.750%, #00A1DE 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 27: Madagascar */
+.radial-flag-madagascar {
+  background-image: linear-gradient(180deg, #FC3D32 52.500%, #007E3A 52.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 28: Mali */
+.radial-flag-mali {
+  background-image: linear-gradient(90deg, #14B53A 35.000%, #FCD116 35.000% 68.333%, #CE1126 68.333%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 29: Mauritius */
+.radial-flag-mauritius {
+  background-image: linear-gradient(180deg, #EA2839 27.500%, #1B206D 27.500% 48.750%, #FFD500 48.750% 75.000%, #00A551 75.000%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 30: Moldova */
+.radial-flag-moldova {
+  background-image: linear-gradient(90deg, #0046AE 32.500%, #E5BD0B 32.500% 68.333%, #CC092F 68.333%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 31: Monaco */
+.radial-flag-monaco {
+  background-image: linear-gradient(180deg, #CE1126 51.250%, #FFFFFF 51.250%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 32: Netherlands */
+.radial-flag-netherlands {
+  background-image: linear-gradient(180deg, #AE1C28 33.750%, #FFFFFF 33.750% 68.750%, #21468B 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 33: Niger */
+.radial-flag-niger {
+  background-image: linear-gradient(180deg, #E05206 33.750%, #F8FCF8 33.750% 66.250%, #0DB02B 66.250%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 34: Nigeria */
+.radial-flag-nigeria {
+  background-image: linear-gradient(90deg, #008751 34.167%, #FFFFFF 34.167% 68.333%, #008751 68.333%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 35: Paraguay */
+.radial-flag-paraguay {
+  background-image: linear-gradient(180deg, #D52B1E 35.000%, #FFFFFF 35.000% 66.250%, #0038A8 66.250%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 36: Peru */
+.radial-flag-peru {
+  background-image: linear-gradient(90deg, #D91023 34.167%, #FFFFFF 34.167% 68.333%, #D91023 68.333%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 37: Poland */
+.radial-flag-poland {
+  background-image: linear-gradient(180deg, #FFFFFF 52.500%, #DC143C 52.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 38: Romania */
+.radial-flag-romania {
+  background-image: linear-gradient(90deg, #002B7F 35.000%, #FCD116 35.000% 66.667%, #CE1126 66.667%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 39: Russia */
+.radial-flag-russia {
+  background-image: linear-gradient(180deg, #FFFFFF 35.000%, #0039A6 35.000% 68.750%, #D52B1E 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 40: Serbia */
+.radial-flag-serbia {
+  background-image: linear-gradient(180deg, #C6363C 33.750%, #0C4076 33.750% 67.500%, #FFFFFF 67.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 41: Sierra Leone */
+.radial-flag-sierra-leone {
+  background-image: linear-gradient(180deg, #1EB53A 33.750%, #FFFFFF 33.750% 68.750%, #0072C6 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 42: Slovakia */
+.radial-flag-slovakia {
+  background-image: linear-gradient(180deg, #FFFFFF 33.750%, #295EA8 33.750% 68.750%, #EE1C25 68.750%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 43: Slovenia */
+.radial-flag-slovenia {
+  background-image: linear-gradient(180deg, #FFFFFF 33.750%, #0000FF 33.750% 67.500%, #FF0000 67.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 44: Thailand */
+.radial-flag-thailand {
+  background-image: linear-gradient(180deg, #A51931 18.750%, #F4F5F8 18.750% 33.750%, #2D2A4A 33.750% 68.750%, #F4F5F8 68.750% 86.250%, #A51931 86.250%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 45: Ukraine */
+.radial-flag-ukraine {
+  background-image: linear-gradient(180deg, #005BBB 52.500%, #FFD500 52.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* flag 46: Yemen */
+.radial-flag-yemen {
+  background-image: linear-gradient(180deg, #CE1126 33.750%, #FFFFFF 33.750% 67.500%, #000000 67.500%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* === AUTO: flags gradients END === */
+
+}

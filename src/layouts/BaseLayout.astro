@@ -1,0 +1,83 @@
+---
+import { SEO } from "astro-seo";
+import { SEO_CONFIG } from "../config/seo";
+import { DEFAULT_LOCALE, SITE_URL, SUPPORTED_LOCALES } from "../config/site";
+import type { Locale } from "../i18n";
+import "../styles/global.css";
+
+interface Props {
+	title: string;
+	description: string;
+	locale: Locale;
+	canonicalPath: string;
+	noindex?: boolean;
+}
+
+const { title, description, locale, canonicalPath, noindex = false } = Astro.props;
+
+const canonical = new URL(canonicalPath, `${SITE_URL}/`).toString();
+const languageAlternates = SUPPORTED_LOCALES.map((lang) => ({
+	hrefLang: lang,
+	href: `${SITE_URL}/${lang}/`,
+}));
+const ogLocaleMap: Record<Locale, string> = {
+	en: "en_US",
+	ru: "ru_RU",
+	es: "es_ES",
+	zh: "zh_CN",
+	tt: "tt_RU",
+	kk: "kk_KZ",
+	uk: "uk_UA",
+};
+const openGraphLocale = ogLocaleMap[locale];
+const openGraphLocaleAlternate = SUPPORTED_LOCALES.filter((lang) => lang !== locale).map(
+	(lang) => ogLocaleMap[lang],
+);
+---
+
+<html lang={locale}>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<SEO
+			title={title}
+			titleDefault={SEO_CONFIG.defaultTitle}
+			description={description}
+			canonical={canonical}
+			noindex={noindex}
+			nofollow={noindex}
+			robotsExtras="max-image-preview:large"
+			languageAlternates={languageAlternates}
+			openGraph={{
+				basic: {
+					title,
+					type: "website",
+					image: `${SITE_URL}${SEO_CONFIG.defaultOgImage}`,
+					url: canonical,
+				},
+				optional: {
+					description,
+					locale: openGraphLocale,
+					localeAlternate: openGraphLocaleAlternate,
+					siteName: SEO_CONFIG.siteName,
+				},
+			}}
+			twitter={{
+				card: SEO_CONFIG.twitterCard,
+				title,
+				description,
+				image: `${SITE_URL}${SEO_CONFIG.defaultOgImage}`,
+			}}
+			extend={{
+				link: [
+					{ rel: "alternate", hrefLang: "x-default", href: `${SITE_URL}/${DEFAULT_LOCALE}/` },
+				],
+			}}
+		/>
+	</head>
+	<body class="bg-white text-zinc-900 antialiased min-h-screen">
+		<main class="mx-auto w-full max-w-7xl container px-5 py-24">
+			<slot />
+		</main>
+	</body>
+</html>
