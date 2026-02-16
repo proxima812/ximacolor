@@ -1,43 +1,68 @@
-# Astro Starter Kit: Minimal
+# XimaColor
 
-```sh
-bun create astro@latest -- --template minimal
-```
+XimaColor is a fast, multilingual gradient gallery for designers and frontend developers.
+It helps you find production-ready color blocks in seconds and copy clean CSS straight into your UI.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Why This Project Is Useful
 
-## 🚀 Project Structure
+- 325 curated gradients out of the box (cards, hero sections, backgrounds, accents).
+- Built for speed: lightweight Astro frontend with Bun workflow.
+- Search and tag filtering to find the right style quickly.
+- One-click CSS copy flow for rapid prototyping and implementation.
+- Localized UI in 7 languages: English, Russian, Spanish, Chinese, Tatar, Kazakh, Ukrainian.
+- SEO-ready structure with Open Graph metadata and locale routes.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Stack
+
+- Astro
+- TypeScript
+- Bun
+- CSS gradients library (`src/styles/gradients.css`)
+
+## Project Structure
 
 ```text
 /
 ├── public/
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   ├── components/colors/   # gallery UI, tags, copy snippets
+│   ├── config/              # site + SEO settings
+│   ├── i18n/                # locale dictionaries
+│   ├── layouts/
+│   ├── pages/               # locale routes + redirect page
+│   └── styles/              # global styles + gradient definitions
+├── astro.config.mjs
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Commands
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Run from project root:
 
-Any static assets, like images, can be placed in the `public/` directory.
+| Command | Action |
+| :-- | :-- |
+| `bun install` | Install dependencies |
+| `bun dev` | Start dev server at `localhost:4321` |
+| `bun run build` | Build production output into `dist/` |
+| `bun preview` | Preview production build locally |
 
-## 🧞 Commands
+## Localization
 
-All commands are run from the root of the project, from a terminal:
+Supported locale routes:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+- `/en/`
+- `/ru/`
+- `/es/`
+- `/zh/`
+- `/tt/`
+- `/kk/`
+- `/uk/`
 
-## 👀 Want to learn more?
+Root `/` auto-detects user language (cookie + browser locale) and redirects to the best matching route.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Notes for Customization
+
+- Add or edit gradients in `src/styles/gradients.css`.
+- Update gradient IDs/list in `src/components/colors/constants.ts`.
+- Change copy and labels in `src/i18n/locales/*.ts`.
+- Tune SEO defaults in `src/config/seo.ts`.

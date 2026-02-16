@@ -1,6 +1,4 @@
 ---
-import VFooterText from "@proxima812/astro-versions-proxima/components/VFooterText";
-import VHeaderBadge from "@proxima812/astro-versions-proxima/components/VHeaderBadge";
 import type { Locale } from "../../i18n";
 import { t } from "../../i18n";
 interface Props {
@@ -14,7 +12,7 @@ const countText = t(locale, "blocksCountTemplate").replace("{count}", String(cou
 ---
 
 <main>
-	<h1 class="text-5xl text-zinc-900 tracking-[-1.2px] font-semibold leading-15">
+	<h1 class="text-[58px] text-zinc-900 tracking-[-1.2px] font-semibold leading-15">
 		{t(locale, "galleryTitle")}
 	</h1>
 	<div
@@ -28,6 +26,5 @@ const countText = t(locale, "blocksCountTemplate").replace("{count}", String(cou
 		/>
 		<span>⦁</span>
 		<span>{t(locale, "blocksWillUpdate")}</span>
-
 	</div>
 </main>

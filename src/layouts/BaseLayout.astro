@@ -1,4 +1,5 @@
 ---
+import Header from "@/components/Header.astro";
 import { SEO } from "astro-seo";
 import { SEO_CONFIG } from "../config/seo";
 import { DEFAULT_LOCALE, SITE_URL, SUPPORTED_LOCALES } from "../config/site";
@@ -77,6 +78,7 @@ const openGraphLocaleAlternate = SUPPORTED_LOCALES.filter((lang) => lang !== loc
 	</head>
 	<body class="bg-white text-zinc-900 antialiased min-h-screen">
 		<main class="mx-auto w-full max-w-7xl container px-5 py-24">
+			<Header />
 			<slot />
 		</main>
 	</body>

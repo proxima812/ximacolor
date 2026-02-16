@@ -64,8 +64,18 @@ function getTagLabel(tag: TagId) {
 			type="search"
 			placeholder={t(locale, "searchPlaceholder")}
 			data-search-input
-			class="w-full pl-11 pr-4 py-2.5 bg-white/70 backdrop-blur-md border border-zinc-200 rounded-full text-zinc-700 placeholder:text-zinc-400 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200"
+			class="w-full pl-11 pr-24 py-2.5 bg-white/70 backdrop-blur-md border border-zinc-200 rounded-full text-zinc-700 placeholder:text-zinc-400 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200"
 		/>
+		<button
+			type="button"
+			data-search-shortcut
+			class="absolute right-2.5 top-1/2 -translate-y-1/2 inline-flex items-center gap-1 rounded-lg border border-zinc-200 bg-zinc-50/90 px-2 py-1 text-[11px] font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700"
+			aria-label="Focus search"
+		>
+			<kbd data-search-shortcut-mod class="rounded border border-zinc-300 bg-white px-1.5 py-0.5 text-xs leading-none text-zinc-600">Cmd</kbd>
+			<span class="text-zinc-400">+</span>
+			<kbd class="rounded border border-zinc-300 bg-white px-1.5 py-0.5 text-xs leading-none text-zinc-600">K</kbd>
+		</button>
 	</div>
 </div>
 
@@ -92,9 +102,17 @@ function getTagLabel(tag: TagId) {
 <script is:inline>
 	const root = document.getElementById("colors-gallery-root");
 	const searchInput = root?.querySelector("[data-search-input]");
+	const searchShortcutButton = root?.querySelector("[data-search-shortcut]");
+	const shortcutModifier = root?.querySelector("[data-search-shortcut-mod]");
 	const tagButtons = root?.querySelectorAll("[data-tag-filter]");
 	const langLinks = root?.querySelectorAll("[data-lang-link]");
 	let activeTag = "all";
+
+	function focusSearch() {
+		if (!(searchInput instanceof HTMLInputElement)) return;
+		searchInput.focus();
+		searchInput.select();
+	}
 
 	if (langLinks?.length) {
 		langLinks.forEach((link) => {
@@ -131,6 +149,32 @@ function getTagLabel(tag: TagId) {
 			applyFilters();
 		});
 	}
+
+	if (shortcutModifier) {
+		const isMac = /mac|iphone|ipad|ipod/i.test(navigator.platform);
+		shortcutModifier.textContent = isMac ? "Cmd" : "Ctrl";
+	}
+
+	if (searchShortcutButton) {
+		searchShortcutButton.addEventListener("click", () => {
+			focusSearch();
+		});
+	}
+
+	document.addEventListener("keydown", (event) => {
+		if (event.key.toLowerCase() !== "k") return;
+		if (!event.metaKey && !event.ctrlKey) return;
+
+		const target = event.target;
+		const isEditable =
+			target instanceof HTMLInputElement ||
+			target instanceof HTMLTextAreaElement ||
+			(target instanceof HTMLElement && target.isContentEditable);
+		if (isEditable && target !== searchInput) return;
+
+		event.preventDefault();
+		focusSearch();
+	});
 
 	if (tagButtons?.length) {
 		tagButtons.forEach((button) => {
