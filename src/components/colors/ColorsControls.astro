@@ -12,6 +12,7 @@ interface Props {
 }
 
 const { locale, tagOptions, tagCounts, totalCount } = Astro.props;
+const disabledLocaleCodes = new Set<Locale>(["zh", "es", "kk", "ru", "uk"]);
 
 function getTagLabel(tag: TagId) {
 	const map: Record<TagId, string> = {
@@ -35,19 +36,32 @@ function getTagLabel(tag: TagId) {
 ---
 
 <div class="mb-12 flex-wrap flex items-center justify-between gap-3">
-	<div class="*:shrink-0 flex-wrap flex gap-2 items-center *:px-2.5 *:py-1 *:md:px-3 *:md:py-1.5">
+	<div
+		class="*:shrink-0 flex-wrap flex gap-2 items-center *:px-2.5 *:py-1 *:md:px-3 *:md:py-1.5"
+		role="group"
+		aria-label="Languages"
+	>
 		{
-			localeOptions.map(({ code, label }) => (
-				<a
-					href={getLocalePath(code)}
-					class="cursor-pointer lang-toggle-btn rounded-full border border-zinc-300 text-xs text-zinc-700"
-					data-lang-link
-					data-lang-btn={code}
-					aria-pressed={locale === code ? "true" : "false"}
-				>
-					{label}
-				</a>
-			))
+			localeOptions.map(({ code, label }) => {
+				const isDisabled = disabledLocaleCodes.has(code);
+				return (
+					<a
+						href={isDisabled ? undefined : getLocalePath(code)}
+						class:list={[
+							"lang-toggle-btn rounded-full border border-zinc-300 text-xs text-zinc-700",
+							isDisabled ? "cursor-not-allowed" : "cursor-pointer",
+						]}
+						data-lang-link={isDisabled ? undefined : "true"}
+						data-lang-btn={isDisabled ? undefined : code}
+						aria-current={locale === code ? "page" : "false"}
+						aria-label={label}
+						aria-disabled={isDisabled ? "true" : "false"}
+						tabindex={isDisabled ? "-1" : undefined}
+					>
+						{label}
+					</a>
+				);
+			})
 		}
 	</div>
 	<div class="relative w-full">
@@ -56,6 +70,8 @@ function getTagLabel(tag: TagId) {
 			fill="none"
 			stroke="currentColor"
 			viewBox="0 0 24 24"
+			aria-hidden="true"
+			focusable="false"
 		>
 			<path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.3-4.3m1.8-5.2a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
 		</svg>
@@ -64,6 +80,8 @@ function getTagLabel(tag: TagId) {
 			type="search"
 			placeholder={t(locale, "searchPlaceholder")}
 			data-search-input
+			aria-label={t(locale, "searchPlaceholder")}
+			aria-controls="colors-grid"
 			class="w-full pl-11 pr-24 py-2.5 bg-white/70 backdrop-blur-md border border-zinc-200 rounded-full text-zinc-700 placeholder:text-zinc-400 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200"
 		/>
 		<button
@@ -71,6 +89,8 @@ function getTagLabel(tag: TagId) {
 			data-search-shortcut
 			class="absolute right-2.5 top-1/2 -translate-y-1/2 inline-flex items-center gap-1 rounded-lg border border-zinc-200 bg-zinc-50/90 px-2 py-1 text-[11px] font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700"
 			aria-label="Focus search"
+			aria-controls="colors-grid"
+			aria-keyshortcuts="Meta+K,Control+K"
 		>
 			<kbd data-search-shortcut-mod class="rounded border border-zinc-300 bg-white px-1.5 py-0.5 text-xs leading-none text-zinc-600">Cmd</kbd>
 			<span class="text-zinc-400">+</span>
@@ -79,10 +99,17 @@ function getTagLabel(tag: TagId) {
 	</div>
 </div>
 
-<div class="mb-8 flex flex-wrap gap-2 items-center">
-	<button type="button" class="tag-filter-btn cursor-pointer rounded-full border border-zinc-300 text-xs text-zinc-700 px-3 py-1.5 inline-flex items-center gap-1.5" data-tag-filter="all" aria-pressed="true">
+<div class="mb-8 flex flex-wrap gap-2 items-center" role="group" aria-label="Filters">
+	<button
+		type="button"
+		class="tag-filter-btn cursor-pointer rounded-full border border-zinc-300 text-xs text-zinc-700 px-3 py-1.5 inline-flex items-center gap-1.5"
+		data-tag-filter="all"
+		aria-pressed="true"
+		aria-controls="colors-grid"
+		aria-label={`${t(locale, "tagAll")} (${totalCount})`}
+	>
 		{t(locale, "tagAll")}
-		<span class="tag-filter-count">{totalCount}</span>
+		<span class="tag-filter-count" aria-hidden="true">{totalCount}</span>
 	</button>
 	{
 		tagOptions.map((tag) => (
@@ -91,9 +118,11 @@ function getTagLabel(tag: TagId) {
 				class="tag-filter-btn cursor-pointer rounded-full border border-zinc-300 text-xs text-zinc-700 px-3 py-1.5 inline-flex items-center gap-1.5"
 				data-tag-filter={tag}
 				aria-pressed="false"
+				aria-controls="colors-grid"
+				aria-label={`${getTagLabel(tag)} (${tagCounts[tag] ?? 0})`}
 			>
 				{getTagLabel(tag)}
-				<span class="tag-filter-count">{tagCounts[tag] ?? 0}</span>
+				<span class="tag-filter-count" aria-hidden="true">{tagCounts[tag] ?? 0}</span>
 			</button>
 		))
 	}

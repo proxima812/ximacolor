@@ -1,6 +1,6 @@
 export const SEO_CONFIG = {
-	siteName: "XimaColor",
-	defaultTitle: "XimaColor — gradients that vibe",
+	siteName: "color.xima",
+	defaultTitle: "color.xima — gradients that vibe",
 	defaultDescription:
 		"Curated gradient collection for UI blocks, cards, hero sections, and modern interfaces.",
 	defaultOgImage: "/og-default.jpg",

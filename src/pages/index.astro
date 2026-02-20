@@ -3,34 +3,39 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from "../config/site";
 ---
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="refresh" content={`0;url=/${DEFAULT_LOCALE}/`} />
-    <title>Redirecting...</title>
-    <script is:inline define:vars={{ DEFAULT_LOCALE, SUPPORTED_LOCALES }}>
-      (function () {
-        const key = "preferred_locale";
-        const supported = new Set(SUPPORTED_LOCALES);
-        const fromCookie = document.cookie
-          .split(";")
-          .map((v) => v.trim())
-          .find((v) => v.startsWith(key + "="))
-          ?.split("=")[1];
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png?v=1" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png?v=1" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png?v=1" />
+		<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg?v=1" color="#eee" />
+		<link rel="shortcut icon" href="/favicons/favicon.ico?v=1" />
+		<meta http-equiv="refresh" content={`0;url=/${DEFAULT_LOCALE}/`} />
+		<title>Redirecting...</title>
+		<script is:inline define:vars={{ DEFAULT_LOCALE, SUPPORTED_LOCALES }}>
+			(function () {
+				const key = "preferred_locale";
+				const supported = new Set(SUPPORTED_LOCALES);
+				const fromCookie = document.cookie
+					.split(";")
+					.map((v) => v.trim())
+					.find((v) => v.startsWith(key + "="))
+					?.split("=")[1];
 
-        const fromNavigator =
-          (navigator.languages || [])
-            .map((lang) => lang.toLowerCase().split("-")[0])
-            .find((lang) => supported.has(lang)) || DEFAULT_LOCALE;
+				const fromNavigator =
+					(navigator.languages || [])
+						.map((lang) => lang.toLowerCase().split("-")[0])
+						.find((lang) => supported.has(lang)) || DEFAULT_LOCALE;
 
-        const locale = supported.has(fromCookie || "") ? fromCookie : fromNavigator;
-        if (!locale) return;
-        document.cookie = `${key}=${locale}; Path=/; Max-Age=31536000; SameSite=Lax`;
-        window.location.replace(`/${locale}/`);
-      })();
-    </script>
-  </head>
-  <body>
-    <a href={`/${DEFAULT_LOCALE}/`}>Go to XimaColor</a>
-  </body>
+				const locale = supported.has(fromCookie || "") ? fromCookie : fromNavigator;
+				if (!locale) return;
+				document.cookie = `${key}=${locale}; Path=/; Max-Age=31536000; SameSite=Lax`;
+				window.location.replace(`/${locale}/`);
+			})();
+		</script>
+	</head>
+	<body>
+		<a href={`/${DEFAULT_LOCALE}/`} aria-label="Open default locale page">Go to color.xima</a>
+	</body>
 </html>

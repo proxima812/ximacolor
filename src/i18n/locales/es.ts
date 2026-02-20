@@ -1,8 +1,8 @@
 export default {
-	pageTitle: "XimaColor — gradientes que transmiten vibra",
+	pageTitle: "color.xima — gradientes que transmiten vibra",
 	pageDescription:
 		"Galeria de gradientes para tarjetas, secciones hero e interfaces modernas.",
-	galleryTitle: "XimaColor — gradientes que transmiten vibra",
+	galleryTitle: "color.xima — gradientes que transmiten vibra",
 	blocksCountTemplate: "Mas de {count} bloques de color",
 	blocksWillUpdate: "Los bloques se actualizaran",
 	lastUpdatedLabel: "ultima actualizacion",

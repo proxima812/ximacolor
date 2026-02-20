@@ -1,7 +1,7 @@
 export default {
-	pageTitle: "XimaColor — 有氛围感的渐变色",
+	pageTitle: "color.xima — 有氛围感的渐变色",
 	pageDescription: "适用于卡片、主视觉区块与现代界面的渐变集合。",
-	galleryTitle: "XimaColor — 有氛围感的渐变色",
+	galleryTitle: "color.xima — 有氛围感的渐变色",
 	blocksCountTemplate: "超过 {count} 个配色区块",
 	blocksWillUpdate: "这些区块会持续更新",
 	lastUpdatedLabel: "最后更新",

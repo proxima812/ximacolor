@@ -1,6 +1,6 @@
 import type { Locale } from "../i18n";
 
-export const SITE_URL = (import.meta.env.PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, "");
+export const SITE_URL = (import.meta.env.PUBLIC_SITE_URL || "https://color.xima.work").replace(/\/$/, "");
 
 export const DEFAULT_LOCALE: Locale = "en";
 

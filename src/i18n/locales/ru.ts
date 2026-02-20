@@ -1,7 +1,7 @@
 export default {
-	pageTitle: "XimaColor — градиенты, создающие атмосферу",
+	pageTitle: "color.xima — градиенты, создающие атмосферу",
 	pageDescription: "Коллекция градиентов для карточек, hero-блоков и современных интерфейсов.",
-	galleryTitle: "XimaColor — градиенты, создающие атмосферу",
+	galleryTitle: "color.xima — градиенты, создающие атмосферу",
 	blocksCountTemplate: "Более {count} цветовых блоков",
 	blocksWillUpdate: "Блоки будут обновляться",
 	lastUpdatedLabel: "последнее обновление",

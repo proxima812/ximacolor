@@ -1694,9 +1694,9 @@
 /* noise 1 */
 .radial-noise-overlay-frost {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(120deg, #ecfeff 0%, #67e8f9 54%, #0ea5e9 100%);
-  background-size: 140px 140px, auto;
+  background-size: 110px 110px, auto;
   background-blend-mode: overlay, normal;
   border: 1px solid rgba(14, 116, 144, 0.22);
 }
@@ -1704,7 +1704,7 @@
 /* noise 2 */
 .radial-noise-overlay-lagoon {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(127deg, #fff7ed 0%, #fdba74 54%, #f97316 100%);
   background-size: 140px 140px, auto;
   background-blend-mode: overlay, normal;
@@ -1714,7 +1714,7 @@
 /* noise 3 */
 .radial-noise-overlay-sunset {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(134deg, #f5f3ff 0%, #c4b5fd 54%, #7c3aed 100%);
   background-size: 140px 140px, auto;
   background-blend-mode: overlay, normal;
@@ -1724,7 +1724,7 @@
 /* noise 4 */
 .radial-noise-overlay-orchid {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(141deg, #ecfdf5 0%, #6ee7b7 54%, #10b981 100%);
   background-size: 140px 140px, auto;
   background-blend-mode: overlay, normal;
@@ -1734,7 +1734,7 @@
 /* noise 5 */
 .radial-noise-overlay-lime {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(148deg, #eff6ff 0%, #93c5fd 54%, #2563eb 100%);
   background-size: 140px 140px, auto;
   background-blend-mode: overlay, normal;
@@ -1744,7 +1744,7 @@
 /* noise 6 */
 .radial-noise-overlay-cobalt {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(155deg, #fdf2f8 0%, #f9a8d4 54%, #db2777 100%);
   background-size: 140px 140px, auto;
   background-blend-mode: overlay, normal;
@@ -1754,7 +1754,7 @@
 /* noise 7 */
 .radial-noise-overlay-amber {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(162deg, #fffbeb 0%, #fcd34d 54%, #f59e0b 100%);
   background-size: 140px 140px, auto;
   background-blend-mode: overlay, normal;
@@ -1764,7 +1764,7 @@
 /* noise 8 */
 .radial-noise-overlay-rose {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(169deg, #f0fdfa 0%, #5eead4 54%, #0d9488 100%);
   background-size: 140px 140px, auto;
   background-blend-mode: overlay, normal;
@@ -1774,7 +1774,7 @@
 /* noise 9 */
 .radial-noise-overlay-mint {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(176deg, #eef2ff 0%, #818cf8 54%, #4f46e5 100%);
   background-size: 140px 140px, auto;
   background-blend-mode: overlay, normal;
@@ -1784,7 +1784,7 @@
 /* noise 10 */
 .radial-noise-overlay-cosmic {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.24'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.75'/%3E%3C/svg%3E"),
     linear-gradient(183deg, #fef2f2 0%, #fda4af 54%, #e11d48 100%);
   background-size: 140px 140px, auto;
   background-blend-mode: overlay, normal;
@@ -2838,3 +2838,885 @@
 /* === AUTO: flags gradients END === */
 
 }
+
+
+/* === AUTO: extra gradients batch START === */
+
+.radial-linear-zen-cascade {
+  background-image: linear-gradient(116deg, hsl(12 92% 74%) 0%, hsl(96 86% 58%) 52%, hsl(196 80% 44%) 100%);
+}
+
+.radial-linear-saffron-current {
+  background-image: linear-gradient(135deg, hsl(32 92% 74%) 0%, hsl(122 86% 58%) 52%, hsl(218 80% 44%) 100%);
+}
+
+.radial-linear-polar-bloom {
+  background-image: linear-gradient(154deg, hsl(50 92% 74%) 0%, hsl(146 86% 58%) 52%, hsl(240 80% 44%) 100%);
+}
+
+.radial-linear-lilac-stream {
+  background-image: linear-gradient(173deg, hsl(70 92% 74%) 0%, hsl(168 86% 58%) 52%, hsl(260 80% 44%) 100%);
+}
+
+.radial-linear-citrus-arc {
+  background-image: linear-gradient(192deg, hsl(79 92% 74%) 0%, hsl(179 86% 58%) 52%, hsl(269 80% 44%) 100%);
+}
+
+.radial-linear-arbor-flow {
+  background-image: linear-gradient(211deg, hsl(103 92% 74%) 0%, hsl(203 86% 58%) 52%, hsl(291 80% 44%) 100%);
+}
+
+.radial-linear-lotus-veil {
+  background-image: linear-gradient(230deg, hsl(129 92% 74%) 0%, hsl(225 86% 58%) 52%, hsl(313 80% 44%) 100%);
+}
+
+.radial-linear-magma-drift {
+  background-image: linear-gradient(249deg, hsl(140 92% 74%) 0%, hsl(234 86% 58%) 52%, hsl(322 80% 44%) 100%);
+}
+
+.radial-linear-fjord-line {
+  background-image: linear-gradient(268deg, hsl(162 92% 74%) 0%, hsl(254 86% 58%) 52%, hsl(344 80% 44%) 100%);
+}
+
+.radial-linear-skyline-flare {
+  background-image: linear-gradient(287deg, hsl(186 92% 74%) 0%, hsl(276 86% 58%) 52%, hsl(4 80% 44%) 100%);
+}
+
+.radial-linear-coral-tide {
+  background-image: linear-gradient(306deg, hsl(197 92% 74%) 0%, hsl(285 86% 58%) 52%, hsl(13 80% 44%) 100%);
+}
+
+.radial-linear-slate-wave {
+  background-image: linear-gradient(325deg, hsl(219 92% 74%) 0%, hsl(307 86% 58%) 52%, hsl(33 80% 44%) 100%);
+}
+
+.radial-linear-prism-trail {
+  background-image: linear-gradient(344deg, hsl(241 92% 74%) 0%, hsl(329 86% 58%) 52%, hsl(51 80% 44%) 100%);
+}
+
+.radial-linear-melon-sheen {
+  background-image: linear-gradient(3deg, hsl(248 92% 74%) 0%, hsl(338 86% 58%) 52%, hsl(58 80% 44%) 100%);
+}
+
+.radial-linear-mint-horizon {
+  background-image: linear-gradient(22deg, hsl(270 92% 74%) 0%, hsl(358 86% 58%) 52%, hsl(80 80% 44%) 100%);
+}
+
+.radial-linear-royal-lane {
+  background-image: linear-gradient(41deg, hsl(292 92% 74%) 0%, hsl(20 86% 58%) 52%, hsl(104 80% 44%) 100%);
+}
+
+.radial-linear-pearl-slide {
+  background-image: linear-gradient(60deg, hsl(314 92% 74%) 0%, hsl(40 86% 58%) 52%, hsl(130 80% 44%) 100%);
+}
+
+.radial-linear-bloom-drive {
+  background-image: linear-gradient(79deg, hsl(323 92% 74%) 0%, hsl(45 86% 58%) 52%, hsl(141 80% 44%) 100%);
+}
+
+.radial-linear-thunder-wisp {
+  background-image: linear-gradient(98deg, hsl(345 92% 74%) 0%, hsl(65 86% 58%) 52%, hsl(163 80% 44%) 100%);
+}
+
+.radial-linear-lagoon-stride {
+  background-image: linear-gradient(117deg, hsl(5 92% 74%) 0%, hsl(87 86% 58%) 52%, hsl(187 80% 44%) 100%);
+}
+
+.radial-linear-honey-shift {
+  background-image: linear-gradient(136deg, hsl(14 92% 74%) 0%, hsl(98 86% 58%) 52%, hsl(198 80% 44%) 100%);
+}
+
+.radial-linear-orchid-streak {
+  background-image: linear-gradient(155deg, hsl(34 92% 74%) 0%, hsl(124 86% 58%) 52%, hsl(220 80% 44%) 100%);
+}
+
+.radial-radial-opal-core {
+  background-image: radial-gradient(135% 135% at 20% 10%, hsl(42 94% 82%) 0%, hsl(156 88% 60%) 58%, hsl(266 82% 38%) 100%);
+}
+
+.radial-radial-neon-comet {
+  background-image: radial-gradient(135% 135% at 31% 23%, hsl(62 94% 82%) 0%, hsl(180 88% 60%) 58%, hsl(288 82% 38%) 100%);
+}
+
+.radial-radial-ember-sun {
+  background-image: radial-gradient(135% 135% at 42% 36%, hsl(84 94% 82%) 0%, hsl(204 88% 60%) 58%, hsl(310 82% 38%) 100%);
+}
+
+.radial-radial-lagoon-halo {
+  background-image: radial-gradient(135% 135% at 53% 49%, hsl(108 94% 82%) 0%, hsl(226 88% 60%) 58%, hsl(332 82% 38%) 100%);
+}
+
+.radial-radial-iris-pulse {
+  background-image: radial-gradient(135% 135% at 64% 62%, hsl(121 94% 82%) 0%, hsl(235 88% 60%) 58%, hsl(341 82% 38%) 100%);
+}
+
+.radial-radial-citrus-nova {
+  background-image: radial-gradient(135% 135% at 75% 10%, hsl(145 94% 82%) 0%, hsl(255 88% 60%) 58%, hsl(1 82% 38%) 100%);
+}
+
+.radial-radial-frost-aura {
+  background-image: radial-gradient(135% 135% at 26% 23%, hsl(167 94% 82%) 0%, hsl(277 88% 60%) 58%, hsl(23 82% 38%) 100%);
+}
+
+.radial-conic-auric-tornado {
+  background-image: conic-gradient(from 18deg at 50% 50%, hsl(28 90% 78%) 0deg, hsl(118 84% 58%) 154deg, hsl(214 78% 40%) 308deg, hsl(28 90% 78%) 360deg);
+}
+
+.radial-conic-mint-gyro {
+  background-image: conic-gradient(from 45deg at 50% 50%, hsl(46 90% 78%) 0deg, hsl(142 84% 58%) 154deg, hsl(236 78% 40%) 308deg, hsl(46 90% 78%) 360deg);
+}
+
+.radial-conic-cobalt-helix {
+  background-image: conic-gradient(from 72deg at 50% 50%, hsl(66 90% 78%) 0deg, hsl(164 84% 58%) 154deg, hsl(256 78% 40%) 308deg, hsl(66 90% 78%) 360deg);
+}
+
+.radial-conic-coral-spiral {
+  background-image: conic-gradient(from 99deg at 50% 50%, hsl(88 90% 78%) 0deg, hsl(188 84% 58%) 154deg, hsl(278 78% 40%) 308deg, hsl(88 90% 78%) 360deg);
+}
+
+.radial-conic-ember-wheel {
+  background-image: conic-gradient(from 126deg at 50% 50%, hsl(99 90% 78%) 0deg, hsl(199 84% 58%) 154deg, hsl(287 78% 40%) 308deg, hsl(99 90% 78%) 360deg);
+}
+
+.radial-conic-petal-spin {
+  background-image: conic-gradient(from 153deg at 50% 50%, hsl(125 90% 78%) 0deg, hsl(221 84% 58%) 154deg, hsl(309 78% 40%) 308deg, hsl(125 90% 78%) 360deg);
+}
+
+.radial-conic-neon-crown {
+  background-image: conic-gradient(from 180deg at 50% 50%, hsl(149 90% 78%) 0deg, hsl(243 84% 58%) 154deg, hsl(331 78% 40%) 308deg, hsl(149 90% 78%) 360deg);
+}
+
+.radial-conic-sky-funnel {
+  background-image: conic-gradient(from 207deg at 50% 50%, hsl(158 90% 78%) 0deg, hsl(250 84% 58%) 154deg, hsl(340 78% 40%) 308deg, hsl(158 90% 78%) 360deg);
+}
+
+.radial-conic-lunar-reel {
+  background-image: conic-gradient(from 234deg at 50% 50%, hsl(182 90% 78%) 0deg, hsl(272 84% 58%) 154deg, hsl(0 78% 40%) 308deg, hsl(182 90% 78%) 360deg);
+}
+
+.radial-conic-lagoon-vane {
+  background-image: conic-gradient(from 261deg at 50% 50%, hsl(206 90% 78%) 0deg, hsl(294 84% 58%) 154deg, hsl(22 78% 40%) 308deg, hsl(206 90% 78%) 360deg);
+}
+
+.radial-conic-ruby-orbit {
+  background-image: conic-gradient(from 288deg at 50% 50%, hsl(215 90% 78%) 0deg, hsl(303 84% 58%) 154deg, hsl(29 78% 40%) 308deg, hsl(215 90% 78%) 360deg);
+}
+
+.radial-conic-glacier-swirl {
+  background-image: conic-gradient(from 315deg at 50% 50%, hsl(237 90% 78%) 0deg, hsl(325 84% 58%) 154deg, hsl(47 78% 40%) 308deg, hsl(237 90% 78%) 360deg);
+}
+
+.radial-conic-lime-rosette {
+  background-image: conic-gradient(from 342deg at 50% 50%, hsl(257 90% 78%) 0deg, hsl(347 84% 58%) 154deg, hsl(67 78% 40%) 308deg, hsl(257 90% 78%) 360deg);
+}
+
+.radial-multi-stop-nectar-rush {
+  background-image: linear-gradient(104deg, hsl(12 94% 78%) 0%, hsl(76 90% 64%) 26%, hsl(156 86% 56%) 51%, hsl(232 82% 48%) 76%, hsl(302 78% 40%) 100%);
+}
+
+.radial-multi-stop-ruby-lagoon {
+  background-image: linear-gradient(127deg, hsl(32 94% 78%) 0%, hsl(100 90% 64%) 26%, hsl(180 86% 56%) 51%, hsl(252 82% 48%) 76%, hsl(324 78% 40%) 100%);
+}
+
+.radial-multi-stop-aurora-glint {
+  background-image: linear-gradient(150deg, hsl(50 94% 78%) 0%, hsl(126 90% 64%) 26%, hsl(204 86% 56%) 51%, hsl(274 82% 48%) 76%, hsl(346 78% 40%) 100%);
+}
+
+.radial-multi-stop-lime-lattice {
+  background-image: linear-gradient(173deg, hsl(70 94% 78%) 0%, hsl(150 90% 64%) 26%, hsl(226 86% 56%) 51%, hsl(296 82% 48%) 76%, hsl(6 78% 40%) 100%);
+}
+
+.radial-multi-stop-plasma-splash {
+  background-image: linear-gradient(196deg, hsl(79 94% 78%) 0%, hsl(159 90% 64%) 26%, hsl(235 86% 56%) 51%, hsl(305 82% 48%) 76%, hsl(15 78% 40%) 100%);
+}
+
+.radial-multi-stop-indigo-garden {
+  background-image: linear-gradient(219deg, hsl(103 94% 78%) 0%, hsl(183 90% 64%) 26%, hsl(255 86% 56%) 51%, hsl(327 82% 48%) 76%, hsl(35 78% 40%) 100%);
+}
+
+.radial-multi-stop-coral-prism {
+  background-image: linear-gradient(242deg, hsl(129 94% 78%) 0%, hsl(207 90% 64%) 26%, hsl(277 86% 56%) 51%, hsl(349 82% 48%) 76%, hsl(53 78% 40%) 100%);
+}
+
+.radial-multi-stop-sky-velour {
+  background-image: linear-gradient(265deg, hsl(140 94% 78%) 0%, hsl(216 90% 64%) 26%, hsl(286 86% 56%) 51%, hsl(356 82% 48%) 76%, hsl(60 78% 40%) 100%);
+}
+
+.radial-multi-stop-melon-wave {
+  background-image: linear-gradient(288deg, hsl(162 94% 78%) 0%, hsl(238 90% 64%) 26%, hsl(308 86% 56%) 51%, hsl(18 82% 48%) 76%, hsl(82 78% 40%) 100%);
+}
+
+.radial-multi-stop-tropic-ribbon {
+  background-image: linear-gradient(311deg, hsl(186 94% 78%) 0%, hsl(258 90% 64%) 26%, hsl(330 86% 56%) 51%, hsl(38 82% 48%) 76%, hsl(106 78% 40%) 100%);
+}
+
+.radial-multi-stop-nebula-shine {
+  background-image: linear-gradient(334deg, hsl(197 94% 78%) 0%, hsl(267 90% 64%) 26%, hsl(339 86% 56%) 51%, hsl(43 82% 48%) 76%, hsl(119 78% 40%) 100%);
+}
+
+.radial-multi-stop-candy-lumen {
+  background-image: linear-gradient(357deg, hsl(219 94% 78%) 0%, hsl(289 90% 64%) 26%, hsl(359 86% 56%) 51%, hsl(63 82% 48%) 76%, hsl(143 78% 40%) 100%);
+}
+
+.radial-multi-stop-jade-horizon {
+  background-image: linear-gradient(20deg, hsl(241 94% 78%) 0%, hsl(311 90% 64%) 26%, hsl(21 86% 56%) 51%, hsl(85 82% 48%) 76%, hsl(165 78% 40%) 100%);
+}
+
+.radial-multi-stop-fuchsia-flow {
+  background-image: linear-gradient(43deg, hsl(248 94% 78%) 0%, hsl(320 90% 64%) 26%, hsl(28 86% 56%) 51%, hsl(96 82% 48%) 76%, hsl(176 78% 40%) 100%);
+}
+
+.radial-multi-stop-solar-thread {
+  background-image: linear-gradient(66deg, hsl(270 94% 78%) 0%, hsl(342 90% 64%) 26%, hsl(46 86% 56%) 51%, hsl(122 82% 48%) 76%, hsl(200 78% 40%) 100%);
+}
+
+.radial-multi-stop-oasis-sheen {
+  background-image: linear-gradient(89deg, hsl(292 94% 78%) 0%, hsl(2 90% 64%) 26%, hsl(66 86% 56%) 51%, hsl(146 82% 48%) 76%, hsl(222 78% 40%) 100%);
+}
+
+.radial-multi-stop-lilac-reverb {
+  background-image: linear-gradient(112deg, hsl(314 94% 78%) 0%, hsl(24 90% 64%) 26%, hsl(88 86% 56%) 51%, hsl(168 82% 48%) 76%, hsl(244 78% 40%) 100%);
+}
+
+.radial-multi-stop-honey-pop {
+  background-image: linear-gradient(135deg, hsl(323 94% 78%) 0%, hsl(31 90% 64%) 26%, hsl(99 86% 56%) 51%, hsl(179 82% 48%) 76%, hsl(251 78% 40%) 100%);
+}
+
+.radial-multi-stop-cosmo-velvet {
+  background-image: linear-gradient(158deg, hsl(345 94% 78%) 0%, hsl(49 90% 64%) 26%, hsl(125 86% 56%) 51%, hsl(203 82% 48%) 76%, hsl(273 78% 40%) 100%);
+}
+
+.radial-multi-stop-arctic-burst {
+  background-image: linear-gradient(181deg, hsl(5 94% 78%) 0%, hsl(69 90% 64%) 26%, hsl(149 86% 56%) 51%, hsl(225 82% 48%) 76%, hsl(295 78% 40%) 100%);
+}
+
+.radial-multi-stop-berry-surge {
+  background-image: linear-gradient(204deg, hsl(14 94% 78%) 0%, hsl(78 90% 64%) 26%, hsl(158 86% 56%) 51%, hsl(234 82% 48%) 76%, hsl(304 78% 40%) 100%);
+}
+
+.radial-multi-stop-cobalt-petal {
+  background-image: linear-gradient(227deg, hsl(34 94% 78%) 0%, hsl(102 90% 64%) 26%, hsl(182 86% 56%) 51%, hsl(254 82% 48%) 76%, hsl(326 78% 40%) 100%);
+}
+
+.radial-multi-stop-citrus-luster {
+  background-image: linear-gradient(250deg, hsl(52 94% 78%) 0%, hsl(128 90% 64%) 26%, hsl(206 86% 56%) 51%, hsl(276 82% 48%) 76%, hsl(348 78% 40%) 100%);
+}
+
+.radial-multi-stop-pearl-spectrum {
+  background-image: linear-gradient(273deg, hsl(59 94% 78%) 0%, hsl(139 90% 64%) 26%, hsl(215 86% 56%) 51%, hsl(285 82% 48%) 76%, hsl(355 78% 40%) 100%);
+}
+
+.radial-multi-stop-magma-cascade {
+  background-image: linear-gradient(296deg, hsl(81 94% 78%) 0%, hsl(161 90% 64%) 26%, hsl(237 86% 56%) 51%, hsl(307 82% 48%) 76%, hsl(17 78% 40%) 100%);
+}
+
+.radial-multi-stop-icefire-braid {
+  background-image: linear-gradient(319deg, hsl(105 94% 78%) 0%, hsl(185 90% 64%) 26%, hsl(257 86% 56%) 51%, hsl(329 82% 48%) 76%, hsl(37 78% 40%) 100%);
+}
+
+.radial-multi-stop-sakura-blend {
+  background-image: linear-gradient(342deg, hsl(118 94% 78%) 0%, hsl(196 90% 64%) 26%, hsl(266 86% 56%) 51%, hsl(338 82% 48%) 76%, hsl(42 78% 40%) 100%);
+}
+
+.radial-multi-stop-opal-vector {
+  background-image: linear-gradient(5deg, hsl(142 94% 78%) 0%, hsl(218 90% 64%) 26%, hsl(288 86% 56%) 51%, hsl(358 82% 48%) 76%, hsl(62 78% 40%) 100%);
+}
+
+.radial-multi-stop-violet-splash {
+  background-image: linear-gradient(28deg, hsl(164 94% 78%) 0%, hsl(240 90% 64%) 26%, hsl(310 86% 56%) 51%, hsl(20 82% 48%) 76%, hsl(84 78% 40%) 100%);
+}
+
+.radial-multi-stop-mint-carnival {
+  background-image: linear-gradient(51deg, hsl(188 94% 78%) 0%, hsl(260 90% 64%) 26%, hsl(332 86% 56%) 51%, hsl(40 82% 48%) 76%, hsl(108 78% 40%) 100%);
+}
+
+.radial-mesh-nova-aether-field {
+  background-image:
+    radial-gradient(58% 76% at 10% 8%, hsl(12 90% 70% / 0.52) 0%, hsl(12 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 90% 12%, hsl(58 88% 62% / 0.48) 0%, hsl(58 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 20% 92%, hsl(138 86% 58% / 0.58) 0%, hsl(138 86% 58% / 0) 100%),
+    linear-gradient(120deg, hsl(232 92% 95%) 0%, hsl(58 80% 88%) 52%, hsl(12 84% 82%) 100%);
+}
+
+.radial-mesh-nova-boreal-cloud {
+  background-image:
+    radial-gradient(58% 76% at 17% 13%, hsl(32 90% 70% / 0.52) 0%, hsl(32 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 81% 23%, hsl(80 88% 62% / 0.48) 0%, hsl(80 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 33% 85%, hsl(160 86% 58% / 0.58) 0%, hsl(160 86% 58% / 0) 100%),
+    linear-gradient(137deg, hsl(252 92% 95%) 0%, hsl(80 80% 88%) 52%, hsl(32 84% 82%) 100%);
+}
+
+.radial-mesh-nova-chroma-bloom {
+  background-image:
+    radial-gradient(58% 76% at 24% 18%, hsl(50 90% 70% / 0.52) 0%, hsl(50 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 72% 34%, hsl(104 88% 62% / 0.48) 0%, hsl(104 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 46% 78%, hsl(184 86% 58% / 0.58) 0%, hsl(184 86% 58% / 0) 100%),
+    linear-gradient(154deg, hsl(274 92% 95%) 0%, hsl(104 80% 88%) 52%, hsl(50 84% 82%) 100%);
+}
+
+.radial-mesh-nova-delta-current {
+  background-image:
+    radial-gradient(58% 76% at 31% 23%, hsl(70 90% 70% / 0.52) 0%, hsl(70 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 63% 45%, hsl(130 88% 62% / 0.48) 0%, hsl(130 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 59% 71%, hsl(208 86% 58% / 0.58) 0%, hsl(208 86% 58% / 0) 100%),
+    linear-gradient(171deg, hsl(296 92% 95%) 0%, hsl(130 80% 88%) 52%, hsl(70 84% 82%) 100%);
+}
+
+.radial-mesh-nova-ember-fabric {
+  background-image:
+    radial-gradient(58% 76% at 38% 28%, hsl(79 90% 70% / 0.52) 0%, hsl(79 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 54% 56%, hsl(141 88% 62% / 0.48) 0%, hsl(141 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 72% 64%, hsl(217 86% 58% / 0.58) 0%, hsl(217 86% 58% / 0) 100%),
+    linear-gradient(188deg, hsl(305 92% 95%) 0%, hsl(141 80% 88%) 52%, hsl(79 84% 82%) 100%);
+}
+
+.radial-mesh-nova-frost-mist {
+  background-image:
+    radial-gradient(58% 76% at 45% 33%, hsl(103 90% 70% / 0.52) 0%, hsl(103 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 45% 67%, hsl(163 88% 62% / 0.48) 0%, hsl(163 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 25% 57%, hsl(239 86% 58% / 0.58) 0%, hsl(239 86% 58% / 0) 100%),
+    linear-gradient(205deg, hsl(327 92% 95%) 0%, hsl(163 80% 88%) 52%, hsl(103 84% 82%) 100%);
+}
+
+.radial-mesh-nova-gilded-veil {
+  background-image:
+    radial-gradient(58% 76% at 52% 38%, hsl(129 90% 70% / 0.52) 0%, hsl(129 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 36% 78%, hsl(187 88% 62% / 0.48) 0%, hsl(187 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 38% 50%, hsl(259 86% 58% / 0.58) 0%, hsl(259 86% 58% / 0) 100%),
+    linear-gradient(222deg, hsl(349 92% 95%) 0%, hsl(187 80% 88%) 52%, hsl(129 84% 82%) 100%);
+}
+
+.radial-mesh-nova-halo-drift {
+  background-image:
+    radial-gradient(58% 76% at 59% 43%, hsl(140 90% 70% / 0.52) 0%, hsl(140 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 27% 89%, hsl(198 88% 62% / 0.48) 0%, hsl(198 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 51% 43%, hsl(268 86% 58% / 0.58) 0%, hsl(268 86% 58% / 0) 100%),
+    linear-gradient(239deg, hsl(356 92% 95%) 0%, hsl(198 80% 88%) 52%, hsl(140 84% 82%) 100%);
+}
+
+.radial-mesh-nova-ionic-pool {
+  background-image:
+    radial-gradient(58% 76% at 66% 48%, hsl(162 90% 70% / 0.52) 0%, hsl(162 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 18% 20%, hsl(220 88% 62% / 0.48) 0%, hsl(220 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 64% 36%, hsl(290 86% 58% / 0.58) 0%, hsl(290 86% 58% / 0) 100%),
+    linear-gradient(256deg, hsl(18 92% 95%) 0%, hsl(220 80% 88%) 52%, hsl(162 84% 82%) 100%);
+}
+
+.radial-mesh-nova-jade-flare {
+  background-image:
+    radial-gradient(58% 76% at 73% 53%, hsl(186 90% 70% / 0.52) 0%, hsl(186 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 87% 31%, hsl(242 88% 62% / 0.48) 0%, hsl(242 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 77% 29%, hsl(312 86% 58% / 0.58) 0%, hsl(312 86% 58% / 0) 100%),
+    linear-gradient(273deg, hsl(38 92% 95%) 0%, hsl(242 80% 88%) 52%, hsl(186 84% 82%) 100%);
+}
+
+.radial-mesh-nova-kinetic-garden {
+  background-image:
+    radial-gradient(58% 76% at 80% 58%, hsl(197 90% 70% / 0.52) 0%, hsl(197 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 78% 42%, hsl(249 88% 62% / 0.48) 0%, hsl(249 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 30% 22%, hsl(321 86% 58% / 0.58) 0%, hsl(321 86% 58% / 0) 100%),
+    linear-gradient(290deg, hsl(43 92% 95%) 0%, hsl(249 80% 88%) 52%, hsl(197 84% 82%) 100%);
+}
+
+.radial-mesh-nova-lumen-ribbon {
+  background-image:
+    radial-gradient(58% 76% at 87% 63%, hsl(219 90% 70% / 0.52) 0%, hsl(219 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 69% 53%, hsl(271 88% 62% / 0.48) 0%, hsl(271 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 43% 89%, hsl(343 86% 58% / 0.58) 0%, hsl(343 86% 58% / 0) 100%),
+    linear-gradient(307deg, hsl(63 92% 95%) 0%, hsl(271 80% 88%) 52%, hsl(219 84% 82%) 100%);
+}
+
+.radial-mesh-nova-mistral-matrix {
+  background-image:
+    radial-gradient(58% 76% at 14% 68%, hsl(241 90% 70% / 0.52) 0%, hsl(241 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 60% 64%, hsl(293 88% 62% / 0.48) 0%, hsl(293 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 56% 82%, hsl(3 86% 58% / 0.58) 0%, hsl(3 86% 58% / 0) 100%),
+    linear-gradient(324deg, hsl(85 92% 95%) 0%, hsl(293 80% 88%) 52%, hsl(241 84% 82%) 100%);
+}
+
+.radial-mesh-nova-nova-delta {
+  background-image:
+    radial-gradient(58% 76% at 21% 73%, hsl(248 90% 70% / 0.52) 0%, hsl(248 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 51% 75%, hsl(302 88% 62% / 0.48) 0%, hsl(302 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 69% 75%, hsl(12 86% 58% / 0.58) 0%, hsl(12 86% 58% / 0) 100%),
+    linear-gradient(341deg, hsl(96 92% 95%) 0%, hsl(302 80% 88%) 52%, hsl(248 84% 82%) 100%);
+}
+
+.radial-mesh-nova-opal-glow {
+  background-image:
+    radial-gradient(58% 76% at 28% 78%, hsl(270 90% 70% / 0.52) 0%, hsl(270 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 42% 86%, hsl(324 88% 62% / 0.48) 0%, hsl(324 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 22% 68%, hsl(32 86% 58% / 0.58) 0%, hsl(32 86% 58% / 0) 100%),
+    linear-gradient(358deg, hsl(122 92% 95%) 0%, hsl(324 80% 88%) 52%, hsl(270 84% 82%) 100%);
+}
+
+.radial-mesh-nova-prism-pulse {
+  background-image:
+    radial-gradient(58% 76% at 35% 83%, hsl(292 90% 70% / 0.52) 0%, hsl(292 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 33% 17%, hsl(346 88% 62% / 0.48) 0%, hsl(346 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 35% 61%, hsl(50 86% 58% / 0.58) 0%, hsl(50 86% 58% / 0) 100%),
+    linear-gradient(15deg, hsl(146 92% 95%) 0%, hsl(346 80% 88%) 52%, hsl(292 84% 82%) 100%);
+}
+
+.radial-mesh-nova-quartz-horizon {
+  background-image:
+    radial-gradient(58% 76% at 42% 88%, hsl(314 90% 70% / 0.52) 0%, hsl(314 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 24% 28%, hsl(6 88% 62% / 0.48) 0%, hsl(6 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 48% 54%, hsl(70 86% 58% / 0.58) 0%, hsl(70 86% 58% / 0) 100%),
+    linear-gradient(32deg, hsl(168 92% 95%) 0%, hsl(6 80% 88%) 52%, hsl(314 84% 82%) 100%);
+}
+
+.radial-mesh-nova-ripple-stream {
+  background-image:
+    radial-gradient(58% 76% at 49% 9%, hsl(323 90% 70% / 0.52) 0%, hsl(323 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 15% 39%, hsl(15 88% 62% / 0.48) 0%, hsl(15 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 61% 47%, hsl(79 86% 58% / 0.58) 0%, hsl(79 86% 58% / 0) 100%),
+    linear-gradient(49deg, hsl(179 92% 95%) 0%, hsl(15 80% 88%) 52%, hsl(323 84% 82%) 100%);
+}
+
+.radial-mesh-nova-solstice-echo {
+  background-image:
+    radial-gradient(58% 76% at 56% 14%, hsl(345 90% 70% / 0.52) 0%, hsl(345 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 84% 50%, hsl(35 88% 62% / 0.48) 0%, hsl(35 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 74% 40%, hsl(103 86% 58% / 0.58) 0%, hsl(103 86% 58% / 0) 100%),
+    linear-gradient(66deg, hsl(203 92% 95%) 0%, hsl(35 80% 88%) 52%, hsl(345 84% 82%) 100%);
+}
+
+.radial-mesh-nova-tidal-tide {
+  background-image:
+    radial-gradient(58% 76% at 63% 19%, hsl(5 90% 70% / 0.52) 0%, hsl(5 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 75% 61%, hsl(53 88% 62% / 0.48) 0%, hsl(53 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 27% 33%, hsl(129 86% 58% / 0.58) 0%, hsl(129 86% 58% / 0) 100%),
+    linear-gradient(83deg, hsl(225 92% 95%) 0%, hsl(53 80% 88%) 52%, hsl(5 84% 82%) 100%);
+}
+
+.radial-mesh-nova-umbra-aura {
+  background-image:
+    radial-gradient(58% 76% at 70% 24%, hsl(14 90% 70% / 0.52) 0%, hsl(14 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 66% 72%, hsl(60 88% 62% / 0.48) 0%, hsl(60 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 40% 26%, hsl(140 86% 58% / 0.58) 0%, hsl(140 86% 58% / 0) 100%),
+    linear-gradient(100deg, hsl(234 92% 95%) 0%, hsl(60 80% 88%) 52%, hsl(14 84% 82%) 100%);
+}
+
+.radial-mesh-nova-velvet-mesh {
+  background-image:
+    radial-gradient(58% 76% at 77% 29%, hsl(34 90% 70% / 0.52) 0%, hsl(34 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 57% 83%, hsl(82 88% 62% / 0.48) 0%, hsl(82 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 53% 19%, hsl(162 86% 58% / 0.58) 0%, hsl(162 86% 58% / 0) 100%),
+    linear-gradient(117deg, hsl(254 92% 95%) 0%, hsl(82 80% 88%) 52%, hsl(34 84% 82%) 100%);
+}
+
+.radial-mesh-nova-whisper-storm {
+  background-image:
+    radial-gradient(58% 76% at 84% 34%, hsl(52 90% 70% / 0.52) 0%, hsl(52 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 48% 14%, hsl(106 88% 62% / 0.48) 0%, hsl(106 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 66% 86%, hsl(186 86% 58% / 0.58) 0%, hsl(186 86% 58% / 0) 100%),
+    linear-gradient(134deg, hsl(276 92% 95%) 0%, hsl(106 80% 88%) 52%, hsl(52 84% 82%) 100%);
+}
+
+.radial-mesh-nova-xeno-plume {
+  background-image:
+    radial-gradient(58% 76% at 11% 39%, hsl(59 90% 70% / 0.52) 0%, hsl(59 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 39% 25%, hsl(119 88% 62% / 0.48) 0%, hsl(119 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 79% 79%, hsl(197 86% 58% / 0.58) 0%, hsl(197 86% 58% / 0) 100%),
+    linear-gradient(151deg, hsl(285 92% 95%) 0%, hsl(119 80% 88%) 52%, hsl(59 84% 82%) 100%);
+}
+
+.radial-mesh-nova-yonder-canvas {
+  background-image:
+    radial-gradient(58% 76% at 18% 44%, hsl(81 90% 70% / 0.52) 0%, hsl(81 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 30% 36%, hsl(143 88% 62% / 0.48) 0%, hsl(143 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 32% 72%, hsl(219 86% 58% / 0.58) 0%, hsl(219 86% 58% / 0) 100%),
+    linear-gradient(168deg, hsl(307 92% 95%) 0%, hsl(143 80% 88%) 52%, hsl(81 84% 82%) 100%);
+}
+
+.radial-mesh-nova-zenith-cascade {
+  background-image:
+    radial-gradient(58% 76% at 25% 49%, hsl(105 90% 70% / 0.52) 0%, hsl(105 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 21% 47%, hsl(165 88% 62% / 0.48) 0%, hsl(165 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 45% 65%, hsl(241 86% 58% / 0.58) 0%, hsl(241 86% 58% / 0) 100%),
+    linear-gradient(185deg, hsl(329 92% 95%) 0%, hsl(165 80% 88%) 52%, hsl(105 84% 82%) 100%);
+}
+
+.radial-mesh-nova-arc-trace {
+  background-image:
+    radial-gradient(58% 76% at 32% 54%, hsl(118 90% 70% / 0.52) 0%, hsl(118 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 90% 58%, hsl(176 88% 62% / 0.48) 0%, hsl(176 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 58% 58%, hsl(248 86% 58% / 0.58) 0%, hsl(248 86% 58% / 0) 100%),
+    linear-gradient(202deg, hsl(338 92% 95%) 0%, hsl(176 80% 88%) 52%, hsl(118 84% 82%) 100%);
+}
+
+.radial-mesh-nova-bliss-wave {
+  background-image:
+    radial-gradient(58% 76% at 39% 59%, hsl(142 90% 70% / 0.52) 0%, hsl(142 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 81% 69%, hsl(200 88% 62% / 0.48) 0%, hsl(200 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 71% 51%, hsl(270 86% 58% / 0.58) 0%, hsl(270 86% 58% / 0) 100%),
+    linear-gradient(219deg, hsl(358 92% 95%) 0%, hsl(200 80% 88%) 52%, hsl(142 84% 82%) 100%);
+}
+
+.radial-mesh-nova-cinder-orbit {
+  background-image:
+    radial-gradient(58% 76% at 46% 64%, hsl(164 90% 70% / 0.52) 0%, hsl(164 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 72% 80%, hsl(222 88% 62% / 0.48) 0%, hsl(222 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 24% 44%, hsl(292 86% 58% / 0.58) 0%, hsl(292 86% 58% / 0) 100%),
+    linear-gradient(236deg, hsl(20 92% 95%) 0%, hsl(222 80% 88%) 52%, hsl(164 84% 82%) 100%);
+}
+
+.radial-mesh-nova-drift-vista {
+  background-image:
+    radial-gradient(58% 76% at 53% 69%, hsl(188 90% 70% / 0.52) 0%, hsl(188 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 63% 91%, hsl(244 88% 62% / 0.48) 0%, hsl(244 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 37% 37%, hsl(314 86% 58% / 0.58) 0%, hsl(314 86% 58% / 0) 100%),
+    linear-gradient(253deg, hsl(40 92% 95%) 0%, hsl(244 80% 88%) 52%, hsl(188 84% 82%) 100%);
+}
+
+.radial-mesh-nova-echo-bay {
+  background-image:
+    radial-gradient(58% 76% at 60% 74%, hsl(199 90% 70% / 0.52) 0%, hsl(199 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 54% 22%, hsl(251 88% 62% / 0.48) 0%, hsl(251 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 50% 30%, hsl(323 86% 58% / 0.58) 0%, hsl(323 86% 58% / 0) 100%),
+    linear-gradient(270deg, hsl(45 92% 95%) 0%, hsl(251 80% 88%) 52%, hsl(199 84% 82%) 100%);
+}
+
+.radial-mesh-nova-flare-meadow {
+  background-image:
+    radial-gradient(58% 76% at 67% 79%, hsl(221 90% 70% / 0.52) 0%, hsl(221 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 45% 33%, hsl(273 88% 62% / 0.48) 0%, hsl(273 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 63% 23%, hsl(345 86% 58% / 0.58) 0%, hsl(345 86% 58% / 0) 100%),
+    linear-gradient(287deg, hsl(65 92% 95%) 0%, hsl(273 80% 88%) 52%, hsl(221 84% 82%) 100%);
+}
+
+.radial-mesh-nova-glint-lagoon {
+  background-image:
+    radial-gradient(58% 76% at 74% 84%, hsl(243 90% 70% / 0.52) 0%, hsl(243 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 36% 44%, hsl(295 88% 62% / 0.48) 0%, hsl(295 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 76% 90%, hsl(5 86% 58% / 0.58) 0%, hsl(5 86% 58% / 0) 100%),
+    linear-gradient(304deg, hsl(87 92% 95%) 0%, hsl(295 80% 88%) 52%, hsl(243 84% 82%) 100%);
+}
+
+.radial-mesh-nova-haze-spark {
+  background-image:
+    radial-gradient(58% 76% at 81% 89%, hsl(250 90% 70% / 0.52) 0%, hsl(250 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 27% 55%, hsl(304 88% 62% / 0.48) 0%, hsl(304 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 29% 83%, hsl(14 86% 58% / 0.58) 0%, hsl(14 86% 58% / 0) 100%),
+    linear-gradient(321deg, hsl(98 92% 95%) 0%, hsl(304 80% 88%) 52%, hsl(250 84% 82%) 100%);
+}
+
+.radial-mesh-nova-iris-dust {
+  background-image:
+    radial-gradient(58% 76% at 88% 10%, hsl(272 90% 70% / 0.52) 0%, hsl(272 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 18% 66%, hsl(326 88% 62% / 0.48) 0%, hsl(326 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 42% 76%, hsl(34 86% 58% / 0.58) 0%, hsl(34 86% 58% / 0) 100%),
+    linear-gradient(338deg, hsl(124 92% 95%) 0%, hsl(326 80% 88%) 52%, hsl(272 84% 82%) 100%);
+}
+
+.radial-mesh-nova-jolt-beam {
+  background-image:
+    radial-gradient(58% 76% at 15% 15%, hsl(294 90% 70% / 0.52) 0%, hsl(294 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 87% 77%, hsl(348 88% 62% / 0.48) 0%, hsl(348 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 55% 69%, hsl(52 86% 58% / 0.58) 0%, hsl(52 86% 58% / 0) 100%),
+    linear-gradient(355deg, hsl(148 92% 95%) 0%, hsl(348 80% 88%) 52%, hsl(294 84% 82%) 100%);
+}
+
+.radial-mesh-nova-koi-thread {
+  background-image:
+    radial-gradient(58% 76% at 22% 20%, hsl(303 90% 70% / 0.52) 0%, hsl(303 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 78% 88%, hsl(355 88% 62% / 0.48) 0%, hsl(355 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 68% 62%, hsl(59 86% 58% / 0.58) 0%, hsl(59 86% 58% / 0) 100%),
+    linear-gradient(12deg, hsl(157 92% 95%) 0%, hsl(355 80% 88%) 52%, hsl(303 84% 82%) 100%);
+}
+
+.radial-mesh-nova-lotus-line {
+  background-image:
+    radial-gradient(58% 76% at 29% 25%, hsl(325 90% 70% / 0.52) 0%, hsl(325 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 69% 19%, hsl(17 88% 62% / 0.48) 0%, hsl(17 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 21% 55%, hsl(81 86% 58% / 0.58) 0%, hsl(81 86% 58% / 0) 100%),
+    linear-gradient(29deg, hsl(181 92% 95%) 0%, hsl(17 80% 88%) 52%, hsl(325 84% 82%) 100%);
+}
+
+.radial-mesh-nova-mirage-flux {
+  background-image:
+    radial-gradient(58% 76% at 36% 30%, hsl(347 90% 70% / 0.52) 0%, hsl(347 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 60% 30%, hsl(37 88% 62% / 0.48) 0%, hsl(37 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 34% 48%, hsl(105 86% 58% / 0.58) 0%, hsl(105 86% 58% / 0) 100%),
+    linear-gradient(46deg, hsl(205 92% 95%) 0%, hsl(37 80% 88%) 52%, hsl(347 84% 82%) 100%);
+}
+
+.radial-mesh-nova-nectar-foam {
+  background-image:
+    radial-gradient(58% 76% at 43% 35%, hsl(354 90% 70% / 0.52) 0%, hsl(354 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 51% 41%, hsl(42 88% 62% / 0.48) 0%, hsl(42 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 47% 41%, hsl(118 86% 58% / 0.58) 0%, hsl(118 86% 58% / 0) 100%),
+    linear-gradient(63deg, hsl(214 92% 95%) 0%, hsl(42 80% 88%) 52%, hsl(354 84% 82%) 100%);
+}
+
+.radial-mesh-nova-onyx-petal {
+  background-image:
+    radial-gradient(58% 76% at 50% 40%, hsl(16 90% 70% / 0.52) 0%, hsl(16 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 42% 52%, hsl(62 88% 62% / 0.48) 0%, hsl(62 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 60% 34%, hsl(142 86% 58% / 0.58) 0%, hsl(142 86% 58% / 0) 100%),
+    linear-gradient(80deg, hsl(236 92% 95%) 0%, hsl(62 80% 88%) 52%, hsl(16 84% 82%) 100%);
+}
+
+.radial-mesh-nova-pulse-grove {
+  background-image:
+    radial-gradient(58% 76% at 57% 45%, hsl(36 90% 70% / 0.52) 0%, hsl(36 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 33% 63%, hsl(84 88% 62% / 0.48) 0%, hsl(84 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 73% 27%, hsl(164 86% 58% / 0.58) 0%, hsl(164 86% 58% / 0) 100%),
+    linear-gradient(97deg, hsl(256 92% 95%) 0%, hsl(84 80% 88%) 52%, hsl(36 84% 82%) 100%);
+}
+
+.radial-mesh-nova-quill-shroud {
+  background-image:
+    radial-gradient(58% 76% at 64% 50%, hsl(54 90% 70% / 0.52) 0%, hsl(54 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 24% 74%, hsl(108 88% 62% / 0.48) 0%, hsl(108 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 26% 20%, hsl(188 86% 58% / 0.58) 0%, hsl(188 86% 58% / 0) 100%),
+    linear-gradient(114deg, hsl(278 92% 95%) 0%, hsl(108 80% 88%) 52%, hsl(54 84% 82%) 100%);
+}
+
+.radial-mesh-nova-ray-crest {
+  background-image:
+    radial-gradient(58% 76% at 71% 55%, hsl(61 90% 70% / 0.52) 0%, hsl(61 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 15% 85%, hsl(121 88% 62% / 0.48) 0%, hsl(121 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 39% 87%, hsl(199 86% 58% / 0.58) 0%, hsl(199 86% 58% / 0) 100%),
+    linear-gradient(131deg, hsl(287 92% 95%) 0%, hsl(121 80% 88%) 52%, hsl(61 84% 82%) 100%);
+}
+
+.radial-mesh-nova-sierra-pool {
+  background-image:
+    radial-gradient(58% 76% at 78% 60%, hsl(83 90% 70% / 0.52) 0%, hsl(83 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 84% 16%, hsl(145 88% 62% / 0.48) 0%, hsl(145 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 52% 80%, hsl(221 86% 58% / 0.58) 0%, hsl(221 86% 58% / 0) 100%),
+    linear-gradient(148deg, hsl(309 92% 95%) 0%, hsl(145 80% 88%) 52%, hsl(83 84% 82%) 100%);
+}
+
+.radial-mesh-nova-terra-sweep {
+  background-image:
+    radial-gradient(58% 76% at 85% 65%, hsl(107 90% 70% / 0.52) 0%, hsl(107 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 75% 27%, hsl(167 88% 62% / 0.48) 0%, hsl(167 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 65% 73%, hsl(243 86% 58% / 0.58) 0%, hsl(243 86% 58% / 0) 100%),
+    linear-gradient(165deg, hsl(331 92% 95%) 0%, hsl(167 80% 88%) 52%, hsl(107 84% 82%) 100%);
+}
+
+.radial-mesh-nova-ultra-frame {
+  background-image:
+    radial-gradient(58% 76% at 12% 70%, hsl(120 90% 70% / 0.52) 0%, hsl(120 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 66% 38%, hsl(178 88% 62% / 0.48) 0%, hsl(178 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 78% 66%, hsl(250 86% 58% / 0.58) 0%, hsl(250 86% 58% / 0) 100%),
+    linear-gradient(182deg, hsl(340 92% 95%) 0%, hsl(178 80% 88%) 52%, hsl(120 84% 82%) 100%);
+}
+
+.radial-mesh-nova-vapor-path {
+  background-image:
+    radial-gradient(58% 76% at 19% 75%, hsl(144 90% 70% / 0.52) 0%, hsl(144 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 57% 49%, hsl(202 88% 62% / 0.48) 0%, hsl(202 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 31% 59%, hsl(272 86% 58% / 0.58) 0%, hsl(272 86% 58% / 0) 100%),
+    linear-gradient(199deg, hsl(0 92% 95%) 0%, hsl(202 80% 88%) 52%, hsl(144 84% 82%) 100%);
+}
+
+.radial-mesh-nova-wave-shift {
+  background-image:
+    radial-gradient(58% 76% at 26% 80%, hsl(166 90% 70% / 0.52) 0%, hsl(166 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 48% 60%, hsl(224 88% 62% / 0.48) 0%, hsl(224 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 44% 52%, hsl(294 86% 58% / 0.58) 0%, hsl(294 86% 58% / 0) 100%),
+    linear-gradient(216deg, hsl(22 92% 95%) 0%, hsl(224 80% 88%) 52%, hsl(166 84% 82%) 100%);
+}
+
+.radial-mesh-nova-yuzu-zone {
+  background-image:
+    radial-gradient(58% 76% at 33% 85%, hsl(177 90% 70% / 0.52) 0%, hsl(177 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 39% 71%, hsl(233 88% 62% / 0.48) 0%, hsl(233 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 57% 45%, hsl(303 86% 58% / 0.58) 0%, hsl(303 86% 58% / 0) 100%),
+    linear-gradient(233deg, hsl(29 92% 95%) 0%, hsl(233 80% 88%) 52%, hsl(177 84% 82%) 100%);
+}
+
+.radial-mesh-nova-zephyr-deck {
+  background-image:
+    radial-gradient(58% 76% at 40% 90%, hsl(201 90% 70% / 0.52) 0%, hsl(201 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 30% 82%, hsl(253 88% 62% / 0.48) 0%, hsl(253 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 70% 38%, hsl(325 86% 58% / 0.58) 0%, hsl(325 86% 58% / 0) 100%),
+    linear-gradient(250deg, hsl(47 92% 95%) 0%, hsl(253 80% 88%) 52%, hsl(201 84% 82%) 100%);
+}
+
+.radial-mesh-nova-atlas-reach {
+  background-image:
+    radial-gradient(58% 76% at 47% 11%, hsl(223 90% 70% / 0.52) 0%, hsl(223 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 21% 13%, hsl(275 88% 62% / 0.48) 0%, hsl(275 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 23% 31%, hsl(347 86% 58% / 0.58) 0%, hsl(347 86% 58% / 0) 100%),
+    linear-gradient(267deg, hsl(67 92% 95%) 0%, hsl(275 80% 88%) 52%, hsl(223 84% 82%) 100%);
+}
+
+.radial-mesh-nova-bloom-point {
+  background-image:
+    radial-gradient(58% 76% at 54% 16%, hsl(232 90% 70% / 0.52) 0%, hsl(232 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 90% 24%, hsl(284 88% 62% / 0.48) 0%, hsl(284 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 36% 24%, hsl(354 86% 58% / 0.58) 0%, hsl(354 86% 58% / 0) 100%),
+    linear-gradient(284deg, hsl(76 92% 95%) 0%, hsl(284 80% 88%) 52%, hsl(232 84% 82%) 100%);
+}
+
+.radial-mesh-nova-crystal-span {
+  background-image:
+    radial-gradient(58% 76% at 61% 21%, hsl(252 90% 70% / 0.52) 0%, hsl(252 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 81% 35%, hsl(306 88% 62% / 0.48) 0%, hsl(306 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 49% 91%, hsl(16 86% 58% / 0.58) 0%, hsl(16 86% 58% / 0) 100%),
+    linear-gradient(301deg, hsl(100 92% 95%) 0%, hsl(306 80% 88%) 52%, hsl(252 84% 82%) 100%);
+}
+
+.radial-mesh-nova-dawn-nexus {
+  background-image:
+    radial-gradient(58% 76% at 68% 26%, hsl(274 90% 70% / 0.52) 0%, hsl(274 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 72% 46%, hsl(328 88% 62% / 0.48) 0%, hsl(328 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 62% 84%, hsl(36 86% 58% / 0.58) 0%, hsl(36 86% 58% / 0) 100%),
+    linear-gradient(318deg, hsl(126 92% 95%) 0%, hsl(328 80% 88%) 52%, hsl(274 84% 82%) 100%);
+}
+
+.radial-mesh-nova-emberly-grid {
+  background-image:
+    radial-gradient(58% 76% at 75% 31%, hsl(296 90% 70% / 0.52) 0%, hsl(296 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 63% 57%, hsl(350 88% 62% / 0.48) 0%, hsl(350 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 75% 77%, hsl(54 86% 58% / 0.58) 0%, hsl(54 86% 58% / 0) 100%),
+    linear-gradient(335deg, hsl(150 92% 95%) 0%, hsl(350 80% 88%) 52%, hsl(296 84% 82%) 100%);
+}
+
+.radial-mesh-nova-fjord-scene {
+  background-image:
+    radial-gradient(58% 76% at 82% 36%, hsl(305 90% 70% / 0.52) 0%, hsl(305 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 54% 68%, hsl(357 88% 62% / 0.48) 0%, hsl(357 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 28% 70%, hsl(61 86% 58% / 0.58) 0%, hsl(61 86% 58% / 0) 100%),
+    linear-gradient(352deg, hsl(159 92% 95%) 0%, hsl(357 80% 88%) 52%, hsl(305 84% 82%) 100%);
+}
+
+.radial-mesh-nova-grove-arc {
+  background-image:
+    radial-gradient(58% 76% at 89% 41%, hsl(327 90% 70% / 0.52) 0%, hsl(327 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 45% 79%, hsl(19 88% 62% / 0.48) 0%, hsl(19 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 41% 63%, hsl(83 86% 58% / 0.58) 0%, hsl(83 86% 58% / 0) 100%),
+    linear-gradient(9deg, hsl(183 92% 95%) 0%, hsl(19 80% 88%) 52%, hsl(327 84% 82%) 100%);
+}
+
+.radial-mesh-nova-harbor-tone {
+  background-image:
+    radial-gradient(58% 76% at 16% 46%, hsl(349 90% 70% / 0.52) 0%, hsl(349 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 36% 90%, hsl(39 88% 62% / 0.48) 0%, hsl(39 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 54% 56%, hsl(107 86% 58% / 0.58) 0%, hsl(107 86% 58% / 0) 100%),
+    linear-gradient(26deg, hsl(207 92% 95%) 0%, hsl(39 80% 88%) 52%, hsl(349 84% 82%) 100%);
+}
+
+.radial-mesh-nova-isle-plate {
+  background-image:
+    radial-gradient(58% 76% at 23% 51%, hsl(356 90% 70% / 0.52) 0%, hsl(356 90% 70% / 0) 100%),
+    radial-gradient(54% 72% at 27% 21%, hsl(44 88% 62% / 0.48) 0%, hsl(44 88% 62% / 0) 100%),
+    radial-gradient(72% 94% at 67% 49%, hsl(120 86% 58% / 0.58) 0%, hsl(120 86% 58% / 0) 100%),
+    linear-gradient(43deg, hsl(216 92% 95%) 0%, hsl(44 80% 88%) 52%, hsl(356 84% 82%) 100%);
+}
+
+.radial-noise-overlay-icegrain {
+  background-image:
+    repeating-linear-gradient(137deg, rgb(255 255 255 / 0.24) 0 6px, rgb(255 255 255 / 0) 6px 12px),
+    linear-gradient(97deg, hsl(42 92% 82%) 0%, hsl(176 86% 62%) 52%, hsl(284 80% 40%) 100%);
+}
+
+.radial-noise-overlay-sunflare {
+  background-image:
+    repeating-linear-gradient(158deg, rgb(255 255 255 / 0.24) 0 8px, rgb(255 255 255 / 0) 8px 15px),
+    linear-gradient(116deg, hsl(62 92% 82%) 0%, hsl(200 86% 62%) 52%, hsl(306 80% 40%) 100%);
+}
+
+.radial-noise-overlay-lavacinder {
+  background-image:
+    repeating-linear-gradient(179deg, rgb(255 255 255 / 0.24) 0 10px, rgb(255 255 255 / 0) 10px 18px),
+    linear-gradient(135deg, hsl(84 92% 82%) 0%, hsl(222 86% 62%) 52%, hsl(328 80% 40%) 100%);
+}
+
+.radial-noise-overlay-mintstatic {
+  background-image:
+    repeating-linear-gradient(200deg, rgb(255 255 255 / 0.24) 0 12px, rgb(255 255 255 / 0) 12px 21px),
+    linear-gradient(154deg, hsl(108 92% 82%) 0%, hsl(244 86% 62%) 52%, hsl(350 80% 40%) 100%);
+}
+
+.radial-noise-overlay-violetdust {
+  background-image:
+    repeating-linear-gradient(221deg, rgb(255 255 255 / 0.24) 0 6px, rgb(255 255 255 / 0) 6px 24px),
+    linear-gradient(173deg, hsl(121 92% 82%) 0%, hsl(251 86% 62%) 52%, hsl(357 80% 40%) 100%);
+}
+
+.radial-noise-overlay-cyanfilm {
+  background-image:
+    repeating-linear-gradient(242deg, rgb(255 255 255 / 0.24) 0 8px, rgb(255 255 255 / 0) 8px 12px),
+    linear-gradient(192deg, hsl(145 92% 82%) 0%, hsl(273 86% 62%) 52%, hsl(19 80% 40%) 100%);
+}
+
+.radial-noise-overlay-amberhiss {
+  background-image:
+    repeating-linear-gradient(263deg, rgb(255 255 255 / 0.24) 0 10px, rgb(255 255 255 / 0) 10px 15px),
+    linear-gradient(211deg, hsl(167 92% 82%) 0%, hsl(295 86% 62%) 52%, hsl(39 80% 40%) 100%);
+}
+
+.radial-noise-overlay-rosegrain {
+  background-image:
+    repeating-linear-gradient(284deg, rgb(255 255 255 / 0.24) 0 12px, rgb(255 255 255 / 0) 12px 18px),
+    linear-gradient(230deg, hsl(178 92% 82%) 0%, hsl(304 86% 62%) 52%, hsl(44 80% 40%) 100%);
+}
+
+.radial-noise-overlay-tealfog {
+  background-image:
+    repeating-linear-gradient(305deg, rgb(255 255 255 / 0.24) 0 6px, rgb(255 255 255 / 0) 6px 21px),
+    linear-gradient(249deg, hsl(202 92% 82%) 0%, hsl(326 86% 62%) 52%, hsl(64 80% 40%) 100%);
+}
+
+.radial-noise-overlay-plumgrit {
+  background-image:
+    repeating-linear-gradient(326deg, rgb(255 255 255 / 0.24) 0 8px, rgb(255 255 255 / 0) 8px 24px),
+    linear-gradient(268deg, hsl(224 92% 82%) 0%, hsl(348 86% 62%) 52%, hsl(86 80% 40%) 100%);
+}
+
+.radial-noise-overlay-slatepulse {
+  background-image:
+    repeating-linear-gradient(347deg, rgb(255 255 255 / 0.24) 0 10px, rgb(255 255 255 / 0) 10px 12px),
+    linear-gradient(287deg, hsl(233 92% 82%) 0%, hsl(355 86% 62%) 52%, hsl(97 80% 40%) 100%);
+}
+
+.radial-noise-overlay-limefrost {
+  background-image:
+    repeating-linear-gradient(8deg, rgb(255 255 255 / 0.24) 0 12px, rgb(255 255 255 / 0) 12px 15px),
+    linear-gradient(306deg, hsl(253 92% 82%) 0%, hsl(17 86% 62%) 52%, hsl(123 80% 40%) 100%);
+}
+
+.radial-noise-overlay-pearlnoise {
+  background-image:
+    repeating-linear-gradient(29deg, rgb(255 255 255 / 0.24) 0 6px, rgb(255 255 255 / 0) 6px 18px),
+    linear-gradient(325deg, hsl(275 92% 82%) 0%, hsl(37 86% 62%) 52%, hsl(147 80% 40%) 100%);
+}
+
+.radial-noise-overlay-embermist {
+  background-image:
+    repeating-linear-gradient(50deg, rgb(255 255 255 / 0.24) 0 8px, rgb(255 255 255 / 0) 8px 21px),
+    linear-gradient(344deg, hsl(284 92% 82%) 0%, hsl(42 86% 62%) 52%, hsl(156 80% 40%) 100%);
+}
+
+.radial-noise-overlay-oceanstatic {
+  background-image:
+    repeating-linear-gradient(71deg, rgb(255 255 255 / 0.24) 0 10px, rgb(255 255 255 / 0) 10px 24px),
+    linear-gradient(3deg, hsl(306 92% 82%) 0%, hsl(62 86% 62%) 52%, hsl(180 80% 40%) 100%);
+}
+
+.radial-noise-overlay-duskgrain {
+  background-image:
+    repeating-linear-gradient(92deg, rgb(255 255 255 / 0.24) 0 12px, rgb(255 255 255 / 0) 12px 12px),
+    linear-gradient(22deg, hsl(328 92% 82%) 0%, hsl(84 86% 62%) 52%, hsl(204 80% 40%) 100%);
+}
+
+.radial-noise-overlay-aurorafilm {
+  background-image:
+    repeating-linear-gradient(113deg, rgb(255 255 255 / 0.24) 0 6px, rgb(255 255 255 / 0) 6px 15px),
+    linear-gradient(41deg, hsl(350 92% 82%) 0%, hsl(108 86% 62%) 52%, hsl(226 80% 40%) 100%);
+}
+
+.radial-noise-overlay-citrushaze {
+  background-image:
+    repeating-linear-gradient(134deg, rgb(255 255 255 / 0.24) 0 8px, rgb(255 255 255 / 0) 8px 18px),
+    linear-gradient(60deg, hsl(357 92% 82%) 0%, hsl(121 86% 62%) 52%, hsl(235 80% 40%) 100%);
+}
+
+/* === AUTO: extra gradients batch END === */
+

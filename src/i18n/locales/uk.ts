@@ -1,7 +1,7 @@
 export default {
-	pageTitle: "XimaColor — градієнти, що задають настрій",
+	pageTitle: "color.xima — градієнти, що задають настрій",
 	pageDescription: "Добірка градієнтів для карток, hero-секцій і сучасних інтерфейсів.",
-	galleryTitle: "XimaColor — градієнти, що задають настрій",
+	galleryTitle: "color.xima — градієнти, що задають настрій",
 	blocksCountTemplate: "Понад {count} кольорових блоків",
 	blocksWillUpdate: "Блоки будуть оновлюватися",
 	lastUpdatedLabel: "останнє оновлення",

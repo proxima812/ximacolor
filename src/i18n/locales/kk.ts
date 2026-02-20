@@ -1,8 +1,8 @@
 export default {
-	pageTitle: "XimaColor — көңіл күй беретін градиенттер",
+	pageTitle: "color.xima — көңіл күй беретін градиенттер",
 	pageDescription:
 		"Карталарға, hero бөлімдеріне және заманауи интерфейстерге арналған градиенттер жинағы.",
-	galleryTitle: "XimaColor — көңіл күй беретін градиенттер",
+	galleryTitle: "color.xima — көңіл күй беретін градиенттер",
 	blocksCountTemplate: "{count} дан астам түсті блок",
 	blocksWillUpdate: "Блоктар үнемі жаңартылып тұрады",
 	lastUpdatedLabel: "соңғы жаңарту",

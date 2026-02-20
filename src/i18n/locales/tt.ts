@@ -1,8 +1,8 @@
 export default {
-	pageTitle: "XimaColor — атмосфера тудыручы градиентлар",
+	pageTitle: "color.xima — атмосфера тудыручы градиентлар",
 	pageDescription:
 		"Карточкалар, hero-блоклар һәм заманча интерфейслар өчен градиентлар җыелмасы.",
-	galleryTitle: "XimaColor — атмосфера тудыручы градиентлар",
+	galleryTitle: "color.xima — атмосфера тудыручы градиентлар",
 	blocksCountTemplate: "{count} дан артык төс блогы",
 	blocksWillUpdate: "Блоклар даими яңартылачак",
 	lastUpdatedLabel: "соңгы яңарту",

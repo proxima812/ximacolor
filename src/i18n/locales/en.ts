@@ -1,8 +1,8 @@
 export default {
-	pageTitle: "XimaColor — gradients that vibe",
+	pageTitle: "color.xima — gradients that vibe",
 	pageDescription:
 		"Explore a curated gallery of gradients for cards, hero sections, and modern user interfaces.",
-	galleryTitle: "XimaColor — gradients that vibe",
+	galleryTitle: "color.xima — gradients that vibe",
 	blocksCountTemplate: "More than {count} blocks of colors",
 	blocksWillUpdate: "The blocks will be updated",
 	lastUpdatedLabel: "last update",

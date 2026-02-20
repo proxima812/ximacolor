@@ -1,6 +1,7 @@
 ---
 import type { Locale } from "../../i18n";
 import { t } from "../../i18n";
+import Logotype from "../logotype.astro";
 interface Props {
 	locale: Locale;
 	count: number;
@@ -12,8 +13,11 @@ const countText = t(locale, "blocksCountTemplate").replace("{count}", String(cou
 ---
 
 <main>
-	<h1 class="text-[58px] text-zinc-900 tracking-[-1.2px] font-semibold leading-15">
-		{t(locale, "galleryTitle")}
+	<h1
+		class="flex items-center gap-3 text-[56px] text-zinc-900 tracking-[-1.2px] font-semibold leading-15"
+	>
+		<!-- <Logotype /> -->
+    <span>{t(locale, "galleryTitle")}</span>
 	</h1>
 	<div
 		class="flex md:gap-3 flex-wrap gap-1.5 mb-24 items-center mt-6 text-xl text-zinc-400 md:leading-relaxed"

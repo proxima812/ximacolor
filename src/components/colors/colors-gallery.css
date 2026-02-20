@@ -1,7 +1,12 @@
-#colors-gallery-root .lang-toggle-btn[aria-pressed="true"] {
+#colors-gallery-root .lang-toggle-btn[aria-current="page"] {
 	background: rgb(24 24 27);
 	border-color: rgb(24 24 27);
 	color: rgb(250 250 250);
+}
+
+#colors-gallery-root .lang-toggle-btn[aria-disabled="true"] {
+	opacity: 0.45;
+	pointer-events: none;
 }
 
 #colors-gallery-root .tag-filter-btn {
@@ -53,116 +58,12 @@
 	border-color: rgb(255 255 255);
 }
 
-#colors-gallery-root .tag-filter-btn[data-tag-filter="glow"] {
-	--tag-bg: rgb(224 231 255 / 0.7);
-	--tag-border: rgb(165 180 252);
-	--tag-text: rgb(67 56 202);
-	--tag-active-bg: rgb(79 70 229);
-	--tag-active-border: rgb(79 70 229);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="mesh"] {
-	--tag-bg: rgb(217 249 157 / 0.45);
-	--tag-border: rgb(163 230 53);
-	--tag-text: rgb(63 98 18);
-	--tag-active-bg: rgb(101 163 13);
-	--tag-active-border: rgb(101 163 13);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="linear"] {
-	--tag-bg: rgb(219 234 254 / 0.6);
-	--tag-border: rgb(125 211 252);
-	--tag-text: rgb(3 105 161);
-	--tag-active-bg: rgb(2 132 199);
-	--tag-active-border: rgb(2 132 199);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="radial"] {
-	--tag-bg: rgb(250 232 255 / 0.6);
-	--tag-border: rgb(232 121 249);
-	--tag-text: rgb(162 28 175);
-	--tag-active-bg: rgb(192 38 211);
-	--tag-active-border: rgb(192 38 211);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="conic"] {
-	--tag-bg: rgb(254 226 226 / 0.65);
-	--tag-border: rgb(252 165 165);
-	--tag-text: rgb(185 28 28);
-	--tag-active-bg: rgb(220 38 38);
-	--tag-active-border: rgb(220 38 38);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="repeating"] {
-	--tag-bg: rgb(254 249 195 / 0.7);
-	--tag-border: rgb(253 224 71);
-	--tag-text: rgb(161 98 7);
-	--tag-active-bg: rgb(202 138 4);
-	--tag-active-border: rgb(202 138 4);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="multi-stop"] {
-	--tag-bg: linear-gradient(135deg, rgb(224 231 255 / 0.65), rgb(254 205 211 / 0.65));
-	--tag-border: rgb(199 210 254);
-	--tag-text: rgb(91 33 182);
-	--tag-active-bg: linear-gradient(135deg, rgb(139 92 246), rgb(236 72 153));
-	--tag-active-border: rgb(139 92 246);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="transparent"] {
-	--tag-bg: rgb(241 245 249 / 0.4);
-	--tag-border: rgb(148 163 184);
-	--tag-text: rgb(71 85 105);
-	--tag-active-bg: rgb(100 116 139);
-	--tag-active-border: rgb(100 116 139);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="border"] {
-	--tag-bg: rgb(255 237 213 / 0.65);
-	--tag-border: rgb(251 146 60);
-	--tag-text: rgb(154 52 18);
-	--tag-active-bg: rgb(234 88 12);
-	--tag-active-border: rgb(234 88 12);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="noise"] {
-	--tag-bg: rgb(228 228 231 / 0.7);
-	--tag-border: rgb(161 161 170);
-	--tag-text: rgb(63 63 70);
-	--tag-active-bg: rgb(82 82 91);
-	--tag-active-border: rgb(82 82 91);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="femme"] {
-	--tag-bg: rgb(251 207 232 / 0.65);
-	--tag-border: rgb(244 114 182);
-	--tag-text: rgb(157 23 77);
-	--tag-active-bg: rgb(219 39 119);
-	--tag-active-border: rgb(219 39 119);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="masc"] {
-	--tag-bg: rgb(209 250 229 / 0.55);
-	--tag-border: rgb(52 211 153);
-	--tag-text: rgb(6 95 70);
-	--tag-active-bg: rgb(5 150 105);
-	--tag-active-border: rgb(5 150 105);
-}
-
-#colors-gallery-root .tag-filter-btn[data-tag-filter="flag"] {
-	--tag-bg: rgb(219 234 254 / 0.65);
-	--tag-border: rgb(96 165 250);
-	--tag-text: rgb(30 64 175);
-	--tag-active-bg: rgb(37 99 235);
-	--tag-active-border: rgb(37 99 235);
-}
-
 #colors-gallery-root .tag-filter-btn[data-tag-filter="other"] {
 	--tag-bg: rgb(243 244 246 / 0.8);
 	--tag-border: rgb(209 213 219);
 	--tag-text: rgb(55 65 81);
-	--tag-active-bg: rgb(75 85 99);
-	--tag-active-border: rgb(75 85 99);
+	--tag-active-bg: rgb(24 24 27);
+	--tag-active-border: rgb(24 24 27);
 }
 
 #colors-gallery-root .copy-btn {
@@ -185,4 +86,8 @@
 
 #colors-gallery-root .copy-btn.is-copied .copy-btn-icon-check {
 	display: inline-flex;
+}
+
+#colors-gallery-root .tag-filter-btn:is(:hover, :focus-visible) {
+	will-change: transform;
 }

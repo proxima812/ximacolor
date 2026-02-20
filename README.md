@@ -1,68 +1,53 @@
 # XimaColor
 
-XimaColor is a fast, multilingual gradient gallery for designers and frontend developers.
-It helps you find production-ready color blocks in seconds and copy clean CSS straight into your UI.
+<p align="center">
+  Curated CSS gradients for modern UI. Fast, multilingual, copy-ready.
+</p>
 
-## Why This Project Is Useful
+<p align="center">
+  <a href="https://github.com/proxima812/ximacolor/stargazers"><img src="https://img.shields.io/github/stars/proxima812/ximacolor?style=for-the-badge" alt="GitHub stars"></a>
+  <a href="https://github.com/proxima812/ximacolor/blob/main/LICENSE"><img src="https://img.shields.io/github/license/proxima812/ximacolor?style=for-the-badge" alt="License"></a>
+  <img src="https://img.shields.io/badge/Astro-Static%20First-111827?style=for-the-badge&logo=astro" alt="Astro">
+  <img src="https://img.shields.io/badge/Bun-Workflow-111827?style=for-the-badge&logo=bun" alt="Bun">
+  <img src="https://img.shields.io/badge/Languages-7-111827?style=for-the-badge" alt="Languages">
+</p>
 
-- 325 curated gradients out of the box (cards, hero sections, backgrounds, accents).
-- Built for speed: lightweight Astro frontend with Bun workflow.
-- Search and tag filtering to find the right style quickly.
-- One-click CSS copy flow for rapid prototyping and implementation.
-- Localized UI in 7 languages: English, Russian, Spanish, Chinese, Tatar, Kazakh, Ukrainian.
-- SEO-ready structure with Open Graph metadata and locale routes.
+## What is inside
 
-## Stack
+- Large curated gradient gallery with practical tags and search.
+- One-click CSS copy for rapid UI implementation.
+- Locale routes for: `en`, `ru`, `es`, `zh`, `tt`, `kk`, `uk`.
+- SEO-ready pages, social metadata, and favicon set.
+- Performance-first Astro + Bun setup.
 
-- Astro
-- TypeScript
-- Bun
-- CSS gradients library (`src/styles/gradients.css`)
+## Quick start
 
-## Project Structure
-
-```text
-/
-├── public/
-├── src/
-│   ├── components/colors/   # gallery UI, tags, copy snippets
-│   ├── config/              # site + SEO settings
-│   ├── i18n/                # locale dictionaries
-│   ├── layouts/
-│   ├── pages/               # locale routes + redirect page
-│   └── styles/              # global styles + gradient definitions
-├── astro.config.mjs
-└── package.json
+```bash
+bun install
+bun run dev
 ```
 
-## Commands
+Build and preview:
 
-Run from project root:
+```bash
+bun run build
+bun run preview
+```
 
-| Command | Action |
-| :-- | :-- |
-| `bun install` | Install dependencies |
-| `bun dev` | Start dev server at `localhost:4321` |
-| `bun run build` | Build production output into `dist/` |
-| `bun preview` | Preview production build locally |
+## Project layout
 
-## Localization
+```text
+src/
+  components/colors/   # gallery, filters, cards, copy logic
+  config/              # site + SEO config
+  i18n/                # locale dictionaries
+  pages/               # locale pages + root redirect
+  styles/              # gradient definitions + UI styles
+```
 
-Supported locale routes:
+## Support the project
 
-- `/en/`
-- `/ru/`
-- `/es/`
-- `/zh/`
-- `/tt/`
-- `/kk/`
-- `/uk/`
+If this repo helps your work, please give it a star.
+It helps the project grow and reach more designers and developers.
 
-Root `/` auto-detects user language (cookie + browser locale) and redirects to the best matching route.
-
-## Notes for Customization
-
-- Add or edit gradients in `src/styles/gradients.css`.
-- Update gradient IDs/list in `src/components/colors/constants.ts`.
-- Change copy and labels in `src/i18n/locales/*.ts`.
-- Tune SEO defaults in `src/config/seo.ts`.
+Star here: **[github.com/proxima812/ximacolor](https://github.com/proxima812/ximacolor)**
